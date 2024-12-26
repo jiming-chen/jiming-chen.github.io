@@ -4,6 +4,7 @@ pagination.pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
+enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -105,9 +106,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /blog/
+    - identifier: Blog
+      name: Blog
+      url: /posts/
       weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
