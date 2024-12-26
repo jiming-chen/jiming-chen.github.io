@@ -2,9 +2,10 @@
 date: '2024-12-26T03:09:55-06:00'
 draft: false
 title: 'Piano Pieces'
+desription: 'A list of piano pieces which I have played or am currently playing.'
 ---
 
-Pieces followed by :star: are pieces which I am currently playing.
+Pieces followed by :star: are pieces which I am currently working on.
 
 ### Johann Sebastian Bach
 * Two-Part Inventions, BWV 772-786
@@ -63,8 +64,9 @@ Pieces followed by :star: are pieces which I am currently playing.
 ### Frederic Chopin
 * Ballade No. 3 in A-flat Major, op. 47
 * Études, op. 25
-    * I. Allegro sostenuto
-    * XII. Molto allegro con fuoco
+    * I. Allegro sostenuto in A-flat Major
+    * IX. Assai Allegro in G-flat Major
+    * XII. Molto allegro con fuoco in C Minor
 * Fantaisie-Impromptu in C-sharp Minor, op. posth. 66
 * Nocturnes, Op. 48
     * I. Lento in C Minor

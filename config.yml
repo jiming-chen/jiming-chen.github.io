@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Jiming Chen
-    subtitle: "I study computer science at Cornell University."
+    subtitle: "I study computer science at Cornell University. I am also interested in math and hardware design."
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
