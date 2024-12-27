@@ -1,7 +1,7 @@
 ---
 draft: false
 title: 'Piano Pieces'
-desription: 'A list of piano pieces which I have played or am currently playing.'
+description: 'A list of piano pieces which I have played or am currently playing.'
 ---
 
 Pieces followed by :star: are pieces which I am currently working on.

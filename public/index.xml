@@ -17,221 +17,33 @@
       <link>https://jiming-chen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jiming-chen.github.io/about/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;I study Computer Science at Cornell University.&lt;/li&gt;
+&lt;li&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;https://jiming-chen.github.io/about/Chen_Shao_Report.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I am working on formal verification of RTL designs on &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In my free time, I enjoy playing the &lt;a href=&#34;https://jiming-chen.github.io/piano&#34;&gt;piano&lt;/a&gt;, which I currently study under &lt;a href=&#34;https://music.cornell.edu/andrew-zhou&#34;&gt;Andrew Zhou&lt;/a&gt;, and reading (currently reading &lt;em&gt;Never Let Me Go&lt;/em&gt; by Kazuo Ishiguro).&lt;/li&gt;
+&lt;li&gt;I am interested in philosophy. I am an editor for Logos: The Cornell Undergraduate Philosophy Journal. See the 2024 edition &lt;a href=&#34;https://jiming-chen.github.io/about/Logos-Journal-Volume-XX-Spring-2024.pdf&#34;&gt;here&lt;/a&gt;. Or see a paper I wrote on platonism in philosophy of mathematics &lt;a href=&#34;https://jiming-chen.github.io/about/PHIL3780.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I write problems for &lt;a href=&#34;https://bigredmathcomp.org/&#34;&gt;Cornell University Big Red Math Competition&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Some relevant coursework:
+&lt;ul&gt;
+&lt;li&gt;Analysis of Algorithms&lt;/li&gt;
+&lt;li&gt;Graduate Probability Theory I&lt;/li&gt;
+&lt;li&gt;Operating Systems&lt;/li&gt;
+&lt;li&gt;Functional Programming in OCaml&lt;/li&gt;
+&lt;li&gt;Embedded Systems&lt;/li&gt;
+&lt;li&gt;Computer Vision&lt;/li&gt;
+&lt;li&gt;Digital Logic and Computer Organization&lt;/li&gt;
+&lt;li&gt;Discrete Structures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Piano Pieces</title>
       <link>https://jiming-chen.github.io/piano/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jiming-chen.github.io/piano/</guid>
-      <description>&lt;p&gt;Pieces followed by &amp;#x2b50; are pieces which I am currently working on.&lt;/p&gt;
-&lt;h3 id=&#34;johann-sebastian-bach&#34;&gt;Johann Sebastian Bach&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Two-Part Inventions, BWV 772-786
-&lt;ul&gt;
-&lt;li&gt;No. 1 in C Major&lt;/li&gt;
-&lt;li&gt;No. 2 in C Minor&lt;/li&gt;
-&lt;li&gt;No. 10 in G Major&lt;/li&gt;
-&lt;li&gt;No. 14 in B-flat Major&lt;/li&gt;
-&lt;li&gt;No. 15 in B Minor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;French Suite No. 4 in E-flat Major, BWV 815
-&lt;ul&gt;
-&lt;li&gt;I. Allemande&lt;/li&gt;
-&lt;li&gt;III. Sarabande&lt;/li&gt;
-&lt;li&gt;VII. Gigue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Italian Concerto in F Major, BWV 971
-&lt;ul&gt;
-&lt;li&gt;I. Allegro&lt;/li&gt;
-&lt;li&gt;II. Andante &amp;#x2b50;&lt;/li&gt;
-&lt;li&gt;III. Presto &amp;#x2b50;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Well-Tempered Clavier, Book I, BWV 848
-&lt;ul&gt;
-&lt;li&gt;Prelude No. 3 in C-sharp Major&lt;/li&gt;
-&lt;li&gt;Fugue No. 3 in C-sharp Major&lt;/li&gt;
-&lt;li&gt;Prelude No. 10 in E Minor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;béla-bartók&#34;&gt;Béla Bartók&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Romanian Folk Dances, BB 68
-&lt;ul&gt;
-&lt;li&gt;I. Bot tánc / Jocul cu bâtă (Stick Dance)&lt;/li&gt;
-&lt;li&gt;II. Brâul (Sash Dance)&lt;/li&gt;
-&lt;li&gt;III. Topogó / Pe loc (In One Spot)&lt;/li&gt;
-&lt;li&gt;VI. Aprózó / Mărunțel (Fast Dance)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Six Dances in Bulgarian Rhythm (from Mikrokosmos Vol. 6)
-&lt;ul&gt;
-&lt;li&gt;IV. Allegro molto&lt;/li&gt;
-&lt;li&gt;V. Allegro&lt;/li&gt;
-&lt;li&gt;VI. Presto&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ludwig-van-beethoven&#34;&gt;Ludwig van Beethoven&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Piano Sonata No. 1 in F Minor, op. 2, no. 1
-&lt;ul&gt;
-&lt;li&gt;I. Allegro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 5 in C Minor, op. 10, no. 1
-&lt;ul&gt;
-&lt;li&gt;I. Allegro molto e con brio&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 8 in C Minor, op. 13, &lt;em&gt;&amp;ldquo;Pathétique&amp;rdquo;&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;III. Rondo: Allegro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 12 in A-flat Major, op. 26, &lt;em&gt;&amp;ldquo;Funeral March&amp;rdquo;&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;I. Andante con variazioni&lt;/li&gt;
-&lt;li&gt;II. Scherzo, allegro molto&lt;/li&gt;
-&lt;li&gt;III. Maestoso andante&lt;/li&gt;
-&lt;li&gt;IV. Allegro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 15 in D Major, op. 28, &lt;em&gt;&amp;ldquo;Pastoral&amp;rdquo;&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;I. Allegro&lt;/li&gt;
-&lt;li&gt;IV. Rondo: Allegro ma non troppo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 16 in G Major, op. 31, no. 1
-&lt;ul&gt;
-&lt;li&gt;I. Allegro vivace&lt;/li&gt;
-&lt;li&gt;II. Adagio grazioso &amp;#x2b50;&lt;/li&gt;
-&lt;li&gt;III. Rondo: Allegretto&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Sonata No. 23 in F Minor, op. 57, &lt;em&gt;&amp;ldquo;Appassionata&amp;rdquo;&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;I. Allegro assai&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;frederic-chopin&#34;&gt;Frederic Chopin&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ballade No. 3 in A-flat Major, op. 47&lt;/li&gt;
-&lt;li&gt;Études, op. 25
-&lt;ul&gt;
-&lt;li&gt;I. Allegro sostenuto in A-flat Major&lt;/li&gt;
-&lt;li&gt;IX. Assai Allegro in G-flat Major&lt;/li&gt;
-&lt;li&gt;XII. Molto allegro con fuoco in C Minor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Fantaisie-Impromptu in C-sharp Minor, op. posth. 66&lt;/li&gt;
-&lt;li&gt;Nocturnes, Op. 48
-&lt;ul&gt;
-&lt;li&gt;I. Lento in C Minor&lt;/li&gt;
-&lt;li&gt;II. Andantino in F-sharp Minor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Piano Concerto No. 1 in E Minor, op. 11
-&lt;ul&gt;
-&lt;li&gt;I. Allegro Maestoso&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Scherzo No. 2 in B-flat Minor, op. 31&lt;/li&gt;
-&lt;li&gt;Trois Nouvelles Études No. 2 in A-flat Major, B. 130&lt;/li&gt;
-&lt;li&gt;Waltz in B Minor, op. 69, no. 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;claude-debussy&#34;&gt;Claude Debussy&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Préludes, Book I
-&lt;ul&gt;
-&lt;li&gt;I. &lt;em&gt;Danseuses de Delphes&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;II. &lt;em&gt;Voiles&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;III. &lt;em&gt;Le vent dans la plaine&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;V. &lt;em&gt;Les collines d&amp;rsquo;Anacapri&lt;/em&gt; &amp;#x2b50;&lt;/li&gt;
-&lt;li&gt;VIII. &lt;em&gt;La fille aux cheveux de lin&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;leopold-godowsky&#34;&gt;Leopold Godowsky&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Studies on Chopin&amp;rsquo;s Études
-&lt;ul&gt;
-&lt;li&gt;XLV. in E Major (after Trois Nouvelles Études No. 2)&lt;/li&gt;
-&lt;li&gt;XLVA. in D-flat Major for the Left Hand Alone (after Trois Nouvelles Études No. 2)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;franz-haydn&#34;&gt;Franz Haydn&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Keyboard Concerto in G Major, Hob. XVIII:4
-&lt;ul&gt;
-&lt;li&gt;I. Allegro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nikolai-kapustin&#34;&gt;Nikolai Kapustin&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Sonatina in G Major, op. 100&lt;/li&gt;
-&lt;li&gt;24 Preludes in Jazz Style, op. 53
-&lt;ul&gt;
-&lt;li&gt;XXIII. Moderato in F Major&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;franz-liszt&#34;&gt;Franz Liszt&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Consolations, S. 172
-&lt;ul&gt;
-&lt;li&gt;II. Un poco più mosso in E Major&lt;/li&gt;
-&lt;li&gt;III. Lento placido in D-flat Major&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Transcendental Études, S. 139
-&lt;ul&gt;
-&lt;li&gt;No. 8 in C Minor, &lt;em&gt;Wilde Jagd&lt;/em&gt; &amp;#x2b50;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Valses oubliées, S. 215
-&lt;ul&gt;
-&lt;li&gt;I. Allegro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;felix-mendelssohn&#34;&gt;Felix Mendelssohn&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Songs Without Words, op. 67
-&lt;ul&gt;
-&lt;li&gt;IV. Presto: &lt;em&gt;Spinnerlied&lt;/em&gt; (&amp;ldquo;Spinning Song&amp;rdquo;) in C Major &amp;#x2b50;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;sergei-rachmaninoff&#34;&gt;Sergei Rachmaninoff&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Études-Tableaux, op. 33
-&lt;ul&gt;
-&lt;li&gt;II. Allegro in C Major&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Prélude in G Minor, op. 23, no. 5&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ottorino-respighi&#34;&gt;Ottorino Respighi&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Six Piano Pieces
-&lt;ul&gt;
-&lt;li&gt;III. &lt;em&gt;Notturno&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;domenico-scarlatti&#34;&gt;Domenico Scarlatti&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Keyboard Sonata in C Major, K. 159, L. 104&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>A list of piano pieces which I have played or am currently playing.</description>
     </item>
   </channel>
 </rss>
