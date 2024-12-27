@@ -91,7 +91,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/jiming-chen/jiming-chen/content"
+    URL: "https://github.com/jiming-chen/jiming-chen.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -108,10 +108,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: About Me
+      name: About Me
+      url: /about
+      weight: 10
     - identifier: Blog
       name: Blog
       url: /posts/
-      weight: 10
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
