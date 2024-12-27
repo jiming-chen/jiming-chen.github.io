@@ -1,5 +1,4 @@
 ---
-date: '2024-12-26T03:09:55-06:00'
 draft: false
 title: 'Piano Pieces'
 desription: 'A list of piano pieces which I have played or am currently playing.'
@@ -109,7 +108,7 @@ Pieces followed by :star: are pieces which I am currently working on.
 
 ### Felix Mendelssohn
 * Songs Without Words, op. 67
-    * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major
+    * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major :star:
 
 ### Sergei Rachmaninoff
 * Études-Tableaux, op. 33

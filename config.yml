@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jiming Chen
-  description: "ExampleSite description"
+  description: "Jiming Chen's Personal Website"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -44,26 +44,26 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/icons/favicon.ico"
+    favicon16x16: "/icons/favicon-16x16.png"
+    favicon32x32: "/icons/favicon-32x32.png"
+    apple_touch_icon: "/icons/apple-touch-icon.png"
+    safari_pinned_tab: "</icons/apple-touch-icon.png>"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: /icons/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Jiming Chen
-    subtitle: "I study computer science at Cornell University. I am also interested in math and hardware design."
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    subtitle: I am studying Computer Science at Cornell University. I am interested in mathematics, programming languages, and hardware design.
+    imageUrl: "/headshot1.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: Jiming Chen Headshot
     buttons:
 
   # home-info mode
@@ -74,6 +74,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/jjc256"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jiming-chen/"
 
   analytics:
     google:
@@ -89,7 +91,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/jiming-chen/jiming-chen/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
