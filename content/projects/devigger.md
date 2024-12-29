@@ -16,7 +16,7 @@ Rather than search for arbitrage opportunities, it looks for statistical arbitra
 
 I included support for two devigging methods: multiplicative (scales implied probabilities equally so they sum to 1) and power (does the same thing but with exponents).
 
-To determine bet sizing, I used the (logarithmic) wager limit on Pinnacle, which indicates their confidence in their odds for a bet, and Kelly criterion, assuming, the devigged implied probabilities were the true probabilities.
+To determine bet sizing, I used the (logarithmic) wager limit on Pinnacle, which indicates their confidence in their odds for a bet, and Kelly criterion, assuming the devigged implied probabilities were the true probabilities.
 
 {{< newimgref src="/projects/devigger/GUI.png" alt="GUI" width="60%" >}}
 <figcaption>Fig. 1. Screenshot of GUI showing positive EV bets. Bets are sorted by risk amount and are highlighted green if they meet certain criteria.</figcaption>
@@ -28,6 +28,6 @@ Simply placing all bets is not profitable. Pinnacle is known to be sharper for m
 As expected, hypothetical profit for all bets steadily declined, but limiting bets to moneylines, handicaps, and totals shorter than or equal to -120 *was* profitable. Of course, you could use hypothesis testing here, but I like vibes. Underdogs being unprofitable suggests that even though the power method accounts for a larger vigorish on the underdog side, it is not enough.
 
 {{< newimgref src="/projects/devigger/profit.png" alt="Chart showing profit" width="80%" >}}
-<figcaption>Fig. 2. Results from 11/27/2024 to 12/5/2024 using a bankroll size of around $1,000. ROI during this span was about 20%. Since bets have shorter odds, losses on losing bets are generally greater than profits on winning bets.</figcaption>
+<figcaption>Fig. 2. Results from 11/27/2024 to 12/5/2024 using a bankroll size of around $1,000 and filtering bets. ROI during this span was about 20%. Since bets have shorter odds, losses on losing bets are generally greater than profits on winning bets.</figcaption>
 
 Finally, I added another GUI to periodically monitor for new opportunities and send notifications, but it looks pretty much the same as the first GUI.
