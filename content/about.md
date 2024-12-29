@@ -18,3 +18,4 @@ title: 'About Me'
     * Computer Vision
     * Digital Logic and Computer Organization
     * Discrete Structures
+* Reach out at jc3579 at cornell dot edu!

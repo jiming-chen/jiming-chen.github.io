@@ -23,11 +23,11 @@ To determine bet sizing, I used the (logarithmic) wager limit on Pinnacle, which
 
 ## Exploration
 
-Simply placing all bets is not profitable. Pinnacle is known to be sharper for moneylines, handicaps, and totals, not so much player props. To test this idea, I simply observed results for all bets for about a week (backtesting is hard).
+Simply placing all bets is not profitable. Pinnacle is known to be sharper for moneylines, handicaps, and totals, not so much player props. To test this idea, I simply observed results for all bets for about two weeks (backtesting is hard).
 
 As expected, hypothetical profit for all bets steadily declined, but limiting bets to moneylines, handicaps, and totals shorter than or equal to -120 *was* profitable. Of course, you could use hypothesis testing here, but I like vibes. Underdogs being unprofitable suggests that even though the power method accounts for a larger vigorish on the underdog side, it is not enough.
 
 {{< newimgref src="/projects/devigger/profit.png" alt="Chart showing profit" width="80%" >}}
-<figcaption>Fig. 2. Results from 11/27/2024 to 12/5/2024 using a bankroll size of around $1,000 and filtering bets. ROI during this span was about 20%. Since bets have shorter odds, losses on losing bets are generally greater than profits on winning bets.</figcaption>
+<figcaption>Fig. 2. Results from 11/17/2024 to 12/5/2024 using a bankroll size of around $1,000 and filtering bets. ROI during this span was about 20%. Since bets have shorter odds, losses on losing bets are generally greater than profits on winning bets.</figcaption>
 
 Finally, I added another GUI to periodically monitor for new opportunities and send notifications, but it looks pretty much the same as the first GUI.
