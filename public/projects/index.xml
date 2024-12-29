@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Jiming Chen</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Jiming Chen</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sports Betting Devigger</title>
+      <link>http://localhost:1313/projects/devigger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/devigger/</guid>
+      <description>&lt;p&gt;This tool (&lt;a href=&#34;https://github.com/jjc256/devigger&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for &lt;a href=&#34;https://oddsjam.com/subscribe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;high fees&lt;/a&gt;, so I decided to make a simple version myself.&lt;/p&gt;
+&lt;p&gt;Rather than search for arbitrage opportunities, it looks for statistical arbitrage-esque market inefficiencies since sports betting &amp;ldquo;markets&amp;rdquo; are somewhat inefficient.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
