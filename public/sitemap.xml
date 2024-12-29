@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://jiming-chen.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jiming-chen.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jiming-chen.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/piano/</loc>
+    <loc>https://jiming-chen.github.io/piano/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://jiming-chen.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/devigger/</loc>
+    <loc>https://jiming-chen.github.io/projects/devigger/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jiming-chen.github.io/tags/</loc>
   </url>
 </urlset>
