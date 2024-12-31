@@ -3,21 +3,31 @@ draft: false
 title: 'About Me'
 ---
 
-* I study Computer Science at Cornell University.
-* Last summer, I researched using LLMs for hardware design under {{< newtabref href="https://www.csl.cornell.edu/~zhiruz/" title="Zhiru Zhang" >}} funded by an Engineering Learning Initiatives grant. See our report {{< newtabref href="/about/Chen_Shao_Report.pdf" title="here" >}}.
-* I am working on formal verification of RTL designs on {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}.
-* Some relevant coursework:
-    * Analysis of Algorithms
-    * Graduate Probability Theory I
-    * Operating Systems
-    * Functional Programming in OCaml
-    * Embedded Systems
-    * Computer Vision
-    * Digital Logic and Computer Organization
-    * Discrete Structures
-* Miscellanous:
-    * I enjoy playing the [piano](/piano), which I currently study under {{< newtabref href="https://music.cornell.edu/andrew-zhou" title="Andrew Zhou" >}}.
-    * I am currently reading *Never Let Me Go* by Kazuo Ishiguro.
-    * I am interested in philosophy and am an editor for *Logos: The Cornell Undergraduate Philosophy Journal*. See the 2024 edition {{< newtabref href="/about/Logos-Journal-Volume-XX-Spring-2024.pdf" title="here" >}}. Or see whether I think numbers are real {{< newtabref href="/about/PHIL3780.pdf" title="here" >}}.
-    * I write problems for the {{< newtabref href="https://bigredmathcomp.org/" title="Cornell University Big Red Math Competition" >}}.
-* Reach out at jc3579 at cornell dot edu!
+I study Computer Science at Cornell University.
+
+Last summer, I researched using LLMs for hardware design under {{< newtabref href="https://www.csl.cornell.edu/~zhiruz/" title="Zhiru Zhang" >}} funded by an Engineering Learning Initiatives grant. See our report {{< newtabref href="/about/Chen_Shao_Report.pdf" title="here" >}}.
+
+I am working on formal verification of RTL designs on {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}.
+
+## Some relevant coursework
+* Analysis of Algorithms
+* Graduate Probability Theory I
+* Operating Systems
+* Functional Programming in OCaml
+* Embedded Systems
+* Computer Vision
+* Digital Logic and Computer Organization
+* Discrete Structures
+
+## Honors
+* William Lowell Putnam Mathematical Competition (Top 800)
+* ICCAD Contest on LLM-Assisted Hardware Design (9th Place)
+* Cornell Integration Bee (3rd Place)
+
+## Miscellanous
+* I enjoy playing the [piano](/piano), which I currently study under {{< newtabref href="https://music.cornell.edu/andrew-zhou" title="Andrew Zhou" >}}.
+* I am currently reading *Never Let Me Go* by Kazuo Ishiguro.
+* I am interested in philosophy and am an editor for *Logos: The Cornell Undergraduate Philosophy Journal*. See the 2024 edition {{< newtabref href="/about/Logos-Journal-Volume-XX-Spring-2024.pdf" title="here" >}}. Or see whether I think numbers are real {{< newtabref href="/about/PHIL3780.pdf" title="here" >}}.
+* I write problems for the {{< newtabref href="https://bigredmathcomp.org/" title="Cornell University Big Red Math Competition" >}}.
+
+Reach out at jc3579 at cornell dot edu!

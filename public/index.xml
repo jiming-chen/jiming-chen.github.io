@@ -4,7 +4,7 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.140.1</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,11 +12,10 @@
       <link>https://jiming-chen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jiming-chen.github.io/about/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;I study Computer Science at Cornell University.&lt;/li&gt;
-&lt;li&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;https://jiming-chen.github.io/about/Chen_Shao_Report.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I am working on formal verification of RTL designs on &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Some relevant coursework:
+      <description>&lt;p&gt;I study Computer Science at Cornell University.&lt;/p&gt;
+&lt;p&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;https://jiming-chen.github.io/about/Chen_Shao_Report.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am working on formal verification of RTL designs on &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;some-relevant-coursework&#34;&gt;Some relevant coursework&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Analysis of Algorithms&lt;/li&gt;
 &lt;li&gt;Graduate Probability Theory I&lt;/li&gt;
@@ -27,17 +26,20 @@
 &lt;li&gt;Digital Logic and Computer Organization&lt;/li&gt;
 &lt;li&gt;Discrete Structures&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Miscellanous:
+&lt;h2 id=&#34;honors&#34;&gt;Honors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;William Lowell Putnam Mathematical Competition (Top 800)&lt;/li&gt;
+&lt;li&gt;ICCAD Contest on LLM-Assisted Hardware Design (9th Place)&lt;/li&gt;
+&lt;li&gt;Cornell Integration Bee (3rd Place)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;miscellanous&#34;&gt;Miscellanous&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;I enjoy playing the &lt;a href=&#34;https://jiming-chen.github.io/piano&#34;&gt;piano&lt;/a&gt;, which I currently study under &lt;a href=&#34;https://music.cornell.edu/andrew-zhou&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Andrew Zhou&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;I am currently reading &lt;em&gt;Never Let Me Go&lt;/em&gt; by Kazuo Ishiguro.&lt;/li&gt;
 &lt;li&gt;I am interested in philosophy and am an editor for &lt;em&gt;Logos: The Cornell Undergraduate Philosophy Journal&lt;/em&gt;. See the 2024 edition &lt;a href=&#34;https://jiming-chen.github.io/about/Logos-Journal-Volume-XX-Spring-2024.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Or see whether I think numbers are real &lt;a href=&#34;https://jiming-chen.github.io/about/PHIL3780.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;I write problems for the &lt;a href=&#34;https://bigredmathcomp.org/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell University Big Red Math Competition&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Reach out at jc3579 at cornell dot edu!&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;Reach out at jc3579 at cornell dot edu!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Piano Pieces</title>
