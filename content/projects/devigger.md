@@ -4,7 +4,6 @@ title: 'Sports Betting Devigger'
 cover:
     image: "/projects/devigger/profit.png"
     alt: "Profit chart"
-    caption: "hello" # display caption under cover
     relative: false # when using page bundles set this to true
 ---
 
