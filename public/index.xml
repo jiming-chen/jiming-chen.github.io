@@ -71,5 +71,58 @@
       <description>&lt;p&gt;This tool (&lt;a href=&#34;https://github.com/jjc256/devigger&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for &lt;a href=&#34;https://oddsjam.com/subscribe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;high fees&lt;/a&gt;, so I decided to make a simple version myself.&lt;/p&gt;
 &lt;p&gt;Rather than search for arbitrage opportunities, it looks for statistical arbitrage-esque market inefficiencies since sports betting &amp;ldquo;markets&amp;rdquo; are somewhat inefficient.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Winter Break Countdown</title>
+      <link>https://jiming-chen.github.io/countdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jiming-chen.github.io/countdown/</guid>
+      <description>&lt;div id=&#34;countdown&#34; style=&#34;font-size: 40px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;completion&#34; style=&#34;font-size: 32px;&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+// Set the date we&#39;re counting down to
+const countDownDate = new Date(&#34;Jan 20, 2025 16:45:00 EST&#34;).getTime();
+const startDate = new Date(&#34;Dec 21, 2024 15:00:00 EST&#34;).getTime();
+const totalDuration = countDownDate - startDate;
+
+// Function to update percentage
+const updatePercentage = () =&gt; {
+  const now = new Date().getTime();
+  const elapsed = now - startDate;
+  const percentComplete = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+  document.getElementById(&#34;completion&#34;).innerHTML = &#34;Winter break is &#34; + 
+    percentComplete.toFixed(5) + &#34;% over.&#34;;
+};
+
+// Update percentage every 100ms
+const percentInterval = setInterval(updatePercentage, 100);
+
+// Update the countdown every 1 second
+const x = setInterval(function() {
+  // Get today&#39;s date and time
+  const now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  const distance = countDownDate - now;
+  
+  // Time calculations
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result
+  document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Winter break ends in &#34; + days + &#34;d &#34; + hours + &#34;h &#34;
+  + minutes + &#34;m &#34; + seconds + &#34;s.&#34;;
+
+  // If the countdown is finished, display expired
+  if (distance &lt; 0) {
+    clearInterval(x);
+    clearInterval(percentInterval);
+    document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Winter break is over.&#34;;
+    document.getElementById(&#34;completion&#34;).innerHTML = &#34;Winter break is 100% over.&#34;;
+  }
+}, 1000);
+&lt;/script&gt;</description>
+    </item>
   </channel>
 </rss>
