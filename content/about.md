@@ -30,4 +30,4 @@ I am working on formal verification of RTL designs on {{< newtabref href="https:
 * I am interested in philosophy and am an editor for *Logos: The Cornell Undergraduate Philosophy Journal*. See the 2024 edition {{< newtabref href="/about/Logos-Journal-Volume-XX-Spring-2024.pdf" title="here" >}}. Or see whether I think numbers are real {{< newtabref href="/about/PHIL3780.pdf" title="here" >}}.
 * I write problems for the {{< newtabref href="https://bigredmathcomp.org/" title="Cornell University Big Red Math Competition" >}}.
 
-Reach out at jc3579 at cornell dot edu!
+Reach out at `jc3579@cornell.edu`!
