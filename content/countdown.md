@@ -5,9 +5,18 @@ cover:
     alt: ""
     relative: false # when usng page bundles set this to true
 ---
+<style>
+.strawberry-container {
+  display: grid;
+  gap: 2px;
+  justify-content: center;
+  margin: 1rem 5rem;
+}
+</style>
+
 <div id="countdown" style="font-size: 32px;"></div>
 <div id="completion" style="font-size: 32px;"></div>
-<div id="strawberry-grid" style="display: grid; grid-template-columns: repeat(50, 10px); gap: 2px; justify-content: center;"></div>
+<div id="strawberry-grid" class="strawberry-container"></div>
 <figcaption>Each strawberry represents one hour. Fully realized strawberries represent hours that have passed.</figcaption>
 
 <script>
@@ -49,6 +58,14 @@ const updateCountdown = () => {
 
 const totalHours = Math.floor(totalDuration / (3600000));
 
+function updateGridLayout() {
+  const container = document.getElementById('strawberry-grid');
+  const strawberrySize = 12; // 10px image + 2px gap
+  const maxWidth = Math.min(window.innerWidth - 40, 1200); // 20px padding on each side
+  const columns = Math.floor(maxWidth / strawberrySize);
+  container.style.gridTemplateColumns = `repeat(${columns}, 10px)`;
+}
+
 function updateStrawberryGrid() {
   const now = new Date().getTime();
   const hoursPassed = Math.floor((now - startDate) / 3600000);
@@ -64,9 +81,13 @@ function updateStrawberryGrid() {
   document.getElementById("strawberry-grid").innerHTML = html;
 }
 
+// Add resize listener
+window.addEventListener('resize', updateGridLayout);
+
 // Initialize values immediately
 updatePercentage();
 updateCountdown();
+updateGridLayout();
 updateStrawberryGrid();
 
 // Set up intervals for updates
