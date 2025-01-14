@@ -1,10 +1,12 @@
 ---
+date: '2024-12-17T22:59:49-08:00'
 draft: false
 title: 'Sports Betting Devigger'
 cover:
     image: "/projects/devigger/profit.png"
     alt: "Profit chart"
     relative: false # when using page bundles set this to true
+hideMeta: true
 ---
 
 This tool ({{< newtabref href="https://github.com/jjc256/devigger" title="GitHub" >}}) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for {{< newtabref href="https://oddsjam.com/subscribe" title="high fees" >}}, so I decided to make a simple version myself.

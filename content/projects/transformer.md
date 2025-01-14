@@ -1,10 +1,12 @@
 ---
+date: '2025-01-02T00:19:49-08:00'
 draft: false
 title: 'OCaml Transformer'
 cover:
     image: "/projects/transformer/interface.png"
     alt: "User Interface"
     relative: false # when using page bundles set this to true
+hideMeta: true
 ---
 
 This ({{< newtabref href="https://github.coecis.cornell.edu/hmk68/3110-final-project" title="Cornell GitHub" >}}) was our final project for CS 3110: Data Structures and Functional Programming. We implemented a simple transformer in OCaml and trained it on successful posts on SideChat, a social media app popular at Cornell and other schools. I worked with Haadi Khan, Domenic Fioravanti, and Will Bradley.
