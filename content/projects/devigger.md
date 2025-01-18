@@ -91,7 +91,7 @@ Notice that the following bets are profitable:
 - NCAAFB Handicap
 - NHL Totals
 
-Of course, fitting your "model" to what has worked so far is irresponsible, but anecdotally, it is known that Pinnacle is sharper for lesser bet (non-NBA, etc.) leagues, which could explain why NCAAB and NCAAFB moneylines seem so profitable. Additionally, betting what has worked so far and continually adjusting to what is continuing to work seems like a good heuristic. For fun, I wanted to see what it looked like if one had only bet these profitable markets the whole time:
+Of course, fitting your "model" to what has worked so far is irresponsible, but anecdotally, it is known that Pinnacle is sharper for lesser bet, e.g. non-big 4, leagues, which could explain why NCAAB and NCAAFB moneylines seem so profitable. Additionally, betting what has worked so far and continually adjusting to what is continuing to work seems like a good heuristic. For fun, I wanted to see what it looked like if one had only bet these profitable markets the whole time:
 
 {{< newimgref src="/projects/devigger/filtered.png" alt="Chart showing filtered bets profit" width="80%" >}}
 <figcaption>Fig. 4. Results from 11/17/2024 to 1/15/2025 filtering bets to the markets listed above. ROI during this span was about 17%. ROI is helpful here since I changed the bankroll size a lot in experimentation (for example, the big spike in the middle was the result of increasing bankroll size).</figcaption>
