@@ -88,6 +88,73 @@
       <description>A list of piano pieces which I have played or am currently playing.</description>
     </item>
     <item>
+      <title>Splitter</title>
+      <link>https://jiming-chen.github.io/splitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jiming-chen.github.io/splitter/</guid>
+      <description>&lt;h1&gt;Instagram Image Splitter&lt;/h1&gt;
+  &lt;input type=&#34;file&#34; id=&#34;imageInput&#34; accept=&#34;image/*&#34;&gt;
+  &lt;div id=&#34;canvas-container&#34;&gt;&lt;/div&gt;
+  &lt;button id=&#34;saveAllBtn&#34; style=&#34;display: none; margin: 20px 0;&#34;&gt;Save All Images&lt;/button&gt;
+
+  &lt;script&gt;
+      document.getElementById(&#39;imageInput&#39;).addEventListener(&#39;change&#39;, function(event) {
+          const file = event.target.files[0];
+          if (file) {
+              const img = new Image();
+              img.onload = function() {
+                  processImage(img);
+              };
+              img.src = URL.createObjectURL(file);
+          }
+      });
+
+      function processImage(img) {
+          const canvasContainer = document.getElementById(&#39;canvas-container&#39;);
+          canvasContainer.innerHTML = &#39;&#39;;
+          const originalWidth = img.width;
+          const originalHeight = img.height;
+          const squareSize = Math.min(originalWidth, originalHeight / Math.ceil(originalHeight / originalWidth));
+          
+          let y = 0;
+          let partNumber = 1;
+          
+          const images = [];
+          while (y + squareSize &lt;= originalHeight) {
+              const canvas = document.createElement(&#39;canvas&#39;);
+              canvas.width = squareSize;
+              canvas.height = squareSize;
+              const ctx = canvas.getContext(&#39;2d&#39;);
+              ctx.drawImage(img, 0, y, squareSize, squareSize, 0, 0, squareSize, squareSize);
+              
+              const link = document.createElement(&#39;a&#39;);
+              link.href = canvas.toDataURL(&#34;image/png&#34;);
+              link.download = `split_part_${partNumber}.png`;
+              link.innerHTML = `&lt;br&gt;Download Part ${partNumber}`;
+              
+              canvasContainer.appendChild(canvas);
+              canvasContainer.appendChild(link);
+              images.push({ url: link.href, filename: link.download });
+              
+              y += squareSize;
+              partNumber++;
+          }
+
+          // Show and setup save all button
+          const saveAllBtn = document.getElementById(&#39;saveAllBtn&#39;);
+          saveAllBtn.style.display = &#39;block&#39;;
+          saveAllBtn.onclick = () =&gt; {
+              images.forEach(img =&gt; {
+                  const link = document.createElement(&#39;a&#39;);
+                  link.href = img.url;
+                  link.download = img.filename;
+                  link.click();
+              });
+          };
+      }
+  &lt;/script&gt;</description>
+    </item>
+    <item>
       <title>Winter Break Countdown</title>
       <link>https://jiming-chen.github.io/countdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
