@@ -24,8 +24,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
@@ -108,10 +108,14 @@ menu:
       name: Blog
       url: /posts/
       weight: 30
+    - identifier: Course Notes
+      name: Course Notes
+      url: /courses/
+      weight: 40
     - identifier: Piano
       name: Piano
       url: /piano/
-      weight: 40
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

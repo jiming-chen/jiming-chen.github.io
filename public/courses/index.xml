@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Courses on Jiming Chen</title>
+    <title>Course Notes on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/</link>
-    <description>Recent content in Courses on Jiming Chen</description>
+    <description>Recent content in Course Notes on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jan 2025 13:23:22 -0500</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Lecture 2: Assembly Language Overview and Intro to ARM ISA</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture02/</link>
-      <pubDate>Thu, 23 Jan 2025 13:23:22 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture02/</guid>
-      <description>&lt;h2 id=&#34;assembly-intro&#34;&gt;Assembly Intro&lt;/h2&gt;
-&lt;p&gt;Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.&lt;/p&gt;
-&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
-&lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraciton.&lt;/figcaption&gt;
-&lt;p&gt;Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
