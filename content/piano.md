@@ -2,9 +2,10 @@
 draft: false
 title: 'Piano Pieces'
 description: 'A list of piano pieces which I have played or am currently playing.'
+hideMeta: true
 ---
 
-Pieces followed by :star: are pieces which I am currently working on.
+Pieces followed by :star: are pieces which I am currently working on. Some of my old recordings are on {{< newtabref href="https://www.youtube.com/@jjchen256" title="my YouTube channel" >}}.
 
 ## Johann Sebastian Bach
 * Two-Part Inventions, BWV 772-786
@@ -123,3 +124,8 @@ Pieces followed by :star: are pieces which I am currently working on.
 
 ## Domenico Scarlatti
 * Keyboard Sonata in C Major, K. 159, L. 104
+
+## Dmitri Shostakovich
+* 24 Preludes and Fugues, op. 87
+    * Prelude No. 15 in D-flat Major :star:
+    * Fugue No. 15 in D-flat Major :star:
