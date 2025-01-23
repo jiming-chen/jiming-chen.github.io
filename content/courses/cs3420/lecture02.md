@@ -39,7 +39,7 @@ Why do we study assembly? When we program, ultimately we are manipulating the pr
 
 Assembly also allows us to understand how operating systems manage multiple services and interaction with I/O devices. However, one can program without operating systems, which is known as "bare-metal" embedded systems. This is good for minimizing bloat and speeding up critical code blcoks.
 
-When we talk about a specific assembly language, we are talking about an **instruction set architecture (ISA)**. The ISa describes what the hardware can actually go; it is a contract/specification between the client of the hardware and the implementer of the hardware. Therefore, hardware engineers can change the architecture or transistor technology, resulting in different implementations, but as long as the functionality is the same, the contract is upheld.
+When we talk about a specific assembly language, we are talking about an **instruction set architecture (ISA)**. The ISA describes what the hardware can actually do; it is a contract/specification between the client of the hardware and the implementer of the hardware. Therefore, hardware engineers can change the architecture or transistor technology, resulting in different implementations, but as long as the functionality is the same, the contract is upheld.
 
 With one ISA, there can be many different design choices across product families; some people might want high-performance but some might want high-efficiency. Additionally, software can be pretty difficult to implement efficiently, so hardware engineers do a lot of trickery, e.g. out-or-order execution.
 
