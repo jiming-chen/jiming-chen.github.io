@@ -92,4 +92,4 @@ The general instruction format for ARM is `op <dst> <src1> <src2>`. There may be
 
 Sometimes we want to branch, and we call those labels, so we can write `BNE <label>`.
 
-R0 to R7 are "low registers" and accessible by all instructions, R8-R12 are "high registers" and are sometimes not accessible by 16-bit instructions.
+R0 to R7 are "low registers" and accessible by all instructions, and R8-R12 are "high registers" and are sometimes not accessible by 16-bit instructions.
