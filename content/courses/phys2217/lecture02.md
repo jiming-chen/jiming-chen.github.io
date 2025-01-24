@@ -1,6 +1,6 @@
 ---
 date: '2025-01-24T10:12:56-05:00'
-title: 'Lecture 2'
+title: "Lecture 2: Charge and Coulomb's Law"
 cover:
     image: ""
     alt: ""
@@ -19,6 +19,8 @@ Charge has some fundamental properties:
 1. There are 2 types of charge.
 2. Charges are quantized.
 3. Charges are conserved.
+
+## Coulomb's Law
 
 We can write Coulomb's Law:
 

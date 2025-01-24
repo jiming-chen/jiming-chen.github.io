@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 24 Jan 2025 10:12:56 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/phys2217/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lecture 2</title>
+      <title>Lecture 2: Charge and Coulomb&#39;s Law</title>
       <link>https://jiming-chen.github.io/courses/phys2217/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 10:12:56 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/phys2217/lecture02/</guid>
@@ -23,6 +23,7 @@
 &lt;li&gt;Charges are quantized.&lt;/li&gt;
 &lt;li&gt;Charges are conserved.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;coulombs-law&#34;&gt;Coulomb&amp;rsquo;s Law&lt;/h2&gt;
 &lt;p&gt;We can write Coulomb&amp;rsquo;s Law:&lt;/p&gt;</description>
     </item>
   </channel>
