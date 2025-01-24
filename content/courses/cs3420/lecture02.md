@@ -86,7 +86,7 @@ When we execute software, there are two different privileges, one for user code 
 
 The PSR, PRIMASK, and CONTROL registers tell us about the execution modes.
 - PSR is 32 bits and has three sub-registers: Application (flags), Interrupt (exception number), and Execution (thumb state, which is always 1 for us)
-    - Condition codes are what the aPSR can hold. These codes are flags that say what the result of the last instruction was. We can suffix an instruction with "S", e.g. `SUBS` if we want to update the APSR.
+    - Condition codes are what the APSR can hold. These codes are flags that say what the result of the last instruction was (N, C, Z, and V). We can suffix an instruction with "S", e.g. `SUBS` if we want to update the APSR.
 
 The general instruction format for ARM is `op <dst> <src1> <src2>`. There may be fewer source operands or no destination register. Operands can be registers e.g. `R1` or a literal e.g. `#3`.
 
