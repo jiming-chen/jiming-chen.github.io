@@ -60,7 +60,7 @@ Answer: `BS = 3`.
     - You cannot branch too far away.
     - You cannot have large literals.
 
-## Arm Based Processors
+## ARM Based Processors
 
 Many people are moving toward the ARM ISA. For example Apple produces their own chips with Apple Silicon, and many machine learning companies are hiring hardware engineers to make chips specifically for optimizing machine learning. In this class, we will use **ARMv6-M**.
 
