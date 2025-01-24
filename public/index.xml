@@ -16,7 +16,7 @@
       <description>&lt;h2 id=&#34;assembly-intro&#34;&gt;Assembly Intro&lt;/h2&gt;
 &lt;p&gt;Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.&lt;/p&gt;
 &lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
-&lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraciton.&lt;/figcaption&gt;
+&lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraction.&lt;/figcaption&gt;
 &lt;p&gt;Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.&lt;/p&gt;</description>
     </item>
     <item>

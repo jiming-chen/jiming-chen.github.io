@@ -12,7 +12,7 @@ cover:
 Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.
 
 {{< newimgref src="/courses/cs3420/lecture02/layers.png" alt="Code translation" width="80%" >}}
-<figcaption>Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraciton.</figcaption>
+<figcaption>Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraction.</figcaption>
 
 Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.
 
@@ -78,7 +78,7 @@ In this class, we will use the {{< newtabref href="https://www.nxp.com/part/MKL4
 All ARM processors have a similar register layout. There are 16 registers, 13 of which are general purpose, labeled from R0 to R15. These are registers we can use with operations like add or subtract. The highest registers (R13 to R15) are used in a specific way to implement software. For example, R15 acts as the program counter. R14 is the link register (LR), which is pretty helpful for software. R13 is the stack pointer (SP), which is also used in software, but we can also manipulate it in hardware.
 
 {{< newimgref src="/courses/cs3420/lecture02/registers.png" alt="Register layout" width="80%" >}}
-<figcaption>Fig. 5. Register layout for ARM</figcaption>
+<figcaption>Fig. 5. Register layout for ARM.</figcaption>
 
 Since we have a limited number of instructions, we usually only let instructions access the lower registers.
 
