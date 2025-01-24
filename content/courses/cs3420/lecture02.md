@@ -73,7 +73,7 @@ The M architecture is geared toward power efficiency, so it has fewer instructio
 {{< newimgref src="/courses/cs3420/lecture02/arm.png" alt="Simple CPU" width="80%" >}}
 <figcaption>Fig. 4. Instructions supported by different M-series ISAs. Notice that M0 does not have division, so division has to be written in software.</figcaption>
 
-In this class, we will use the {{< newtabref href="https://www.nxp.com/part/MKL46Z256VLL4" title="MKL46Z256VLL4" >}} processor, which includes a capacitative touch interface.
+In this class, we will use the {{< newtabref href="https://www.nxp.com/part/MKL46Z256VLL4" title="MKL46Z256VLL4" >}} processor, which includes a capacitive touch interface.
 
 All ARM processors have a similar register layout. There are 16 registers, 13 of which are general purpose, labeled from R0 to R15. These are registers we can use with operations like add or subtract. The highest registers (R13 to R15) are used in a specific way to implement software. For example, R15 acts as the program counter. R14 is the link register (LR), which is pretty helpful for software. R13 is the stack pointer (SP), which is also used in software, but we can also manipulate it in hardware.
 
