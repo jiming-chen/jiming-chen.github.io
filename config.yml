@@ -77,10 +77,6 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/jiming-chen/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "G-KTD621L9T6"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
