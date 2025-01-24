@@ -23,7 +23,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  googleAnalytics: "G-KTD621L9T6"
 
   ShowReadingTime: false
   ShowShareButtons: false
@@ -77,6 +76,10 @@ params:
       url: "https://github.com/jjc256"
     - name: linkedin
       url: "https://www.linkedin.com/in/jiming-chen/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-KTD621L9T6"
 
   cover:
     hidden: true # hide everywhere but not in structured data
