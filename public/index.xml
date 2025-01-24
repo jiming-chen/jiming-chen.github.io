@@ -6,8 +6,25 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jan 2025 13:23:22 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2025 10:12:56 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 2</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture02/</link>
+      <pubDate>Fri, 24 Jan 2025 10:12:56 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture02/</guid>
+      <description>&lt;h2 id=&#34;vector-calculus-recap&#34;&gt;Vector Calculus Recap&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;field&lt;/strong&gt; is a physical quantity that is defined at each point in time and space. It could be a scalar, vector, or tensor. Temperatures are an example of a scalar field and wind an example of vector fields.&lt;/p&gt;
+&lt;p&gt;Gradient (vector showing direction of steepest ascent), divergence (scalar), and curl (vector showing how much rotation) are vector field operations.&lt;/p&gt;
+&lt;h2 id=&#34;charge&#34;&gt;Charge&lt;/h2&gt;
+&lt;p&gt;Charge has some fundamental properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There are 2 types of charge.&lt;/li&gt;
+&lt;li&gt;Charges are quantized.&lt;/li&gt;
+&lt;li&gt;Charges are conserved.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We can write Coulomb&amp;rsquo;s Law:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 2: Assembly Language Overview and Intro to ARM ISA</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture02/</link>
