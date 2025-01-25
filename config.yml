@@ -113,10 +113,6 @@ menu:
       name: Course Notes
       url: /courses/
       weight: 40
-    - identifier: Piano
-      name: Piano
-      url: /piano/
-      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
