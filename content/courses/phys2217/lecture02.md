@@ -34,6 +34,6 @@ $$\mathbf{F}\_1 = k\frac{q_1q_3}{r_{13}^2}\hat{\mathbf{r}}\_{13} + k\frac{q_1q_2
 
 which implies that we can calculate separate forces on \\(q_1\\) and add them together (remember we are adding vectors). This is known as **superposition**, which holds true for classical mechanics but not necessarily quantum mechanics. More generally,
 
-$$\mathbf{F} = \sum_n k\frac{q_1q_n}{r_{1n}^2}\hat{\mathbf{r}}_{1n}.$$
+$$\mathbf{F}\_1 = \sum_n k\frac{q_1q_n}{r_{1n}^2}\hat{\mathbf{r}}_{1n}.$$
 
 If there is no force on a particle, then it is stable. This can be annoying to calculate, so we could look at work/energy instead.
