@@ -94,12 +94,12 @@
       <guid>https://jiming-chen.github.io/about/</guid>
       <description>&lt;p&gt;I study Computer Science at Cornell University.&lt;/p&gt;
 &lt;p&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;https://jiming-chen.github.io/about/Chen_Shao_Report.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I am working on formal verification of RTL designs on &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am working on formal verification of RTL designs for a custom chip as part of &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;some-relevant-coursework&#34;&gt;Some relevant coursework&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Analysis of Algorithms&lt;/li&gt;
 &lt;li&gt;Graduate Probability Theory I&lt;/li&gt;
-&lt;li&gt;Operating Systems&lt;/li&gt;
+&lt;li&gt;Honors Algebra&lt;/li&gt;
 &lt;li&gt;Functional Programming in OCaml&lt;/li&gt;
 &lt;li&gt;Embedded Systems&lt;/li&gt;
 &lt;li&gt;Computer Vision&lt;/li&gt;

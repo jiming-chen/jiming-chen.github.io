@@ -7,12 +7,12 @@ I study Computer Science at Cornell University.
 
 Last summer, I researched using LLMs for hardware design under {{< newtabref href="https://www.csl.cornell.edu/~zhiruz/" title="Zhiru Zhang" >}} funded by an Engineering Learning Initiatives grant. See our report {{< newtabref href="/about/Chen_Shao_Report.pdf" title="here" >}}.
 
-I am working on formal verification of RTL designs on {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}.
+I am working on formal verification of RTL designs for a custom chip as part of {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}.
 
 ## Some relevant coursework
 * Analysis of Algorithms
 * Graduate Probability Theory I
-* Operating Systems
+* Honors Algebra
 * Functional Programming in OCaml
 * Embedded Systems
 * Computer Vision
