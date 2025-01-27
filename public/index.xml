@@ -6,8 +6,20 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jan 2025 13:26:11 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 10:11:49 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
+      <pubDate>Mon, 27 Jan 2025 10:11:49 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture03/</guid>
+      <description>&lt;h2 id=&#34;electric-potential-energy&#34;&gt;Electric Potential Energy&lt;/h2&gt;
+&lt;p&gt;If you have a charges $q_1$ and $q_2$ infinitely far away, and you want to bring them together so that they are $r_{12}$ apart, work has to be done. Work is&lt;/p&gt;
+&lt;p&gt;$$\int \mathbf{F} \cdot d\mathbf{s} = \int_{\infty}^{r_{12}} -\frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}^2}dr = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}}.$$&lt;/p&gt;
+&lt;p&gt;Also, recall that work is path independent. Generalizing for multiple points, we have&lt;/p&gt;
+&lt;p&gt;$$U = \frac{1}{2} \sum_{j=1}^N \sum_{j\neq k}^N \frac{1}{4\pi\epsilon_0} \frac{q_1q_k}{r_{jk}}.$$&lt;/p&gt;
+&lt;p&gt;The $1/2$ is there because pairs of points are double-counted. The above statement is equivalent to Coulomb&amp;rsquo;s law.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
