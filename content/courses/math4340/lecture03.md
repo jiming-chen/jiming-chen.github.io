@@ -74,4 +74,4 @@ An **abstract group** is a set $G$ with a binary operation $* : G \times G \to G
 2. Existence of a special element (identity) $e$ or $1$: $(a\*e)=a=(e*a)$.
 3. Existence, for any element $a$, of an element $a^{-1}$ (inverse): $a*a^{-1}=e=a^{-1}*a$.
 
-> **Example** Any permutation group is an abstract group.
+> **Example**: Any permutation group is an abstract group.

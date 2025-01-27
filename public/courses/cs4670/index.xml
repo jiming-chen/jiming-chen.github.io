@@ -6,8 +6,19 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jan 2025 13:26:11 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 13:29:37 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: More Convolution</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
+      <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
+      <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;p&gt;The below filter for a pixel if the pixels to the bottom left are dark and the pixels to the top right are light, so it detects edges.&lt;/p&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
+&lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
