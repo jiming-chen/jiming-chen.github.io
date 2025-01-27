@@ -9,7 +9,7 @@ cover:
 
 ## Convolution
 
-The below filter for a pixel if the pixels to the bottom left are dark and the pixels to the top right are light, so it detects edges.
+The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.
 
 {{< newimgref src="/courses/cs4670/lecture03/edge.png" alt="Edge filter" width="80%" >}}
 <figcaption>Fig. 1. An edge-detecting filter.</figcaption>

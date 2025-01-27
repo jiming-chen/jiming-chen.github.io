@@ -14,7 +14,7 @@
       <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
-&lt;p&gt;The below filter for a pixel if the pixels to the bottom left are dark and the pixels to the top right are light, so it detects edges.&lt;/p&gt;
+&lt;p&gt;The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.&lt;/p&gt;
 &lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
 &lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
