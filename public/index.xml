@@ -6,8 +6,23 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 10:11:49 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 12:21:34 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: Permutation Groups and Abstract Groups</title>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture03/</link>
+      <pubDate>Mon, 27 Jan 2025 12:21:34 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture03/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;factorial&lt;/strong&gt; is defined as $n! = 1 \cdot 2 \cdot 3 \cdots n$ for $n \geq 1$ though we may define $0!=1$.&lt;/p&gt;
+&lt;p&gt;We also have binomials:&lt;/p&gt;
+&lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $p$ is prime, then $p$ divides $\binom{p}{i}$ unless $i=0$ or $i=p$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We can also write out the binomial expansion:&lt;/p&gt;
+&lt;p&gt;$$(a+b)^n = \sum_{i=0}^n \binom{n}{i} a^ib^{n-i}$$&lt;/p&gt;
+&lt;p&gt;where $a,b$ are &amp;ldquo;numbers.&amp;rdquo; Importantly, the binomial coefficient is counting something, specifically the number of subsets of $1, \ldots, n$ with exactly $i$ elements.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
       <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
