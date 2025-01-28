@@ -6,8 +6,24 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 13:29:37 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 13:27:56 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: Some ARM Instructions</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture03/</link>
+      <pubDate>Tue, 28 Jan 2025 13:27:56 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture03/</guid>
+      <description>&lt;h2 id=&#34;arm-isa-recap&#34;&gt;ARM ISA Recap&lt;/h2&gt;
+&lt;p&gt;Recall that the ARM ISA has most instructions as 16 bits; since we have resource constraints and everything costs money, we want to fit as many instructions on the chip as possible.&lt;/p&gt;
+&lt;p&gt;Some examples of instructions are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MOV 47, #4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SUB R2, R2, R4&lt;/code&gt; which is the same as &lt;code&gt;SUB R2, R4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ADDS R2, R2, #3&lt;/code&gt; which has the &lt;code&gt;S&lt;/code&gt; suffix and updates the status flag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;: Which instruction(s) are not allowed to be compiled?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: More Convolution</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
