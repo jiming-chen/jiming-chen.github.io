@@ -6,8 +6,17 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 13:29:37 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 13:28:09 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: Convolution and Geometric Transformations</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
+      <pubDate>Wed, 29 Jan 2025 13:28:09 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture04/</guid>
+      <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;p&gt;Last class, we mentioned that we can use convolution to turn color images gray. To do this, we can treat a color image as three layers of grayscale images and use a three-layer kernel.&lt;/p&gt;
+&lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: More Convolution</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
