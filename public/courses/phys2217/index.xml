@@ -6,8 +6,20 @@
     <description>Recent content in PHYS 2217: Honors Electricity and Magnetism on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 10:11:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 10:32:35 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/phys2217/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: Flux and Gauss&#39; Law</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture04/</link>
+      <pubDate>Wed, 29 Jan 2025 10:32:35 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture04/</guid>
+      <description>&lt;p&gt;Flux can be imagined as the amount of flow going perpendicular to a surface. We can write
+$$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
+&lt;p&gt;Gauss&amp;rsquo; Law states that&lt;/p&gt;
+&lt;p&gt;$$\int \mathbf{E} \cdot d \mathbf{a} = \frac{1}{\epsilon_0} \sum_i q_i = \frac{1}{\epsilon_0} \int \rho dV.$$&lt;/p&gt;
+&lt;p&gt;It turns out that because of the inverse square dependence, a charge outside of a Gaussian surface has zero net electric field flux through that surface.&lt;/p&gt;
+&lt;p&gt;What if we wanted to find the electric field at any point in space outside of a sphere of radius $r$ with surface charge density of $\rho$? We can use a larger sphere as a Gaussian surface, and Gauss&amp;rsquo; law tells us that&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
       <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
