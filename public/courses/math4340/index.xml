@@ -6,8 +6,17 @@
     <description>Recent content in MATH 4340: Honors Algebra on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 12:21:34 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 12:23:31 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/math4340/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: Groups and Homeomorphisms</title>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
+      <pubDate>Wed, 29 Jan 2025 12:23:31 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture04/</guid>
+      <description>&lt;p&gt;One example of a group is $(\mathbb{Z}, +)$. It has identity $e = 0$ and inverse $-a$ for $a$. Another example of a group is $(\mathbb{R} \setminus \{0\}, *)$ which has $0$ excluded because $0$ does not have a multiplicative inverse.&lt;/p&gt;
+&lt;p&gt;Both of these are examples of Abelian groups because the order of the operands does not matter.&lt;/p&gt;
+&lt;p&gt;One example of a finite group is the symmetric group on (finite) $X$, which is the set of all permutations on $X$. This is usually non-Abelian.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: Permutation Groups and Abstract Groups</title>
       <link>https://jiming-chen.github.io/courses/math4340/lecture03/</link>
