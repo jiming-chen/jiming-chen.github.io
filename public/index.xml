@@ -6,8 +6,19 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 13:28:09 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 13:31:55 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: ARM Memory Organization</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture04/</link>
+      <pubDate>Thu, 30 Jan 2025 13:31:55 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture04/</guid>
+      <description>&lt;h2 id=&#34;arm-memory-map&#34;&gt;ARM Memory Map&lt;/h2&gt;
+&lt;p&gt;All versions of ARM have the same memory encoding which makes compatibility easy. Each memory address is 32 bits, which means we can have 4 gigabytes of data (because each memory block holds 1 byte).&lt;/p&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;figcaption&gt;Fig. 1. Memory map for Cortex M0+.&lt;/figcaption&gt;
+&lt;p&gt;The bottom 500 megabytes of memory holds the code, some of which non-volatile (256 kB), meaning if the system reboots, the memory remains.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 4: Convolution and Geometric Transformations</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
