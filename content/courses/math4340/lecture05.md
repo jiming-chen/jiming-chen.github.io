@@ -1,6 +1,6 @@
 ---
 date: '2025-01-31T12:21:09-05:00'
-title: 'Lecture 5'
+title: 'Lecture 5: More Groups and Subgroups'
 cover:
     image: ""
     alt: ""
