@@ -6,8 +6,22 @@
     <description>Recent content in MATH 4340: Honors Algebra on Jiming Chen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 12:23:31 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 12:21:09 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/math4340/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 5</title>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture05/</link>
+      <pubDate>Fri, 31 Jan 2025 12:21:09 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture05/</guid>
+      <description>&lt;p&gt;An &lt;em&gt;action of $G$ on $X$&lt;/em&gt; is a rule that assigns to each element $g \in G$ and each element $x \in X$ another element $g \cdot x \in X$ so that&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$e \cdot x = x$,&lt;/li&gt;
+&lt;li&gt;and $(g_1g_2) \cdot x = g_1 \cdot (g_2 \cdot x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is equivalent to giving a &lt;em&gt;group homomorphism&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;$$\phi : G_1 \to G_2$$&lt;/p&gt;
+&lt;p&gt;from $G_1$ to $G_2$. $\phi$ is an &lt;em&gt;isomorphism&lt;/em&gt; if it is a bijection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 4: Groups and Homeomorphisms</title>
       <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
