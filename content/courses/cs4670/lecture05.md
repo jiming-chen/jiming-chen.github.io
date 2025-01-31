@@ -1,6 +1,6 @@
 ---
 date: '2025-01-31T13:28:07-05:00'
-title: 'Lecture 5'
+title: 'Lecture 5: Grouping and Edges'
 cover:
     image: ""
     alt: ""
