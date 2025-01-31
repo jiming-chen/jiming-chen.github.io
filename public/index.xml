@@ -14,7 +14,9 @@
       <pubDate>Fri, 31 Jan 2025 13:28:07 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs4670/lecture05/</guid>
       <description>&lt;h2 id=&#34;bilinear-interpolation-review&#34;&gt;Bilinear Interpolation Review&lt;/h2&gt;
-&lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;</description>
+&lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;
+&lt;h2 id=&#34;grouping-and-edges&#34;&gt;Grouping and Edges&lt;/h2&gt;
+&lt;p&gt;Why grouping? As humans, when we see images or moving pictures, we don&amp;rsquo;t look at pixels, we see objects that the pixels represent. Therefore, it is useful to have computers do the same thing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 5: More Groups and Subgroups</title>
