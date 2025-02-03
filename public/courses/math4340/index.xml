@@ -13,7 +13,7 @@
       <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 12:23:25 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/math4340/lecture06/</guid>
-      <description>&lt;h2 id=&#34;groups-wrap_up&#34;&gt;Groups Wrap_up&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;groups-wrap-up&#34;&gt;Groups Wrap-Up&lt;/h2&gt;
 &lt;p&gt;Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as&lt;/p&gt;
 &lt;p&gt;$$\text{Ker } \varphi = {g \in G \mid \varphi(g) = e},$$&lt;/p&gt;
 &lt;p&gt;where $e$ is the identity of $H$.&lt;/p&gt;

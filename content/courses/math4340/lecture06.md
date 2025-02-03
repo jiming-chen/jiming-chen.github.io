@@ -7,7 +7,7 @@ cover:
     relative: false # when usng page bundles set this to true
 ---
 
-## Groups Wrap_up
+## Groups Wrap-Up
 
 Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as
 
