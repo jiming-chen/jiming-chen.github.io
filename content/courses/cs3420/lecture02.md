@@ -27,7 +27,7 @@ The above processor has an ALU, program counter, and registers which the ALU wor
 {{< newimgref src="/courses/cs3420/lecture02/decode.png" alt="Decoding" width="80%" >}}
 <figcaption>Fig. 3. Example of decoding assembly into machine code. In this case, the register is 8 bits large.</figcaption>
 
-The processor uses the program counter to fetch instructions and runs the program. In our case, since we have a 4-bit wide opcode, we can have 16 different instructions. Additionally, as stated above, we have 8 registers to stoer data (not including PC and Z).
+The processor uses the program counter to fetch instructions and runs the program. In our case, since we have a 4-bit wide opcode, we can have 16 different instructions. Additionally, as stated above, we have 8 registers to store data (not including PC and Z). `UPDATE: forgot to mention that registers are 32 bits large.`
 
 We can think of `1101 010 100` as `R[dst] <- R[src1] - R[src2]; Z <- R[dst] == 0; PC <- PC + 1`, where `Z` is the zero flag. Instructions can also include offsets, so `1001 111111` could mean `PC <- Z ? PC + 1 : PC + offset`.
 
