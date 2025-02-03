@@ -80,7 +80,7 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
 &lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lecture 4: Groups and Homeomorphisms</title>
+      <title>Lecture 4: Groups and Homomorphisms</title>
       <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 12:23:31 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/math4340/lecture04/</guid>

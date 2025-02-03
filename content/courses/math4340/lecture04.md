@@ -1,6 +1,6 @@
 ---
 date: '2025-01-29T12:23:31-05:00'
-title: 'Lecture 4: Groups and Homeomorphisms'
+title: 'Lecture 4: Groups and Homomorphisms'
 cover:
     image: ""
     alt: ""
@@ -32,9 +32,9 @@ One can prove $g^n \cdot g^m = g^{m+n}$ and $(g^m)^n = g^{mn}$.
 
 The order of an element $g$ is defined as the smallest $n > 0$ such that $g^n = e$.
 
-Given abstract groups $(G,\cdot) and $(H,*)$, a **homeomorphism** is a function $\phi$ from $G$ to $H$ where $\phi$ is compatible with the operations.
+Given abstract groups $(G,\cdot) and $(H,*)$, a **homomorphism** is a function $\phi$ from $G$ to $H$ where $\phi$ is compatible with the operations.
 
-For a homeomorphism,
+For a homomorphism,
 $$\begin{aligned}
     \phi(g\cdot g^\prime) &= \phi(g) * \phi(g') \\\\
     \phi(e) &= e \\\\
