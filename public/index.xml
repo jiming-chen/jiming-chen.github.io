@@ -4,10 +4,21 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 13:28:07 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 10:24:52 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
+      <pubDate>Mon, 03 Feb 2025 10:24:52 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture06/</guid>
+      <description>&lt;h2 id=&#34;electric-potential&#34;&gt;Electric Potential&lt;/h2&gt;
+&lt;p&gt;If a sphere has an evenly distributed charge density $\rho$, then we know the sphere is not a conductor because in a conductor, the charge will evenly distribute on the surface because that is the minimum energy configuration.&lt;/p&gt;
+&lt;p&gt;Recall that electric potential over a path from $p_1$ to $p_2$ is&lt;/p&gt;
+&lt;p&gt;$$\phi = -\int_{p_1}^{p_2} \mathbf{E} \cdot ds$$&lt;/p&gt;
+&lt;p&gt;and it measures the potential energy difference per unit charge between any two points. When discussing the potential of a single point, we mean the amount of potential in relation to a point at infinity. The potential has units&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 5: Grouping and Edges</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture05/</link>
@@ -109,8 +120,7 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;p&gt;We also have binomials:&lt;/p&gt;
 &lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $p$ is prime, then $p$ divides $\binom{p}{i}$ unless $i=0$ or $i=p$.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $p$ is prime, then $p$ divides $\binom{p}{i}$ unless $i=0$ or $i=p$.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;We can also write out the binomial expansion:&lt;/p&gt;
 &lt;p&gt;$$(a+b)^n = \sum_{i=0}^n \binom{n}{i} a^ib^{n-i}$$&lt;/p&gt;
 &lt;p&gt;where $a,b$ are &amp;ldquo;numbers.&amp;rdquo; Importantly, the binomial coefficient is counting something, specifically the number of subsets of $1, \ldots, n$ with exactly $i$ elements.&lt;/p&gt;</description>
@@ -189,8 +199,7 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
       <pubDate>Thu, 02 Jan 2025 00:19:49 -0800</pubDate>
       <guid>https://jiming-chen.github.io/projects/transformer/</guid>
       <description>&lt;p&gt;This (&lt;a href=&#34;https://github.coecis.cornell.edu/hmk68/3110-final-project&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell GitHub&lt;/a&gt;) was our final project for CS 3110: Data Structures and Functional Programming. We implemented a simple transformer in OCaml and trained it on successful posts on SideChat, a social media app popular at Cornell and other schools. I worked with Haadi Khan, Domenic Fioravanti, and Will Bradley.&lt;/p&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qpr12wxoHbg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 

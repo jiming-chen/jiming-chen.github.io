@@ -4,10 +4,21 @@
     <title>PHYS 2217: Honors Electricity and Magnetism on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/phys2217/</link>
     <description>Recent content in PHYS 2217: Honors Electricity and Magnetism on Jiming Chen</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 10:32:35 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 10:24:52 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/phys2217/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
+      <pubDate>Mon, 03 Feb 2025 10:24:52 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture06/</guid>
+      <description>&lt;h2 id=&#34;electric-potential&#34;&gt;Electric Potential&lt;/h2&gt;
+&lt;p&gt;If a sphere has an evenly distributed charge density $\rho$, then we know the sphere is not a conductor because in a conductor, the charge will evenly distribute on the surface because that is the minimum energy configuration.&lt;/p&gt;
+&lt;p&gt;Recall that electric potential over a path from $p_1$ to $p_2$ is&lt;/p&gt;
+&lt;p&gt;$$\phi = -\int_{p_1}^{p_2} \mathbf{E} \cdot ds$$&lt;/p&gt;
+&lt;p&gt;and it measures the potential energy difference per unit charge between any two points. When discussing the potential of a single point, we mean the amount of potential in relation to a point at infinity. The potential has units&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 4: Flux and Gauss&#39; Law</title>
       <link>https://jiming-chen.github.io/courses/phys2217/lecture04/</link>
