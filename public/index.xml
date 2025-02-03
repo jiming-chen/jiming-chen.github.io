@@ -6,8 +6,24 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 10:24:52 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 12:23:25 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 6: Groups Wrap-Up and Rings</title>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
+      <pubDate>Mon, 03 Feb 2025 12:23:25 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture06/</guid>
+      <description>&lt;h2 id=&#34;groups-wrap_up&#34;&gt;Groups Wrap_up&lt;/h2&gt;
+&lt;p&gt;Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as&lt;/p&gt;
+&lt;p&gt;$$\text{Ker } \varphi = {g \in G \mid \varphi(g) = e},$$&lt;/p&gt;
+&lt;p&gt;where $e$ is the identity of $H$.&lt;/p&gt;
+&lt;p&gt;We often say $\text{Ker } \varphi \Delta G$, which means it is a normal subgroup of $G$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: $\varphi$ is injective iff $\text{Ker } \varphi = {e^\prime}$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $\gcd(m,n) = 1$, then
+$$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} / {n\mathbb{Z}},$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
       <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
