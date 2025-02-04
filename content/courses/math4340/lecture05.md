@@ -18,7 +18,7 @@ $$\phi : G_1 \to G_2$$
 
 from $G_1$ to $G_2$. $\phi$ is an *isomorphism* if it is a bijection.
 
-> **Fact**: Any group acts faaithfully on some set. Essentially, you can view any group as a permutation group.
+> **Fact**: Any group acts faithfully on some set. Essentially, you can view any group as a permutation group.
 
 > **Fact**: Any two groups of order $2$ are isomorphic.
 
@@ -27,7 +27,7 @@ from $G_1$ to $G_2$. $\phi$ is an *isomorphism* if it is a bijection.
 A *subgroup* $H \subset G$ is a subset which is closed under the operations. It follows that
 
 - $e \in H$,
-- if $h^\pprime, h^\prime^\prime \in H$, then $h^\primeh^\prime^\prime \in H$,
+- if $h^\prime, h^{\prime\prime} \in H$, then $h^\prime h^{\prime\prime} \in H$,
 - and if $h \in H$, then $h^{-1} \in H$.
 
 > **Theorem**: If $H \subset G$ and $G$ is finite, then $\\# H \mid \\# G$.
