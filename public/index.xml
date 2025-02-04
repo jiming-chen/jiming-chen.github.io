@@ -6,8 +6,23 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 12:23:25 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 13:29:39 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 5: C</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture05/</link>
+      <pubDate>Tue, 04 Feb 2025 13:29:39 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture05/</guid>
+      <description>&lt;p&gt;The C program build tool flow includes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;source files (.c, .h) which are compiled into object files (.o)&lt;/li&gt;
+&lt;li&gt;assmebly files (.s) which are assembled into object files (.o)&lt;/li&gt;
+&lt;li&gt;library files (.lib)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these are linked into memory into an executable file (.exe, .axf).&lt;/p&gt;
+&lt;h2 id=&#34;assembly-files&#34;&gt;Assembly Files&lt;/h2&gt;
+&lt;p&gt;In assembly files, sections of (binary) instructions can be referred to using memory addresses which, in the assembly file, are called labels. In the assembled object file, the main memory locations point to each label in the assembly file.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 6: Groups Wrap-Up and Rings</title>
       <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
