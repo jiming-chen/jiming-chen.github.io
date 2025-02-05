@@ -4,10 +4,25 @@
     <title>MATH 4340: Honors Algebra on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/math4340/</link>
     <description>Recent content in MATH 4340: Honors Algebra on Jiming Chen</description>
-    <generator>Hugo -- 0.143.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 12:23:25 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 12:23:25 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/math4340/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 7: Rings</title>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture07/</link>
+      <pubDate>Wed, 05 Feb 2025 12:23:25 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture07/</guid>
+      <description>&lt;h2 id=&#34;rings&#34;&gt;Rings&lt;/h2&gt;
+&lt;p&gt;Recall that rings are sets along with two operations, $+$ and $*$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Additive group: $(R,+)$ is an abelian group, which we call $R$.&lt;/li&gt;
+&lt;li&gt;Multiplicative group: $(R^*,*)$ is a group.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The reason we use $R^*$ is because $(R,*)$ doesn&amp;rsquo;t necessarily have inverses, so we define&lt;/p&gt;
+&lt;p&gt;$$R^* = \{r \in R \mid \exists r^\prime, rr^\prime = r^\prime r = 1\}.$$&lt;/p&gt;
+&lt;p&gt;We say $R$ is called an &lt;em&gt;integral domain&lt;/em&gt; if $R$ is commutative (meaning multiplication is commutative) and if $ab = 0$ implies $a = 0$ or $b = 0$. Thus, if you have any two nonzero elements, their product is nonzero.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 6: Groups Wrap-Up and Rings</title>
       <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
