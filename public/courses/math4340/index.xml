@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MATH 4340: Honors Algebra on Jiming Chen</title>
-    <link>http://localhost:1313/courses/math4340/</link>
+    <link>https://jiming-chen.github.io/courses/math4340/</link>
     <description>Recent content in MATH 4340: Honors Algebra on Jiming Chen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Feb 2025 12:23:25 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/math4340/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/math4340/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 7: Rings</title>
-      <link>http://localhost:1313/courses/math4340/lecture07/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture07/</link>
       <pubDate>Wed, 05 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture07/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture07/</guid>
       <description>&lt;h2 id=&#34;rings&#34;&gt;Rings&lt;/h2&gt;
 &lt;p&gt;Recall that rings are sets along with two operations, $+$ and $*$.&lt;/p&gt;
 &lt;ul&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Lecture 6: Groups Wrap-Up and Rings</title>
-      <link>http://localhost:1313/courses/math4340/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture06/</guid>
       <description>&lt;h2 id=&#34;groups-wrap-up&#34;&gt;Groups Wrap-Up&lt;/h2&gt;
 &lt;p&gt;Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as&lt;/p&gt;
 &lt;p&gt;$$\text{Ker } \varphi = {g \in G \mid \varphi(g) = e},$$&lt;/p&gt;
@@ -41,9 +41,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 5: More Groups and Subgroups</title>
-      <link>http://localhost:1313/courses/math4340/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 12:21:09 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture05/</guid>
       <description>&lt;p&gt;An &lt;em&gt;action of $G$ on $X$&lt;/em&gt; is a rule that assigns to each element $g \in G$ and each element $x \in X$ another element $g \cdot x \in X$ so that&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$e \cdot x = x$,&lt;/li&gt;
@@ -55,18 +55,18 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 4: Groups and Homomorphisms</title>
-      <link>http://localhost:1313/courses/math4340/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 12:23:31 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture04/</guid>
       <description>&lt;p&gt;One example of a group is $(\mathbb{Z}, +)$. It has identity $e = 0$ and inverse $-a$ for $a$. Another example of a group is $(\mathbb{R} \setminus \{0\}, *)$ which has $0$ excluded because $0$ does not have a multiplicative inverse.&lt;/p&gt;
 &lt;p&gt;Both of these are examples of Abelian groups because the order of the operands does not matter.&lt;/p&gt;
 &lt;p&gt;One example of a finite group is the symmetric group on (finite) $X$, which is the set of all permutations on $X$. This is usually non-Abelian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: Permutation Groups and Abstract Groups</title>
-      <link>http://localhost:1313/courses/math4340/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 12:21:34 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture03/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;factorial&lt;/strong&gt; is defined as $n! = 1 \cdot 2 \cdot 3 \cdots n$ for $n \geq 1$ though we may define $0!=1$.&lt;/p&gt;
 &lt;p&gt;We also have binomials:&lt;/p&gt;
 &lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;

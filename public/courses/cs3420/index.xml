@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CS 3420: Embedded Systems on Jiming Chen</title>
-    <link>http://localhost:1313/courses/cs3420/</link>
+    <link>https://jiming-chen.github.io/courses/cs3420/</link>
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Feb 2025 13:29:15 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 7: Peripherals and GPIO</title>
-      <link>http://localhost:1313/courses/cs3420/lecture07/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture07/</link>
       <pubDate>Tue, 11 Feb 2025 13:29:15 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture07/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture07/</guid>
       <description>&lt;p&gt;So far, we have used the OpenSDA USB which connects to an ARM debugging chip which is serially connected to the KL46Z256. This can interface with the red LED. We can also interface with a segment LCD, magnetometer, and accelerometer.&lt;/p&gt;
 &lt;p&gt;The chip has a lot of pins surrounding it, and it is isometric, so we can match the dot on the diagram with a dimple on the chip. Note that some pins are labeled similarly, e.g. PT means port.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Function Calls and Program Memory Layout</title>
-      <link>http://localhost:1313/courses/cs3420/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture06/</link>
       <pubDate>Thu, 06 Feb 2025 13:27:42 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture06/</guid>
       <description>&lt;h2 id=&#34;function-calls&#34;&gt;Function Calls&lt;/h2&gt;
 &lt;p&gt;If we want to implement &lt;code&gt;POP {R4}&lt;/code&gt;, we first store the value in the stack pointer to &lt;code&gt;R4&lt;/code&gt; then increment the stack pointer by 4 because the stack grows down.&lt;/p&gt;
 &lt;p&gt;We can also do &lt;code&gt;POP {PC}&lt;/code&gt;, which is equivalent to &lt;code&gt;POP {Rx}&lt;/code&gt; followed by &lt;code&gt;BX Rx&lt;/code&gt;. We can&amp;rsquo;t do &lt;code&gt;POP LR&lt;/code&gt; because &lt;code&gt;LR&lt;/code&gt; is not a lower register.&lt;/p&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Lecture 5: C</title>
-      <link>http://localhost:1313/courses/cs3420/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture05/</link>
       <pubDate>Tue, 04 Feb 2025 13:29:39 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture05/</guid>
       <description>&lt;p&gt;The C program build tool flow includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;source files (.c, .h) which are compiled into object files (.o)&lt;/li&gt;
@@ -44,20 +44,20 @@
     </item>
     <item>
       <title>Lecture 4: ARM Memory Organization</title>
-      <link>http://localhost:1313/courses/cs3420/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture04/</link>
       <pubDate>Thu, 30 Jan 2025 13:31:55 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture04/</guid>
       <description>&lt;h2 id=&#34;arm-memory-map&#34;&gt;ARM Memory Map&lt;/h2&gt;
 &lt;p&gt;All versions of ARM have the same memory encoding which makes compatibility easy. Each memory address is 32 bits, which means we can have 4 gigabytes of data (because each memory block holds 1 byte).&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. Memory map for Cortex M0+.&lt;/figcaption&gt;
 &lt;p&gt;The bottom 500 megabytes of memory holds the code, some of which non-volatile (256 kB), meaning if the system reboots, the memory remains.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: Some ARM Instructions</title>
-      <link>http://localhost:1313/courses/cs3420/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture03/</link>
       <pubDate>Tue, 28 Jan 2025 13:27:56 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture03/</guid>
       <description>&lt;h2 id=&#34;arm-isa-recap&#34;&gt;ARM ISA Recap&lt;/h2&gt;
 &lt;p&gt;Recall that the ARM ISA has most instructions as 16 bits; since we have resource constraints and everything costs money, we want to fit as many instructions on the chip as possible.&lt;/p&gt;
 &lt;p&gt;Some examples of instructions are&lt;/p&gt;
@@ -71,12 +71,12 @@
     </item>
     <item>
       <title>Lecture 2: Assembly Language Overview and Intro to ARM ISA</title>
-      <link>http://localhost:1313/courses/cs3420/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture02/</link>
       <pubDate>Thu, 23 Jan 2025 13:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture02/</guid>
       <description>&lt;h2 id=&#34;assembly-intro&#34;&gt;Assembly Intro&lt;/h2&gt;
 &lt;p&gt;Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraction.&lt;/figcaption&gt;
 &lt;p&gt;Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.&lt;/p&gt;</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CS 4670: Intro to Computer Vision on Jiming Chen</title>
-    <link>http://localhost:1313/courses/cs4670/</link>
+    <link>https://jiming-chen.github.io/courses/cs4670/</link>
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Feb 2025 13:31:49 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 6: Edge Detection and Clustering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture06/</link>
       <pubDate>Wed, 05 Feb 2025 13:31:49 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture06/</guid>
       <description>&lt;h2 id=&#34;edge-detection&#34;&gt;Edge Detection&lt;/h2&gt;
 &lt;p&gt;Recall that we can use anisotropic filtering because Gaussian filtering should not be the same in every direction. One variant of the anisotropic Gaussian is the Sobel filter:&lt;/p&gt;
 &lt;p&gt;$$\begin{bmatrix} 1 \\ 2 \\ 1\end{bmatrix} * \begin{bmatrix} 1 &amp;amp; 0 &amp;amp; -1 \end{bmatrix} = \begin{bmatrix}
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Lecture 5: Grouping and Edges</title>
-      <link>http://localhost:1313/courses/cs4670/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 13:28:07 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture05/</guid>
       <description>&lt;h2 id=&#34;bilinear-interpolation-review&#34;&gt;Bilinear Interpolation Review&lt;/h2&gt;
 &lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;
 &lt;h2 id=&#34;grouping-and-edges&#34;&gt;Grouping and Edges&lt;/h2&gt;
@@ -34,33 +34,33 @@
     </item>
     <item>
       <title>Lecture 4: Convolution and Geometric Transformations</title>
-      <link>http://localhost:1313/courses/cs4670/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 13:28:09 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture04/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;Last class, we mentioned that we can use convolution to turn color images gray. To do this, we can treat a color image as three layers of grayscale images and use a three-layer kernel.&lt;/p&gt;
 &lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: More Convolution</title>
-      <link>http://localhost:1313/courses/cs4670/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
 &lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 13:26:11 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture02/</guid>
       <description>&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;How do you represent a photograph? You could say pixels, but originally, there were no pixels in photographs. Therefore, we could say an image is a function that maps spatial location to intensity, where intensity is a number between 0 and 1, inclusive:&lt;/p&gt;
 &lt;p&gt;$$f : \mathbb{R}^2 \to [0, 1].$$&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An example of an image.&lt;/figcaption&gt;
 &lt;p&gt;What about color images? We could extend the function definition to one using RGB:&lt;/p&gt;</description>
     </item>

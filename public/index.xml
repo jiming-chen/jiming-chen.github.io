@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jiming Chen</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Feb 2025 13:29:15 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 7: Peripherals and GPIO</title>
-      <link>http://localhost:1313/courses/cs3420/lecture07/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture07/</link>
       <pubDate>Tue, 11 Feb 2025 13:29:15 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture07/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture07/</guid>
       <description>&lt;p&gt;So far, we have used the OpenSDA USB which connects to an ARM debugging chip which is serially connected to the KL46Z256. This can interface with the red LED. We can also interface with a segment LCD, magnetometer, and accelerometer.&lt;/p&gt;
 &lt;p&gt;The chip has a lot of pins surrounding it, and it is isometric, so we can match the dot on the diagram with a dimple on the chip. Note that some pins are labeled similarly, e.g. PT means port.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Function Calls and Program Memory Layout</title>
-      <link>http://localhost:1313/courses/cs3420/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture06/</link>
       <pubDate>Thu, 06 Feb 2025 13:27:42 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture06/</guid>
       <description>&lt;h2 id=&#34;function-calls&#34;&gt;Function Calls&lt;/h2&gt;
 &lt;p&gt;If we want to implement &lt;code&gt;POP {R4}&lt;/code&gt;, we first store the value in the stack pointer to &lt;code&gt;R4&lt;/code&gt; then increment the stack pointer by 4 because the stack grows down.&lt;/p&gt;
 &lt;p&gt;We can also do &lt;code&gt;POP {PC}&lt;/code&gt;, which is equivalent to &lt;code&gt;POP {Rx}&lt;/code&gt; followed by &lt;code&gt;BX Rx&lt;/code&gt;. We can&amp;rsquo;t do &lt;code&gt;POP LR&lt;/code&gt; because &lt;code&gt;LR&lt;/code&gt; is not a lower register.&lt;/p&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Lecture 6: Edge Detection and Clustering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture06/</link>
       <pubDate>Wed, 05 Feb 2025 13:31:49 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture06/</guid>
       <description>&lt;h2 id=&#34;edge-detection&#34;&gt;Edge Detection&lt;/h2&gt;
 &lt;p&gt;Recall that we can use anisotropic filtering because Gaussian filtering should not be the same in every direction. One variant of the anisotropic Gaussian is the Sobel filter:&lt;/p&gt;
 &lt;p&gt;$$\begin{bmatrix} 1 \\ 2 \\ 1\end{bmatrix} * \begin{bmatrix} 1 &amp;amp; 0 &amp;amp; -1 \end{bmatrix} = \begin{bmatrix}
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>Lecture 7: Rings</title>
-      <link>http://localhost:1313/courses/math4340/lecture07/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture07/</link>
       <pubDate>Wed, 05 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture07/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture07/</guid>
       <description>&lt;h2 id=&#34;rings&#34;&gt;Rings&lt;/h2&gt;
 &lt;p&gt;Recall that rings are sets along with two operations, $+$ and $*$.&lt;/p&gt;
 &lt;ul&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>Lecture 5: C</title>
-      <link>http://localhost:1313/courses/cs3420/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture05/</link>
       <pubDate>Tue, 04 Feb 2025 13:29:39 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture05/</guid>
       <description>&lt;p&gt;The C program build tool flow includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;source files (.c, .h) which are compiled into object files (.o)&lt;/li&gt;
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Lecture 6: Groups Wrap-Up and Rings</title>
-      <link>http://localhost:1313/courses/math4340/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture06/</guid>
       <description>&lt;h2 id=&#34;groups-wrap-up&#34;&gt;Groups Wrap-Up&lt;/h2&gt;
 &lt;p&gt;Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as&lt;/p&gt;
 &lt;p&gt;$$\text{Ker } \varphi = {g \in G \mid \varphi(g) = e},$$&lt;/p&gt;
@@ -89,9 +89,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
-      <link>http://localhost:1313/courses/phys2217/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 10:24:52 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture06/</guid>
       <description>&lt;h2 id=&#34;electric-potential&#34;&gt;Electric Potential&lt;/h2&gt;
 &lt;p&gt;If a sphere has an evenly distributed charge density $\rho$, then we know the sphere is not a conductor because in a conductor, the charge will evenly distribute on the surface because that is the minimum energy configuration.&lt;/p&gt;
 &lt;p&gt;Recall that electric potential over a path from $p_1$ to $p_2$ is&lt;/p&gt;
@@ -100,9 +100,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 5: Grouping and Edges</title>
-      <link>http://localhost:1313/courses/cs4670/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 13:28:07 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture05/</guid>
       <description>&lt;h2 id=&#34;bilinear-interpolation-review&#34;&gt;Bilinear Interpolation Review&lt;/h2&gt;
 &lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;
 &lt;h2 id=&#34;grouping-and-edges&#34;&gt;Grouping and Edges&lt;/h2&gt;
@@ -110,9 +110,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 5: More Groups and Subgroups</title>
-      <link>http://localhost:1313/courses/math4340/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 12:21:09 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture05/</guid>
       <description>&lt;p&gt;An &lt;em&gt;action of $G$ on $X$&lt;/em&gt; is a rule that assigns to each element $g \in G$ and each element $x \in X$ another element $g \cdot x \in X$ so that&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$e \cdot x = x$,&lt;/li&gt;
@@ -124,38 +124,38 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 4: ARM Memory Organization</title>
-      <link>http://localhost:1313/courses/cs3420/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture04/</link>
       <pubDate>Thu, 30 Jan 2025 13:31:55 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture04/</guid>
       <description>&lt;h2 id=&#34;arm-memory-map&#34;&gt;ARM Memory Map&lt;/h2&gt;
 &lt;p&gt;All versions of ARM have the same memory encoding which makes compatibility easy. Each memory address is 32 bits, which means we can have 4 gigabytes of data (because each memory block holds 1 byte).&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. Memory map for Cortex M0+.&lt;/figcaption&gt;
 &lt;p&gt;The bottom 500 megabytes of memory holds the code, some of which non-volatile (256 kB), meaning if the system reboots, the memory remains.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Convolution and Geometric Transformations</title>
-      <link>http://localhost:1313/courses/cs4670/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 13:28:09 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture04/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;Last class, we mentioned that we can use convolution to turn color images gray. To do this, we can treat a color image as three layers of grayscale images and use a three-layer kernel.&lt;/p&gt;
 &lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Groups and Homomorphisms</title>
-      <link>http://localhost:1313/courses/math4340/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 12:23:31 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture04/</guid>
       <description>&lt;p&gt;One example of a group is $(\mathbb{Z}, +)$. It has identity $e = 0$ and inverse $-a$ for $a$. Another example of a group is $(\mathbb{R} \setminus \{0\}, *)$ which has $0$ excluded because $0$ does not have a multiplicative inverse.&lt;/p&gt;
 &lt;p&gt;Both of these are examples of Abelian groups because the order of the operands does not matter.&lt;/p&gt;
 &lt;p&gt;One example of a finite group is the symmetric group on (finite) $X$, which is the set of all permutations on $X$. This is usually non-Abelian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Flux and Gauss&#39; Law</title>
-      <link>http://localhost:1313/courses/phys2217/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 10:32:35 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture04/</guid>
       <description>&lt;p&gt;Flux can be imagined as the amount of flow going perpendicular to a surface. We can write
 $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;p&gt;Gauss&amp;rsquo; Law states that&lt;/p&gt;
@@ -165,9 +165,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: Some ARM Instructions</title>
-      <link>http://localhost:1313/courses/cs3420/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture03/</link>
       <pubDate>Tue, 28 Jan 2025 13:27:56 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture03/</guid>
       <description>&lt;h2 id=&#34;arm-isa-recap&#34;&gt;ARM ISA Recap&lt;/h2&gt;
 &lt;p&gt;Recall that the ARM ISA has most instructions as 16 bits; since we have resource constraints and everything costs money, we want to fit as many instructions on the chip as possible.&lt;/p&gt;
 &lt;p&gt;Some examples of instructions are&lt;/p&gt;
@@ -181,20 +181,20 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: More Convolution</title>
-      <link>http://localhost:1313/courses/cs4670/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
 &lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: Permutation Groups and Abstract Groups</title>
-      <link>http://localhost:1313/courses/math4340/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/math4340/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 12:21:34 -0500</pubDate>
-      <guid>http://localhost:1313/courses/math4340/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/math4340/lecture03/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;factorial&lt;/strong&gt; is defined as $n! = 1 \cdot 2 \cdot 3 \cdots n$ for $n \geq 1$ though we may define $0!=1$.&lt;/p&gt;
 &lt;p&gt;We also have binomials:&lt;/p&gt;
 &lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;
@@ -206,9 +206,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
-      <link>http://localhost:1313/courses/phys2217/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 10:11:49 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture03/</guid>
       <description>&lt;h2 id=&#34;electric-potential-energy&#34;&gt;Electric Potential Energy&lt;/h2&gt;
 &lt;p&gt;If you have a charges $q_1$ and $q_2$ infinitely far away, and you want to bring them together so that they are $r_{12}$ apart, work has to be done. Work is&lt;/p&gt;
 &lt;p&gt;$$\int \mathbf{F} \cdot d\mathbf{s} = \int_{\infty}^{r_{12}} -\frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}^2}dr = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}}.$$&lt;/p&gt;
@@ -218,21 +218,21 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 13:26:11 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture02/</guid>
       <description>&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;How do you represent a photograph? You could say pixels, but originally, there were no pixels in photographs. Therefore, we could say an image is a function that maps spatial location to intensity, where intensity is a number between 0 and 1, inclusive:&lt;/p&gt;
 &lt;p&gt;$$f : \mathbb{R}^2 \to [0, 1].$$&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An example of an image.&lt;/figcaption&gt;
 &lt;p&gt;What about color images? We could extend the function definition to one using RGB:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Charge and Coulomb&#39;s Law</title>
-      <link>http://localhost:1313/courses/phys2217/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 10:12:56 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture02/</guid>
       <description>&lt;h2 id=&#34;vector-calculus-recap&#34;&gt;Vector Calculus Recap&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;field&lt;/strong&gt; is a physical quantity that is defined at each point in time and space. It could be a scalar, vector, or tensor. Temperatures are an example of a scalar field and wind an example of vector fields.&lt;/p&gt;
 &lt;p&gt;Gradient (vector showing direction of steepest ascent), divergence (scalar), and curl (vector showing how much rotation) are vector field operations.&lt;/p&gt;
@@ -248,20 +248,20 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 2: Assembly Language Overview and Intro to ARM ISA</title>
-      <link>http://localhost:1313/courses/cs3420/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture02/</link>
       <pubDate>Thu, 23 Jan 2025 13:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs3420/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture02/</guid>
       <description>&lt;h2 id=&#34;assembly-intro&#34;&gt;Assembly Intro&lt;/h2&gt;
 &lt;p&gt;Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraction.&lt;/figcaption&gt;
 &lt;p&gt;Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Optimal Theme Park Ride Order</title>
-      <link>http://localhost:1313/projects/rides/</link>
+      <link>https://jiming-chen.github.io/projects/rides/</link>
       <pubDate>Tue, 14 Jan 2025 01:59:49 -0800</pubDate>
-      <guid>http://localhost:1313/projects/rides/</guid>
+      <guid>https://jiming-chen.github.io/projects/rides/</guid>
       <description>&lt;p&gt;[WORK IN PROGRESS] If we assign happiness to certain rides and have information about how much time it takes to ride a string of rides in a certain order, how can we maximize happiness in one day at a theme park? There is a lot of information we can work with:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Each ride has an associated happiness.&lt;/li&gt;
@@ -274,9 +274,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>OCaml Transformer</title>
-      <link>http://localhost:1313/projects/transformer/</link>
+      <link>https://jiming-chen.github.io/projects/transformer/</link>
       <pubDate>Thu, 02 Jan 2025 00:19:49 -0800</pubDate>
-      <guid>http://localhost:1313/projects/transformer/</guid>
+      <guid>https://jiming-chen.github.io/projects/transformer/</guid>
       <description>&lt;p&gt;This (&lt;a href=&#34;https://github.coecis.cornell.edu/hmk68/3110-final-project&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell GitHub&lt;/a&gt;) was our final project for CS 3110: Data Structures and Functional Programming. We implemented a simple transformer in OCaml and trained it on successful posts on SideChat, a social media app popular at Cornell and other schools. I worked with Haadi Khan, Domenic Fioravanti, and Will Bradley.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qpr12wxoHbg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
@@ -288,19 +288,19 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Sports Betting Devigger</title>
-      <link>http://localhost:1313/projects/devigger/</link>
+      <link>https://jiming-chen.github.io/projects/devigger/</link>
       <pubDate>Tue, 17 Dec 2024 22:59:49 -0800</pubDate>
-      <guid>http://localhost:1313/projects/devigger/</guid>
+      <guid>https://jiming-chen.github.io/projects/devigger/</guid>
       <description>&lt;p&gt;This tool (&lt;a href=&#34;https://github.com/jjc256/devigger&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for &lt;a href=&#34;https://oddsjam.com/subscribe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;high fees&lt;/a&gt;, so I decided to make a simple version myself.&lt;/p&gt;
 &lt;p&gt;Rather than search for arbitrage opportunities, it looks for statistical arbitrage-esque market inefficiencies since sports betting &amp;ldquo;markets&amp;rdquo; are somewhat inefficient.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://jiming-chen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://jiming-chen.github.io/about/</guid>
       <description>&lt;p&gt;I study Computer Science at Cornell University.&lt;/p&gt;
-&lt;p&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;http://localhost:1313/about/Chen_Shao_Report.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last summer, I researched using LLMs for hardware design under &lt;a href=&#34;https://www.csl.cornell.edu/~zhiruz/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Zhiru Zhang&lt;/a&gt; funded by an Engineering Learning Initiatives grant. See our report &lt;a href=&#34;https://jiming-chen.github.io/about/Chen_Shao_Report.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am working on formal verification of RTL designs for a custom chip as part of &lt;a href=&#34;https://c2s2.engineering.cornell.edu/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell Custom Silicon Systems&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;some-relevant-coursework&#34;&gt;Some relevant coursework&lt;/h2&gt;
 &lt;ul&gt;
@@ -321,25 +321,25 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;miscellanous&#34;&gt;Miscellanous&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;I enjoy playing the &lt;a href=&#34;http://localhost:1313/piano&#34;&gt;piano&lt;/a&gt;, which I currently study under &lt;a href=&#34;https://music.cornell.edu/andrew-zhou&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Andrew Zhou&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I enjoy playing the &lt;a href=&#34;https://jiming-chen.github.io/piano&#34;&gt;piano&lt;/a&gt;, which I currently study under &lt;a href=&#34;https://music.cornell.edu/andrew-zhou&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Andrew Zhou&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;I am currently reading Homer&amp;rsquo;s &lt;em&gt;Iliad&lt;/em&gt;. See my Goodreads &lt;a href=&#34;https://www.goodreads.com/user/show/186102361-jiming-chen&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I am interested in philosophy and was previously an editor for &lt;em&gt;Logos: The Cornell Undergraduate Philosophy Journal&lt;/em&gt;. See the 2024 edition &lt;a href=&#34;http://localhost:1313/about/Logos-Journal-Volume-XX-Spring-2024.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Or see whether I think numbers are real &lt;a href=&#34;http://localhost:1313/about/PHIL3780.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I am interested in philosophy and was previously an editor for &lt;em&gt;Logos: The Cornell Undergraduate Philosophy Journal&lt;/em&gt;. See the 2024 edition &lt;a href=&#34;https://jiming-chen.github.io/about/Logos-Journal-Volume-XX-Spring-2024.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Or see whether I think numbers are real &lt;a href=&#34;https://jiming-chen.github.io/about/PHIL3780.pdf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;I write problems for the &lt;a href=&#34;https://bigredmathcomp.org/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell University Big Red Math Competition&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Reach out at &lt;code&gt;jc3579@cornell.edu&lt;/code&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Piano Pieces</title>
-      <link>http://localhost:1313/piano/</link>
+      <link>https://jiming-chen.github.io/piano/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/piano/</guid>
+      <guid>https://jiming-chen.github.io/piano/</guid>
       <description>A list of piano pieces which I have played or am currently playing.</description>
     </item>
     <item>
       <title>Splitter</title>
-      <link>http://localhost:1313/splitter/</link>
+      <link>https://jiming-chen.github.io/splitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/splitter/</guid>
+      <guid>https://jiming-chen.github.io/splitter/</guid>
       <description>&lt;h1&gt;Instagram Image Splitter&lt;/h1&gt;
   &lt;input type=&#34;file&#34; id=&#34;imageInput&#34; accept=&#34;image/*&#34;&gt;
   &lt;div id=&#34;canvas-container&#34;&gt;&lt;/div&gt;
@@ -404,9 +404,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Winter Break Countdown</title>
-      <link>http://localhost:1313/countdown/</link>
+      <link>https://jiming-chen.github.io/countdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/countdown/</guid>
+      <guid>https://jiming-chen.github.io/countdown/</guid>
       <description>&lt;style&gt;
 .strawberry-container {
   display: grid;
@@ -473,9 +473,9 @@ function updateStrawberryGrid() {
   
   for (let i = 0; i &lt; totalHours; i++) {
     if (i &lt; hoursPassed) {
-      html += `&lt;img src=&#34;http://localhost:1313/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:1;&#34; /&gt;`;
+      html += `&lt;img src=&#34;https://jiming-chen.github.io/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:1;&#34; /&gt;`;
     } else {
-      html += `&lt;img src=&#34;http://localhost:1313/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:0.3;&#34; /&gt;`;
+      html += `&lt;img src=&#34;https://jiming-chen.github.io/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:0.3;&#34; /&gt;`;
     }
   }
   document.getElementById(&#34;strawberry-grid&#34;).innerHTML = html;
