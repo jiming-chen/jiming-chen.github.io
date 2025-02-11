@@ -47,4 +47,4 @@ The LED code for lab 1 can be broken into three pieces:
 
 There are memory locations called Port Set Output Registers that can set all the bits that are 1 in the register to 1 in a port. It can also clear certain bits and invert certain bits.
 
-In our LEDON and LEDOFf code, LEDON uses PCOR while LEDOFF which is PSOR, which is counterintuitive because we have high voltage turning off the LED and low voltage turning it on. This is because electronics used to be that turning off a current was easier than turning on a current.
+In our LEDON and LEDOFF code, LEDON uses PCOR while LEDOFF which is PSOR, which is counterintuitive because we have high voltage turning off the LED and low voltage turning it on. This is because electronics used to be that turning off a current was easier than turning on a current.
