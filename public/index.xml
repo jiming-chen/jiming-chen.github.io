@@ -6,8 +6,17 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Feb 2025 13:29:15 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 13:33:09 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 8: Interrupts and Exceptions</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture08/</link>
+      <pubDate>Thu, 13 Feb 2025 13:33:09 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture08/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say your embedded device has some buttons, which are ways the user can interract with the program. We want the user to be able to respond appropriately in all situations. For example, if a user presses two buttons at once, the program should not crash.&lt;/p&gt;
+&lt;p&gt;One way to know if a button pressed is &lt;em&gt;polling&lt;/em&gt;, where a loop continually reads the GPIO port.&lt;/p&gt;
+&lt;p&gt;Another option is to have an interrupt, in which the main code causes the program counter to move to another chunk of code called an &lt;em&gt;interrupt service routine&lt;/em&gt; (ISR) and go back to the main code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 7: Peripherals and GPIO</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture07/</link>
