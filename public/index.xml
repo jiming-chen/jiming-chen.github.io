@@ -4,10 +4,19 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.144.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2025 13:33:09 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 13:27:22 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 10: Feature Descriptors</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture10/</link>
+      <pubDate>Wed, 19 Feb 2025 13:27:22 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture10/</guid>
+      <description>&lt;p&gt;A feature descriptor is a way to describe pixels using vectors in order to do correspondence.&lt;/p&gt;
+&lt;p&gt;One example is the &lt;em&gt;Multiscale Oriented Patches&lt;/em&gt; (MOPS) descriptor, which describes a corner by the patch around the pixel. The patch should have scale, rotation, and photometric invariance.&lt;/p&gt;
+&lt;p&gt;Automatic scale selection is done by taking the function at many scales and taking the scale which maximizes the function. This implemented using the Gaussian pre-filtering and blurring (Gaussian pyramid) that we used for zooming in on images and computing $f$ for a fixed window size.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 8: Interrupts and Exceptions</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture08/</link>
