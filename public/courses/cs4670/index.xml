@@ -6,8 +6,17 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.144.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Feb 2025 13:27:22 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 13:27:21 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 11: Correspondences and Reconstruction</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture11/</link>
+      <pubDate>Fri, 21 Feb 2025 13:27:21 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture11/</guid>
+      <description>&lt;h2 id=&#34;correspondences-wrap-up&#34;&gt;Correspondences Wrap-Up&lt;/h2&gt;
+&lt;p&gt;If we have a bunch of corners in two images, how we do match them to each other? Since each corner is described by a vector, we can compute Euclidean distance and correspond to each corner in image 1 the closest corner in image 2.&lt;/p&gt;
+&lt;p&gt;However, not every corner in image 1 is guaranteed to have a matching corner in image 2. Therefore, we devise a method of scoring correspondences.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 10: Feature Descriptors</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture10/</link>
