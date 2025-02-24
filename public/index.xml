@@ -6,8 +6,18 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.144.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Feb 2025 13:27:21 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2025 10:14:23 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 14</title>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture14/</link>
+      <pubDate>Mon, 24 Feb 2025 10:14:23 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture14/</guid>
+      <description>&lt;p&gt;If you had a charge $q$ and an infinite plane, finding the potential everywhere would be very hard. However, if you replace the plane with a $-q$ charge, then it becomes easier. These are &lt;em&gt;image charges&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;kirchoffs-rules&#34;&gt;Kirchoff&amp;rsquo;s Rules&lt;/h2&gt;
+&lt;p&gt;There is zero net current in and out of a node:&lt;/p&gt;
+&lt;p&gt;$$\int \mathbf{E} \cdot d\ell = 0.$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 11: Correspondences and Reconstruction</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture11/</link>
