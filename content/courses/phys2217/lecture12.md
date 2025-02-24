@@ -1,6 +1,6 @@
 ---
 date: '2025-02-24T10:14:23-05:00'
-title: 'Lecture 14'
+title: "Lecture 12: Kirchoff's Rules"
 cover:
     image: ""
     alt: ""
