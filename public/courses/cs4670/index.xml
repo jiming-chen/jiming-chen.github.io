@@ -9,11 +9,17 @@
     <lastBuildDate>Mon, 24 Feb 2025 13:29:07 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lecture12</title>
+      <title>Lecture 12: 3D Coordinates</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture12/</link>
       <pubDate>Mon, 24 Feb 2025 13:29:07 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs4670/lecture12/</guid>
-      <description></description>
+      <description>&lt;p&gt;Say we have a line passing through a point $A$ with direction $D$. Then, we can write&lt;/p&gt;
+&lt;p&gt;$$Q(\lambda) = A + \lambda D.$$&lt;/p&gt;
+&lt;p&gt;Then, we can have a parallel line&lt;/p&gt;
+&lt;p&gt;$$R(\lambda) = B + \lambda D.$$&lt;/p&gt;
+&lt;p&gt;Then, as $\lambda \to \infty$, the projections of both lines go to $(D_X/D_Z, D_Y/D_Z)$.&lt;/p&gt;
+&lt;p&gt;If $D_Z = 0$, it means the lines lie parallel to the $xy$-plane.&lt;/p&gt;
+&lt;p&gt;Additionally, we can take the limit of planes. Given&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 11: Correspondences and Reconstruction</title>
