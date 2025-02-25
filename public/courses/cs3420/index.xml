@@ -6,8 +6,17 @@
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.144.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Feb 2025 13:37:25 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 13:29:47 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 10: Communication Protocols</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture10/</link>
+      <pubDate>Tue, 25 Feb 2025 13:29:47 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture10/</guid>
+      <description>&lt;h2 id=&#34;i2c-bus&#34;&gt;I2C Bus&lt;/h2&gt;
+&lt;p&gt;In CAN, we worried about clock synchronization. This is not an issue with I2C because I2C has separate data (SDA) and clock (SCL) lines. The data set set when SCL is low. Conventionally, when SCL is high, the data should not change.&lt;/p&gt;
+&lt;p&gt;The master signals the start of a message by changing SDA from high to low while SCL is high. Conversely, a stop is indicated by changing SDA from low to high while SCL is high.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 9: Communicatinos Protocols</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture09/</link>

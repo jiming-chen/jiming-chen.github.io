@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jiming-chen.github.io/courses/</loc>
+    <lastmod>2025-02-25T13:29:47-05:00</lastmod>
+  </url><url>
+    <loc>https://jiming-chen.github.io/courses/cs3420/</loc>
+    <lastmod>2025-02-25T13:29:47-05:00</lastmod>
+  </url><url>
     <loc>https://jiming-chen.github.io/</loc>
-    <lastmod>2025-02-25T13:03:29-05:00</lastmod>
+    <lastmod>2025-02-25T13:29:47-05:00</lastmod>
+  </url><url>
+    <loc>https://jiming-chen.github.io/courses/cs3420/lecture10/</loc>
+    <lastmod>2025-02-25T13:29:47-05:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/posts/</loc>
     <lastmod>2025-02-25T13:03:29-05:00</lastmod>
-  </url><url>
-    <loc>https://jiming-chen.github.io/courses/</loc>
-    <lastmod>2025-02-24T13:29:07-05:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/courses/cs4670/</loc>
     <lastmod>2025-02-24T13:29:07-05:00</lastmod>
@@ -25,9 +31,6 @@
   </url><url>
     <loc>https://jiming-chen.github.io/courses/cs4670/lecture11/</loc>
     <lastmod>2025-02-21T13:27:21-05:00</lastmod>
-  </url><url>
-    <loc>https://jiming-chen.github.io/courses/cs3420/</loc>
-    <lastmod>2025-02-20T13:37:25-05:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/courses/cs3420/lecture09/</loc>
     <lastmod>2025-02-20T13:37:25-05:00</lastmod>
