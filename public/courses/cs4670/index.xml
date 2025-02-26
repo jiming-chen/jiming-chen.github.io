@@ -6,8 +6,21 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.144.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2025 13:29:07 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 13:39:12 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 13: Coordinate System Transformations</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture13/</link>
+      <pubDate>Wed, 26 Feb 2025 13:39:12 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture13/</guid>
+      <description>&lt;p&gt;Recall our projection equations&lt;/p&gt;
+&lt;p&gt;$$x = \frac{X}{Z}, \quad y = \frac{Y}{Z}.$$&lt;/p&gt;
+&lt;p&gt;However, because we have division, this is not linear. How can we represent it like&lt;/p&gt;
+&lt;p&gt;$$\mathbf{x}_c = R\mathbf{x}_w + \mathbf{t}?$$&lt;/p&gt;
+&lt;p&gt;This brings us to homogeneous coordinates, whereby 2D points are actually 3D points and 3D points are actually 4D points. For example, we can write&lt;/p&gt;
+&lt;p&gt;$$(x,y) = (x,y,1) = (kx, ky, k).$$&lt;/p&gt;
+&lt;p&gt;This allows us to write the transformation above as&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 12: 3D Coordinates</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture12/</link>
