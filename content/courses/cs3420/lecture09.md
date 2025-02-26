@@ -1,6 +1,6 @@
 ---
 date: '2025-02-20T13:37:25-05:00'
-title: 'Lecture 9: Communicatinos Protocols'
+title: 'Lecture 9: Communication Protocols'
 cover:
     image: ""
     alt: ""

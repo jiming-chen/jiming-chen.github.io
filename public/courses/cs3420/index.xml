@@ -9,7 +9,7 @@
     <lastBuildDate>Tue, 25 Feb 2025 13:29:47 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lecture 10: Communication Protocols</title>
+      <title>Lecture 10: More Communication Protocols</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture10/</link>
       <pubDate>Tue, 25 Feb 2025 13:29:47 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs3420/lecture10/</guid>
@@ -18,7 +18,7 @@
 &lt;p&gt;The master signals the start of a message by changing SDA from high to low while SCL is high. Conversely, a stop is indicated by changing SDA from low to high while SCL is high.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lecture 9: Communicatinos Protocols</title>
+      <title>Lecture 9: Communication Protocols</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture09/</link>
       <pubDate>Thu, 20 Feb 2025 13:37:25 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs3420/lecture09/</guid>
