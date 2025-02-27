@@ -4,10 +4,20 @@
     <title>CS 3420: Embedded Systems on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/cs3420/</link>
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
-    <generator>Hugo -- 0.144.1</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Feb 2025 13:29:47 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 13:30:20 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 11: Time Sharing</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture11/</link>
+      <pubDate>Thu, 27 Feb 2025 13:30:20 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture11/</guid>
+      <description>&lt;h2 id=&#34;context-switching&#34;&gt;Context Switching&lt;/h2&gt;
+&lt;p&gt;If you open task manager, you will see hundreds of processes running all running at the same time. There is the illusion that there is a CPU dedicated to each program, but in reality, all of them have to time share on a single CPU.&lt;/p&gt;
+&lt;p&gt;In order to do this, we need to stop programs and switch very quickly. We refer to running programs as &lt;em&gt;processes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;What does the CPU need to execute a program the same way at two different times? We would need at least&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 10: More Communication Protocols</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture10/</link>
