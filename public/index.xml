@@ -6,8 +6,39 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Feb 2025 13:32:01 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 13:29:10 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 15: Camera Calibration</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture15/</link>
+      <pubDate>Mon, 03 Mar 2025 13:29:10 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture15/</guid>
+      <description>&lt;h2 id=&#34;recap-of-aligning-coordinate-systems&#34;&gt;Recap of Aligning Coordinate Systems&lt;/h2&gt;
+&lt;p&gt;Recall that $\mathbf{x}_c = R\mathbf{x}_w + \mathbf{t}$. We first find $R$:&lt;/p&gt;
+&lt;p&gt;$$R = \begin{bmatrix}X_c &amp;amp; Y_c &amp;amp; Z_c\end{bmatrix}^T.$$&lt;/p&gt;
+&lt;p&gt;Once we find this, if we let $\mathbf{c}$ be the location of the camera, then&lt;/p&gt;
+&lt;p&gt;$$R\mathbf{c} + \mathbf{t} = 0 \implies \mathbf{t} = -R\mathbf{c}.$$&lt;/p&gt;
+&lt;p&gt;Then, the extrinsic (world to camera) matrix is&lt;/p&gt;
+&lt;p&gt;$$\begin{bmatrix}
+R &amp;amp; \mathbf{t} \\
+\mathbf{0}^T &amp;amp; 1
+\end{bmatrix}.$$&lt;/p&gt;
+&lt;p&gt;Overall, we have&lt;/p&gt;
+&lt;p&gt;$$
+\begin{bmatrix} u \\ v \\ 1\end{bmatrix} \equiv \begin{bmatrix}
+a_{11} &amp;amp; a_{12} &amp;amp; a_{13} \\
+a_{21} &amp;amp; a_{22} &amp;amp; a_{23} \\
+0 &amp;amp; 0 &amp;amp; 1
+\end{bmatrix} \begin{bmatrix}
+f &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\
+0 &amp;amp; f &amp;amp; 0 &amp;amp; 0 \\
+0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 0
+\end{bmatrix} \begin{bmatrix}
+R &amp;amp; \mathbf{t} \\
+\mathbf{0}^T &amp;amp; 1
+\end{bmatrix} \begin{bmatrix} U \\ V \\ W \\ 1\end{bmatrix},
+$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 14: More 3D Geometry</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture14/</link>
