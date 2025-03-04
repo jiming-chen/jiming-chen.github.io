@@ -6,8 +6,17 @@
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 13:30:20 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 13:50:07 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 12: Concurrency</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture12/</link>
+      <pubDate>Tue, 04 Mar 2025 13:50:07 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture12/</guid>
+      <description>&lt;p&gt;Imagine a bitstream controlling some LEDs. If you have an interrupt in the middle of a bitstream (not aligned with the 24 bits that encode the color), then things will go wrong.&lt;/p&gt;
+&lt;p&gt;If we wanted blue light to travel down an LED strip faster than a red light, instead of using one loop, we should use two. But if we run two loops together, we can get weird bugs.&lt;/p&gt;
+&lt;p&gt;If we want two pieces of code to interact in the same memory space, we call them threads (as opposed to processes). This also means we have to be more careful.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 11: Time Sharing</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture11/</link>
