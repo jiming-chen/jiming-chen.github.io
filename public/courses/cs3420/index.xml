@@ -6,8 +6,16 @@
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Mar 2025 13:50:07 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 13:30:49 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 13: Mutual Exclusion (MUTEX)</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture13/</link>
+      <pubDate>Thu, 06 Mar 2025 13:30:49 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture13/</guid>
+      <description>&lt;p&gt;There are two ways of thinking about concurrency control: atomic actions vs. mutual exclusion. The latter is more fine-grained.&lt;/p&gt;
+&lt;p&gt;Atomicity means that nothing else can happen at the same time. Imagine we had a one-lane bridge. If you were trying to cross the bridge, being atomic would mean stopping all cars in Ithaca so that you can safely cross. This is a very strong statement about the system and is overkill.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 12: Concurrency</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture12/</link>
