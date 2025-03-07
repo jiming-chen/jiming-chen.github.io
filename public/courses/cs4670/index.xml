@@ -6,8 +6,29 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 13:29:10 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 13:26:08 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 16: Binoocular Stereo</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture16/</link>
+      <pubDate>Fri, 07 Mar 2025 13:26:08 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture16/</guid>
+      <description>&lt;p&gt;It is hard to do 3D reconstruction with a single image because obviously we have lost information about depth. However, if we have two cameras, we can use parallax to triangulate.&lt;/p&gt;
+&lt;p&gt;Assume we have two calibrated cameras and we have already run correspondence to find a pair of matching points:&lt;/p&gt;
+&lt;p&gt;$$\begin{aligned}
+\begin{bmatrix}
+x_1 \\ y_1 \\ 1
+\end{bmatrix} &amp;amp;\equiv P^{(1)}\begin{bmatrix}
+X \\ Y \\ Z \\ 1
+\end{bmatrix} \\
+\begin{bmatrix}
+x_2 \\ y_2 \\ 2
+\end{bmatrix} &amp;amp;\equiv P^{(2)}\begin{bmatrix}
+X \\ Y \\ Z \\ 1
+\end{bmatrix}
+\end{aligned}
+$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 15: Camera Calibration</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture15/</link>
