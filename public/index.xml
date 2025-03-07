@@ -415,7 +415,12 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
       <link>https://jiming-chen.github.io/projects/rides/</link>
       <pubDate>Tue, 14 Jan 2025 01:59:49 -0800</pubDate>
       <guid>https://jiming-chen.github.io/projects/rides/</guid>
-      <description>&lt;p&gt;[WORK IN PROGRESS] If we assign happiness to certain rides and have information about how much time it takes to ride a string of rides in a certain order, how can we maximize happiness in one day at a theme park? There is a lot of information we can work with:&lt;/p&gt;
+      <description>&lt;p&gt;If we assign happiness to certain rides and have information about how much time it takes to ride a string of rides in a certain order, how can we maximize happiness in one day at a theme park? &lt;a href=&#34;https://jjc256.github.io/rides/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;This app&lt;/a&gt; (also embedded below) seeks to do exactly that.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jjc256/rides&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Here&lt;/a&gt; is the Github link.&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;iframe src=&#34;https://jjc256.github.io/rides/&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;There is a lot of information we can work with:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Each ride has an associated happiness.&lt;/li&gt;
 &lt;li&gt;Each ride has a wait time.&lt;/li&gt;
@@ -423,7 +428,7 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;li&gt;Walking between any two rides takes a certain amount of time.&lt;/li&gt;
 &lt;li&gt;Throughout the day, wait times and walk times (crowd levels) change.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If we only incorporate happiness and distance between rides (even accounting changes during the day), we can use a simple maximum flow reduction with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Ford-Fulkerson&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;My first thought was to use a maximum flow reduction with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Ford-Fulkerson&lt;/a&gt;. However, there seemed to be too many factors which made Ford-Fulkerson seem infeasible.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OCaml Transformer</title>
