@@ -6,8 +6,18 @@
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Mar 2025 13:30:49 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 13:32:29 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 14: Locks</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture14/</link>
+      <pubDate>Tue, 11 Mar 2025 13:32:29 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture14/</guid>
+      <description>&lt;p&gt;Dekker&amp;rsquo;s algorithm correctly implements mutual exclusion. However, this is a little bit convoluted. Additionally, each process must know about the other process, which violates modularity for programming. Therefore, we create a new abstraction: &lt;em&gt;locks&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Say we have a lock called &lt;code&gt;l&lt;/code&gt;. Then, we can acquire the lock (&lt;code&gt;lock(l)&lt;/code&gt;) or release the lock (&lt;code&gt;unlock(l)&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Then, a program consists of the &lt;code&gt;NCS&lt;/code&gt; then a &lt;code&gt;lock&lt;/code&gt; then &lt;code&gt;CS&lt;/code&gt; then &lt;code&gt;unlock&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Note that using a single lock for different resources that need to be protected with a lock can be inefficient. Therefore, if multiple resources can change &lt;code&gt;x&lt;/code&gt;, we can assign a lock to &lt;code&gt;x&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 13: Mutual Exclusion (MUTEX)</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture13/</link>

@@ -6,8 +6,36 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Mar 2025 13:26:08 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 13:45:41 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 18: Epipolar Geometry</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture18/</link>
+      <pubDate>Wed, 12 Mar 2025 13:45:41 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture18/</guid>
+      <description>&lt;p&gt;Given two camera centers and a point in 3D space, we can define the plane containing these points. We call this the &lt;em&gt;epipolar plane&lt;/em&gt;. The &lt;em&gt;epipolar line&lt;/em&gt; for a camera is the intersection of the epipolar plane and the camera plane.&lt;/p&gt;
+&lt;p&gt;We can also define the &lt;em&gt;epipolar pencil&lt;/em&gt;, which is the family of planes formed by changing the point in 3D space.&lt;/p&gt;
+&lt;p&gt;For the math, we assume the intrinsic parameters are the identity matrix, and we assume the world coordinate system is centered at the 1st camera pinhole with the $Z$ axis along the viewing direction. Then,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Locks</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture14/</link>
+      <pubDate>Tue, 11 Mar 2025 13:32:29 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture14/</guid>
+      <description>&lt;p&gt;Dekker&amp;rsquo;s algorithm correctly implements mutual exclusion. However, this is a little bit convoluted. Additionally, each process must know about the other process, which violates modularity for programming. Therefore, we create a new abstraction: &lt;em&gt;locks&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Say we have a lock called &lt;code&gt;l&lt;/code&gt;. Then, we can acquire the lock (&lt;code&gt;lock(l)&lt;/code&gt;) or release the lock (&lt;code&gt;unlock(l)&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Then, a program consists of the &lt;code&gt;NCS&lt;/code&gt; then a &lt;code&gt;lock&lt;/code&gt; then &lt;code&gt;CS&lt;/code&gt; then &lt;code&gt;unlock&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Note that using a single lock for different resources that need to be protected with a lock can be inefficient. Therefore, if multiple resources can change &lt;code&gt;x&lt;/code&gt;, we can assign a lock to &lt;code&gt;x&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Planar Homography</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture17/</link>
+      <pubDate>Mon, 10 Mar 2025 13:30:23 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture17/</guid>
+      <description>&lt;p&gt;Since we can set the world coordinates ourselves, we can let the world $Z$ coordinate be $0$, discarding the third column of the matrix $P$, resulting in a matrix we call $H$.&lt;/p&gt;
+&lt;p&gt;$H$ has $9$ entries, but accounting for $\lambda$, there are only $8$ parameters. Thus, we need four points to determine $H$.&lt;/p&gt;
+&lt;p&gt;Homography works for image stitching because it helps us map different camera angles onto the same coordinate plane.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 16: Binoocular Stereo</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture16/</link>
