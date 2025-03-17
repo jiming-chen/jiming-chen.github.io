@@ -127,5 +127,5 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 
 ## Dmitri Shostakovich
 * 24 Preludes and Fugues, op. 87
-    * Prelude No. 15 in D-flat Major :star:
-    * Fugue No. 15 in D-flat Major :star:
+    * Prelude No. 5 in D Major :star:
+    * Fugue No. 5 in D Major :star:
