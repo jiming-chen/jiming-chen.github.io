@@ -1,6 +1,6 @@
 ---
 date: '2025-03-17T13:36:16-04:00'
-title: 'Lecture 20'
+title: 'Lecture 20 : Recovering Fundamental Matrix'
 draft: false
 cover:
     image: ""
