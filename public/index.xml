@@ -6,8 +6,18 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Mar 2025 13:45:41 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 13:36:16 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 20</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture20/</link>
+      <pubDate>Mon, 17 Mar 2025 13:36:16 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture20/</guid>
+      <description>&lt;h2 id=&#34;structure-from-motion&#34;&gt;Structure From Motion&lt;/h2&gt;
+&lt;p&gt;If we have two cameras whose parameters we don&amp;rsquo;t know, can we recover camera location and orientation without a calibration object in order to recover the 3D world?&lt;/p&gt;
+&lt;p&gt;Recall that $\mathbf{q}^TF\mathbf{p} = 0$. In order to find $F$, we can use an 8-point algorithm.&lt;/p&gt;
+&lt;p&gt;Suppose $\mathbf{p} = \begin{bmatrix}x_1 \\ y_1 \\ 1\end{bmatrix}$ and $\mathbf{q} = \begin{bmatrix}x_2 \\ y_2 \\ 1\end{bmatrix}$ correspond to the same 3D point. Then, we have a linear system of equations with the entries of $F$ as coefficients.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 18: Epipolar Geometry</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture18/</link>
