@@ -6,8 +6,17 @@
     <description>Recent content in CS 3420: Embedded Systems on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Mar 2025 13:32:29 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 13:30:42 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs3420/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 16: Readers and Writers</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture16/</link>
+      <pubDate>Tue, 18 Mar 2025 13:30:42 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture16/</guid>
+      <description>&lt;h2 id=&#34;concurrency-recap&#34;&gt;Concurrency Recap&lt;/h2&gt;
+&lt;p&gt;In the past, we have been discussing concurrency, whether that be multiple programs on the same CPU or multiple processors accessing the same memory. We studied mutual exclusion, specifically using locks (which ensure that no two programs enter their critical sections at the same time).&lt;/p&gt;
+&lt;p&gt;We studied how atomicity ensures only one programming is running at once, but that is a very strong requirement. Concurrency means only one critical section is running at any given time though we can still have other interleaving.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 14: Locks</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture14/</link>
