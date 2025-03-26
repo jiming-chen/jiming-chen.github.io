@@ -27,3 +27,5 @@ Therefore, if a process tries to read or write while a resource is already being
 ## Implementation
 
 A reader consists of an `enter_r()` followed by code that reads the file followed by `exit_r()` while a writer calls `enter_w()` then writes then does `exit_w()`.
+
+We use two shared variables: `nw` and `nr`.

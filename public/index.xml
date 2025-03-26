@@ -6,8 +6,16 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Mar 2025 13:30:42 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 13:31:35 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 20: Scheduling</title>
+      <link>https://jiming-chen.github.io/courses/cs3420/lecture20/</link>
+      <pubDate>Tue, 25 Mar 2025 13:31:35 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs3420/lecture20/</guid>
+      <description>&lt;p&gt;A &lt;em&gt;scheduling algorithm&lt;/em&gt; is a strategy used to pick a ready task for execution. A round robin scheduler has the ability to stop a process in the middle of execution, so it is a &lt;em&gt;non-preemptive&lt;/em&gt; scheduler.&lt;/p&gt;
+&lt;p&gt;One way we can judge a scheduler is by its average response time, in which we want to minimize the average tmie that a job waits in the ready queue before it gets scheduled.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 16: Readers and Writers</title>
       <link>https://jiming-chen.github.io/courses/cs3420/lecture16/</link>
