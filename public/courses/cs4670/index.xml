@@ -6,8 +6,24 @@
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Mar 2025 13:36:16 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 14:06:41 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 23: Recognition</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture23/</link>
+      <pubDate>Mon, 07 Apr 2025 14:06:41 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture23/</guid>
+      <description>&lt;p&gt;What if you want information about images? This can be done using machine learning. Specifically, classification of images is useful, and we need classification datasets to train models.&lt;/p&gt;
+&lt;p&gt;MNIST was the first major dataset and consisted of handwritten numbers. Caltech 101 consisted of objects, but there were spurious correlations. ImageNet contains lots of labeled images.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Other Methods of Obtaining 3D Structure</title>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture21/</link>
+      <pubDate>Wed, 26 Mar 2025 13:36:50 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture21/</guid>
+      <description>&lt;p&gt;So far, when talking about 3D structure from images, we have been talking about the depth of each pixel $D[\mathbf{p}] \in \mathbb{R}^+$. However, we can also look at the &lt;em&gt;surface normal&lt;/em&gt; at any point because up close, any object approximates a plane. We can let this information be conveyed in another channel $N[\mathbf{p}] \in \mathbb{S}^2$.&lt;/p&gt;
+&lt;p&gt;Sometimes, when things in images are too far, the depth channel can have less information, but we can use surface normal to fill in missing information to complete the depth map.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 20 : Recovering Fundamental Matrix</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture20/</link>
