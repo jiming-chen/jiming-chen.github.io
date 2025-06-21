@@ -671,8 +671,8 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;figcaption&gt;Each strawberry represents one hour. Fully realized strawberries represent hours that have passed.&lt;/figcaption&gt;
 &lt;script&gt;
 // Set the date we&#39;re counting down to
-const countDownDate = new Date(&#34;May 15, 2025 04:30:00 EST&#34;).getTime();
-const startDate = new Date(&#34;Aug 22, 2024 17:00:00 EST&#34;).getTime();
+const countDownDate = new Date(&#34;Aug 22, 2025 17:00:00 EST&#34;).getTime();
+const startDate = new Date(&#34;May 15, 2025 04:30:00 EST&#34;).getTime();
 const totalDuration = countDownDate - startDate;
 
 // Function to update percentage
@@ -698,10 +698,10 @@ const updateCountdown = () =&gt; {
   if (distance &lt; 0) {
     clearInterval(countdownInterval);
     clearInterval(percentInterval);
-    document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Winter break is over.&#34;;
+    document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Summer break is over.&#34;;
     document.getElementById(&#34;completion&#34;).innerHTML = &#34;&#34;;
   } else {
-    document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Winter break ends in &#34; + days + &#34;d &#34; + hours + &#34;h &#34;
+    document.getElementById(&#34;countdown&#34;).innerHTML = &#34;Summer break ends in &#34; + days + &#34;d &#34; + hours + &#34;h &#34;
     + minutes + &#34;m &#34; + seconds + &#34;s&#34;;
   }
 };

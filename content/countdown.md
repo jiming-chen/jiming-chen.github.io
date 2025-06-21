@@ -21,8 +21,8 @@ cover:
 
 <script>
 // Set the date we're counting down to
-const countDownDate = new Date("May 15, 2025 04:30:00 EST").getTime();
-const startDate = new Date("Aug 22, 2024 17:00:00 EST").getTime();
+const countDownDate = new Date("Aug 22, 2025 17:00:00 EST").getTime();
+const startDate = new Date("May 15, 2025 04:30:00 EST").getTime();
 const totalDuration = countDownDate - startDate;
 
 // Function to update percentage
@@ -48,10 +48,10 @@ const updateCountdown = () => {
   if (distance < 0) {
     clearInterval(countdownInterval);
     clearInterval(percentInterval);
-    document.getElementById("countdown").innerHTML = "Winter break is over.";
+    document.getElementById("countdown").innerHTML = "Summer break is over.";
     document.getElementById("completion").innerHTML = "";
   } else {
-    document.getElementById("countdown").innerHTML = "Winter break ends in " + days + "d " + hours + "h "
+    document.getElementById("countdown").innerHTML = "Summer break ends in " + days + "d " + hours + "h "
     + minutes + "m " + seconds + "s";
   }
 };
