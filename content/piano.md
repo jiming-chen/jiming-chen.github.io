@@ -26,6 +26,7 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * Prelude No. 3 in C-sharp Major
     * Fugue No. 3 in C-sharp Major
     * Prelude No. 10 in E Minor
+* Toccata in C Minor, BWV 911 :star:
 
 ## Béla Bartók
 * Romanian Folk Dances, BB 68
@@ -40,6 +41,7 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 
 ## Ludwig van Beethoven
 * Piano Concerto No. 4 in G Major, op. 58
+    * II. Andante con moto :star:
     * III. Rondo: Vivace :star:
 * Piano Sonata No. 1 in F Minor, op. 2, no. 1
     * I. Allegro
@@ -61,7 +63,11 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * III. Rondo: Allegretto
 * Piano Sonata No. 23 in F Minor, op. 57, *"Appassionata"*
     * I. Allegro assai
-
+* Piano Sonata No. 27 in E Minor, op. 90
+    * I. *Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck* :star:
+    * II. *Nicht zu geschwind und sehr singbar vorgetragen* :star:
+* Piano Trio No. 1 in C Minor, op. 1, no. 3
+    * I. Allegro con brio (with Helan Qian and Andrew Ahn as violin and viola, respectively)
 
 ## Frederic Chopin
 * Ballade No. 3 in A-flat Major, op. 47
@@ -111,12 +117,14 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 
 ## Felix Mendelssohn
 * Songs Without Words, op. 67
-    * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major :star:
+    * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major
 
 ## Sergei Rachmaninoff
 * Études-Tableaux, op. 33
     * II. Allegro in C Major
 * Prélude in G Minor, op. 23, no. 5
+* Symphony No. 2 in E Minor, op. 27
+    * III. Adagio (arr. for piano by Georg Kirkor) :star:
 
 ## Ottorino Respighi
 * Six Piano Pieces
@@ -129,3 +137,8 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * 24 Preludes and Fugues, op. 87
     * Prelude No. 5 in D Major :star:
     * Fugue No. 5 in D Major :star:
+
+## Jean Sibelius
+* 13 Pieces for Piano, op. 76
+    * I. Esquisse :star:
+    * II. Étude :star:
