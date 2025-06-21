@@ -5,9 +5,11 @@ title: 'About Me'
 
 I study Computer Science at Cornell University.
 
-Last summer, I researched using LLMs for hardware design under {{< newtabref href="https://www.csl.cornell.edu/~zhiruz/" title="Zhiru Zhang" >}} funded by an Engineering Learning Initiatives grant. See our report {{< newtabref href="/about/Chen_Shao_Report.pdf" title="here" >}}.
+I am currently involved with various startups across AI and healthcare, B2B and B2C. I have gained experience with full stack development, deploying RAG and agents, as well as meeting people in industry to identify pain points and target product market fit.
 
-I am working on formal verification of RTL designs for a custom chip as part of {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}.
+During the summer of 2024, I researched using LLMs for hardware design under {{< newtabref href="https://www.csl.cornell.edu/~zhiruz/" title="Zhiru Zhang" >}} funded by an Engineering Learning Initiatives grant. See our report {{< newtabref href="/about/Chen_Shao_Report.pdf" title="here" >}}. We also innovated new methods of Verilog dataset creation and submitted our results to the ICCAD Contest on LLM-Assisted Hardware Design, where we placed 9th.
+
+At Cornell, I work on verification of RTL designs for a custom chip as part of {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}. My work consists of formal verification as well as simulation testing, and I have helped verify blocks including an SPI minion, LBIST, and FFT.
 
 ## Some relevant coursework
 * Analysis of Algorithms
