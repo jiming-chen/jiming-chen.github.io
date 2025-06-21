@@ -21,8 +21,8 @@ cover:
 
 <script>
 // Set the date we're counting down to
-const countDownDate = new Date("Jan 20, 2025 16:45:00 EST").getTime();
-const startDate = new Date("Dec 21, 2024 15:00:00 EST").getTime();
+const countDownDate = new Date("May 15, 2025 04:30:00 EST").getTime();
+const startDate = new Date("Aug 22, 2024 17:00:00 EST").getTime();
 const totalDuration = countDownDate - startDate;
 
 // Function to update percentage
