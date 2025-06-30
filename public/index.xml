@@ -4,10 +4,18 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Apr 2025 14:06:41 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jun 2025 09:30:29 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JIYP: Lessons Learned, Part 1</title>
+      <link>https://jiming-chen.github.io/posts/jiyp1/</link>
+      <pubDate>Mon, 30 Jun 2025 09:30:29 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/posts/jiyp1/</guid>
+      <description>&lt;p&gt;Two weeks ago, I started working at a startup called Jarvis In Your Pocket. Imagine if you could track your nutritional (and overall) health using just an LLM, an LLM that could learn about you, be proactive, and give solid advice based on trusted expert sources selected by your doctor.&lt;/p&gt;
+&lt;p&gt;Some things were easier than I expected. First, we envisioned a virtual retrieval-augmented generation (RAG) system whereby we could consult with multiple doctors who had their own trusted materials and RAG on a specific subset of all the sources based on which doctor had referred the user. While it may sound like we have to create virtual vector databases on top of the large corpus of content, it&amp;rsquo;s actually as simple filtering on chunk metadata like so:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 23: Recognition</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture23/</link>
