@@ -8,7 +8,7 @@ Two weeks ago, I started working at a startup called Jarvis In Your Pocket. Imag
 
 Some things were easier than I expected. First, we envisioned a virtual retrieval-augmented generation (RAG) system whereby we could consult with multiple doctors who had their own trusted materials and RAG on a specific subset of all the sources based on which doctor had referred the user. While it may sound like we have to create virtual vector databases on top of the large corpus of content, it's actually as simple filtering on chunk metadata like so:
 
-```
+```python
 retriever_with_filter = vectorstore.as_retriever(
     search_kwargs={
         "filter": {
