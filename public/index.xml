@@ -6,8 +6,16 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Jun 2025 09:30:29 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 01:28:34 -0700</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy Caching</title>
+      <link>https://jiming-chen.github.io/posts/lazycaching/</link>
+      <pubDate>Tue, 01 Jul 2025 01:28:34 -0700</pubDate>
+      <guid>https://jiming-chen.github.io/posts/lazycaching/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say you have an app where users can search up any book. From the user side, it might seem like we need a database row for every single edition, with title, publisher, description, cover image, and so on. Especially for descriptions and cover images, when considering up to 50 million editions, costs can accrue quickly, not to mention acquiring such a database would be difficult.&lt;/p&gt;
+&lt;p&gt;A solution which I am quite partial to is what is known in system design as lazy caching. What this means is that we only load something in the first time it is needed and we don&amp;rsquo;t have it, and for subsequent requests, since we already have it, we don&amp;rsquo;t need to load it again. What I find elegant about it is that for the cost of one user having slightly higher latency, database size is much smaller, it allows the database to be built over time rather than all at once, and most importantly, to the user it appears as if the whole database is present.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JIYP: Lessons Learned, Part 1</title>
       <link>https://jiming-chen.github.io/posts/jiyp1/</link>
