@@ -1,5 +1,5 @@
 ---
-title: 'Winter Break Countdown'
+title: 'Summer Break Countdown'
 cover:
     image: ""
     alt: ""
