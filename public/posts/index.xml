@@ -4,10 +4,18 @@
     <title>Posts on Jiming Chen</title>
     <link>https://jiming-chen.github.io/posts/</link>
     <description>Recent content in Posts on Jiming Chen</description>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jul 2025 01:28:34 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 01:32:37 -0500</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A PostgreSQL Bug I Had to Deal With</title>
+      <link>https://jiming-chen.github.io/posts/securitydefiner/</link>
+      <pubDate>Tue, 22 Jul 2025 01:32:37 -0500</pubDate>
+      <guid>https://jiming-chen.github.io/posts/securitydefiner/</guid>
+      <description>&lt;p&gt;Back in May, when first started working on one of my projects which uses PostgreSQL, I implemented a TypeScript edge function called &lt;code&gt;delete-user&lt;/code&gt; that does exactly what you&amp;rsquo;d expect it to do (among other things), and it worked fine back then. But two days ago, to my dismay, I tried deleting an account, and I received a 500 error from the API call.&lt;/p&gt;
+&lt;p&gt;After adding some logs, I narrowed the error down to this line:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lazy Caching</title>
       <link>https://jiming-chen.github.io/posts/lazycaching/</link>
