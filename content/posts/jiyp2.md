@@ -10,7 +10,7 @@ cover:
 
 ## System Overview
 
-Jarvis is an AI health companion you can chat with in plain English. You ask a question, Jarvis thinks through what tools it needs, and it replies while showing progress in real time. Under the hood, it keeps track of your conversation, saves important information to a database, and uses trustworthy sources when it gives health guidance.
+Jarvis In Your Pocket is an AI health companion you can chat with in plain English. You ask a question, Jarvis thinks through what tools it needs, and it replies while showing progress in real time. Under the hood, it keeps track of your conversation, saves important information to a database, and uses trustworthy sources when it gives health guidance.
 
 In everyday use, Jarvis can log what you eat, help you choose meals at restaurants, answer health questions using sources your doctor would recognize, and update your profile without you filling out forms. Over time, the goal is to give Jarvis a deeper, privacy‑respecting memory so it can personalize help even more.
 
@@ -28,7 +28,7 @@ In everyday use, Jarvis can log what you eat, help you choose meals at restauran
 ### Unified agent framework
 At the center is one “big loop” that receives your message, decides what to do, and produces an answer. We call this the unified agent loop, implemented in a `UnifiedJarvisAgent` class. Rather than hard‑coding every scenario, the agent chooses from small, focused functions (for example, “log food” or “search health info”) and composes them as needed.
 
-When Jarvis replies, it doesn’t wait until everything is finished. It streams its response in small chunks and triggers simple animations like “searching” so you can see progress. For conversation context, we use LangChain’s memory helpers to keep just the relevant recent messages, which helps Jarvis stay on topic without getting confused by very long histories.
+When Jarvis replies, it doesn’t wait until everything is finished. It streams its response in small chunks and triggers simple animations like “searching” before the response starts streaming so you can see progress. For conversation context, we use LangChain’s memory helpers to keep just the relevant recent messages, which helps Jarvis stay on topic without getting confused by very long histories.
 
 {{< newimgref src="/posts/jarvisdiagram.png" alt="Code translation" width="80%" >}}
 <figcaption>Fig. 1. A diagram outlining the Jarvis' flow of data and action. It shows how a query results in database updates as well as a response.</figcaption>
@@ -57,7 +57,7 @@ Jarvis picks from a small set of clear tools:
 Of these functions, food logging and profile updates have side effects, namely updating the database accordingly. Food logging, as well as health information and restaurant menu searching, have return values which the main agent loop can use to appropriately formulate a response.
 
 ### How a single query turns into an answer (important)
-When you send a message, the model first decides which function(s) are needed. We immediately show a small animation (like “searching the web”) so you know work is happening. The code then runs the chosen function—sometimes alongside a database query/side effect—and collects the results. With that context in hand, the model drafts a conversational answer (red box in diagram). Finally, we stream that answer back to the app so you can read it as it appears, rather than waiting for a long pause and a single wall of text.
+When you send a message, the model first decides which function(s) are needed. We immediately show a small animation (like “searching the web”, this is the called "ripple" animation in the diagram) so you know work is happening. The code then runs the chosen function—sometimes alongside a database query/side effect—and collects the results. With that context in hand, the model drafts a conversational answer (red box in diagram). Finally, we stream that answer back to the app so you can read it as it appears, rather than waiting for a long pause and a single wall of text.
 
 ## Advanced Features
 
