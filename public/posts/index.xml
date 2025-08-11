@@ -4,10 +4,19 @@
     <title>Posts on Jiming Chen</title>
     <link>https://jiming-chen.github.io/posts/</link>
     <description>Recent content in Posts on Jiming Chen</description>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Jul 2025 01:32:37 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 23:08:31 -0700</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JIYP: Agent Architecture Report</title>
+      <link>https://jiming-chen.github.io/posts/jiyp2/</link>
+      <pubDate>Sun, 10 Aug 2025 23:08:31 -0700</pubDate>
+      <guid>https://jiming-chen.github.io/posts/jiyp2/</guid>
+      <description>&lt;h2 id=&#34;system-overview&#34;&gt;System Overview&lt;/h2&gt;
+&lt;p&gt;Jarvis is an AI health companion you can chat with in plain English. You ask a question, Jarvis thinks through what tools it needs, and it replies while showing progress in real time. Under the hood, it keeps track of your conversation, saves important information to a database, and uses trustworthy sources when it gives health guidance.&lt;/p&gt;
+&lt;p&gt;In everyday use, Jarvis can log what you eat, help you choose meals at restaurants, answer health questions using sources your doctor would recognize, and update your profile without you filling out forms. Over time, the goal is to give Jarvis a deeper, privacy‑respecting memory so it can personalize help even more.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A PostgreSQL Bug I Had to Deal With</title>
       <link>https://jiming-chen.github.io/posts/securitydefiner/</link>
