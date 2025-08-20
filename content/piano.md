@@ -133,6 +133,10 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 ## Domenico Scarlatti
 * Keyboard Sonata in C Major, K. 159, L. 104
 
+## Franz Schubert
+* Drei Klavierstücke, D. 946
+    * No. 2 in E-flat Major :star:
+
 ## Dmitri Shostakovich
 * 24 Preludes and Fugues, op. 87
     * Prelude No. 5 in D Major :star:
