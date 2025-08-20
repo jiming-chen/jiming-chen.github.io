@@ -1,12 +1,28 @@
 ---
 date: '2025-08-10T23:08:31-07:00'
-title: 'JIYP: Agent Architecture Report'
+title: 'JIYP: Lessons Learned, Part 2 + Agent Architecture Report'
 draft: false
 cover:
     image: ""
     alt: ""
     relative: false # when usng page bundles set this to true
 ---
+
+# Overview
+
+This page will consist of two sections: a brief section on some lessons learned from this internship and a longer report describing in detail the agent architecture we used. For a detailed report on how our Django backend works, please see {{< newtabref href="https://docs.google.com/document/d/1ECKAXXHJE0lT7bwFxqrRb52l-gm_8zaF/edit?tab=t.0" title="this" >}}.
+
+Feel free to reach out on {{< newtabref href="https://www.linkedin.com/in/jiming-chen/" title="LinkedIn" >}} or email me at `jc3579@cornell.edu` if you have questions.
+
+# Lessons Learned, Part 2
+
+In {{< newtabref href="/posts/jiyp1/" title="my first lessons learned post" >}}, I discussed how we used RAG in a specific way to address a specific use case: customizing advice based on referring doctor. This allowed us to have a different corpus of experts on whom to RAG based on which doctor was referring. However, this led us to one big issue: some more prolific experts, with more content on the internet, were overpowering the retrieval, even in areas not under their expertise. For example, if I asked a question about sleep, due to the sheer amount of his content, Mark Hyman's content would always come out on top over Matthew Walker, the actual sleep expert.
+
+In hindsight, the solution we arrived at sounds obvious, but it actually wasn't the first thing we thought of. We first tried to exclude content that seemed extraneous or low-quality, but that didn't guarantee that prolific experts would overpower more specialized ones.
+
+What we ended up doing was use a mapping from specialty to expert as well as a categorization of the question in order to filter to a specific source or set of sources. For example, if I asked "how much sleep should I be getting?", the question would be categorized by an LLM as sleep, then the RAG would only retrieve chunks from the relevant sleep experts.
+
+# Agent Architecture Report
 
 ## System Overview
 
