@@ -16,7 +16,7 @@ The chip has a lot of pins surrounding it, and it is isometric, so we can match 
 
 If you wanted to hook up other electronics to the chip, you would hook it up to one of the port pins. It is important to use current-limiting resistors as to not burn out the port.
 
-A *general-purpose input and output* (GPIO) can be thought of as a switch. It can read whether an input signal is 1 or 0, and it can output 1 or 0. The signal's value is determined by voltage through the pin as a functoni of supply voltage ($V_{DD}$). For us, the supply voltage is 3.3 volts.
+A *general-purpose input and output* (GPIO) can be thought of as a switch. It can read whether an input signal is 1 or 0, and it can output 1 or 0. The signal's value is determined by voltage through the pin as a function of supply voltage ($V_{DD}$). For us, the supply voltage is 3.3 volts.
 
 Since we have a maximum current, we need a resistor with a minimum resistance.
 

@@ -79,7 +79,7 @@ Sometimes we just need to move stuff around, which is when we would use the T1 e
 
 You can assume that add and move instructions always set status flags (`S` suffix).
 
-Instructions are expressed in hexadecimal, so a 16-bit instructino would look like `0x2202`. (the `0x` just means the number is hexadecimal)
+Instructions are expressed in hexadecimal, so a 16-bit instruction would look like `0x2202`. (the `0x` just means the number is hexadecimal)
 
 Most instructions take 1 cycle, except branch, load, and register manipulation instructions, which take 2 cycles. Also, multiply instructions can take a weird number of cycles. This assumes we have a 2-stage pipeline, though, and branch instructions will take longer with larger pipelines.
 
