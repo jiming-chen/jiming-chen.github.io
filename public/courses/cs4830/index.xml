@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CS 4830: Introduction to Cryptography on Jiming Chen</title>
+    <link>https://jiming-chen.github.io/courses/cs4830/</link>
+    <description>Recent content in CS 4830: Introduction to Cryptography on Jiming Chen</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Aug 2025 13:23:06 -0400</lastBuildDate>
+    <atom:link href="https://jiming-chen.github.io/courses/cs4830/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Course Overview and Introduction</title>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture01/</link>
+      <pubDate>Tue, 26 Aug 2025 13:23:06 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture01/</guid>
+      <description>&lt;h2 id=&#34;logistics&#34;&gt;Logistics&lt;/h2&gt;
+&lt;p&gt;This is a theoretical course. It is about math, definitions, and theorems, not real world practical security and programming.&lt;/p&gt;
+&lt;p&gt;There are 6 (plus one extra) problem sets, and the lowest score is dropped. They are due roughly every other Thursday.&lt;/p&gt;
+&lt;h2 id=&#34;cryptography-fun-examples&#34;&gt;Cryptography Fun Examples&lt;/h2&gt;
+&lt;p&gt;In Yao&amp;rsquo;s millionaires problem, you have two millionaires, each with a net worth. They want to find out who is richer but &amp;ldquo;without revealing any other information&amp;rdquo; such as the actual net worths, as simply telling each other their net worths is boring.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
