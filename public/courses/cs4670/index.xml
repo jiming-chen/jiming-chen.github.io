@@ -53,7 +53,7 @@
 &lt;p&gt;Homography works for image stitching because it helps us map different camera angles onto the same coordinate plane.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lecture 16: Binoocular Stereo</title>
+      <title>Lecture 16: Binocular Stereo</title>
       <link>https://jiming-chen.github.io/courses/cs4670/lecture16/</link>
       <pubDate>Fri, 07 Mar 2025 13:26:08 -0500</pubDate>
       <guid>https://jiming-chen.github.io/courses/cs4670/lecture16/</guid>

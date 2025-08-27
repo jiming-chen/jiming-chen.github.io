@@ -1,6 +1,6 @@
 ---
 date: '2025-03-07T13:26:08-05:00'
-title: 'Lecture 16: Binoocular Stereo'
+title: 'Lecture 16: Binocular Stereo'
 draft: false
 cover:
     image: ""
