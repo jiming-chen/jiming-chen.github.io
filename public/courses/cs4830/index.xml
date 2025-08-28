@@ -4,10 +4,21 @@
     <title>CS 4830: Introduction to Cryptography on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/cs4830/</link>
     <description>Recent content in CS 4830: Introduction to Cryptography on Jiming Chen</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Aug 2025 13:23:06 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 13:31:36 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4830/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 2: Semantic Security</title>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture02/</link>
+      <pubDate>Thu, 28 Aug 2025 13:31:36 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture02/</guid>
+      <description>&lt;h2 id=&#34;perfect-indistinguishability&#34;&gt;Perfect Indistinguishability&lt;/h2&gt;
+&lt;p&gt;It can be proven that if you have an encryption scheme that is perfectly indistinguishable, then $|K| \geq |M|$.&lt;/p&gt;
+&lt;p&gt;To prove this, we can choose an $m \in M$ and $c \in C$ such that $c$ is valid, e.g.&lt;/p&gt;
+&lt;p&gt;$$\text{Pr}[\text{Enc}(k, m) = c] &amp;gt; 0.$$&lt;/p&gt;
+&lt;p&gt;We can define $M_c := \{ m^\prime \in M : \exists k^\prime \in K \text{ s.t. } \text{Dec}(k^\prime, c) = m^\prime \}$, which is the set of messages that can encrypt to $c$. Importantly, $|M_c| \leq |K|$ since each key for which there is a message $m^\prime \in M_c$ can correspond to at most one such message.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 1: Course Overview and Introduction</title>
       <link>https://jiming-chen.github.io/courses/cs4830/lecture01/</link>
