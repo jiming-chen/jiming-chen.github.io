@@ -6,8 +6,16 @@
     <description>Recent content in CS 4110: Programming Languages and Logics on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 10:12:50 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 10:09:31 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4110/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: Induction</title>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture03/</link>
+      <pubDate>Fri, 29 Aug 2025 10:09:31 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture03/</guid>
+      <description>&lt;h2 id=&#34;inference-rules&#34;&gt;Inference Rules&lt;/h2&gt;
+&lt;p&gt;Suppose that $\sigma$ is some store that maps &lt;code&gt;foo&lt;/code&gt; to &lt;code&gt;4&lt;/code&gt;. Consider $\langle \sigma, (\texttt{foo} + 2) \times (\texttt{bar} + 1)\rangle$. In this case, the only inference rule that applies here is the one that allows the left side of the product to take a step. Doing this repeatedly results in a proof tree which shows how we can go from the original configuration to the &amp;ldquo;final&amp;rdquo; configuration:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 2: Introduction to Semantics</title>
       <link>https://jiming-chen.github.io/courses/cs4110/lecture02/</link>
