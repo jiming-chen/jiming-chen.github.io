@@ -15,7 +15,7 @@ Suppose that $\sigma$ is some store that maps `foo` to `4`. Consider $\langle \s
 {{< newimgref src="/courses/cs4110/inference.png" alt="Proof tree" width="80%" >}}
 <figcaption>Fig. 1. The proof tree for the expression $\langle \sigma, (\texttt{foo} + 2) \times (\texttt{bar} + 1)\rangle$ if $\sigma$ maps `foo` to `4`.</figcaption>
 
-Note that we conventionally say that there is only one step from the original configuration to the evaluated configuration since the "substeps" only help us navigate to the final configuration. To do this, we define a multi-step relation, written $\rightarrow^*$. With $\rightarrow^*$, we can step with reflexive and transitive closure:
+Note that we conventionally say that there is only one step from the original configuration to the evaluated configuration since the "substeps" only help us navigate to the final configuration. To do this, we define a multi-step relation, written $\rightarrow^\*$. With $\rightarrow^*$, we can step with reflexive and transitive closure:
 
 $$\frac{}{\langle, e\rangle \rightarrow^* \langle \sigma, e\rangle} \text{REFL}, \quad \frac{\langle \sigma, e\rangle \rightarrow \langle \sigma^\prime, e^\prime \rangle \quad \langle \sigma^\prime, e^\prime\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle}{\langle \sigma, e\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle} \text{TRANS}.$$
 
