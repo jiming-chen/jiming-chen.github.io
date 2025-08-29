@@ -1,6 +1,6 @@
 ---
 date: '2025-08-28T10:04:58-04:00'
-title: 'Generating Free Chick-fil-A QR Codes'
+title: 'Free Chick-fil-A QR Code Exploit'
 draft: false
 cover:
     image: ""

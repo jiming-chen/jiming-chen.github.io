@@ -28,7 +28,7 @@
 &lt;p&gt;We can define $M_c := \{ m^\prime \in M : \exists k^\prime \in K \text{ s.t. } \text{Dec}(k^\prime, c) = m^\prime \}$, which is the set of messages that can encrypt to $c$. Importantly, $|M_c| \leq |K|$ since each key for which there is a message $m^\prime \in M_c$ can correspond to at most one such message.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Generating Free Chick-fil-A QR Codes</title>
+      <title>Free Chick-fil-A QR Code Exploit</title>
       <link>https://jiming-chen.github.io/posts/chickfila/</link>
       <pubDate>Thu, 28 Aug 2025 10:04:58 -0400</pubDate>
       <guid>https://jiming-chen.github.io/posts/chickfila/</guid>
