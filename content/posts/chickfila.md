@@ -26,7 +26,7 @@ First, we tried simply using online tools to generate a QR code for new serial n
 
 After scanning directly in the camera app, we realized the QR code did not even render to the serial number on the card. It appended three digits, a dash and checksum, as well as a bunch of spaces:
 
-```
+```text
 043                  81337015160824-                4
 ```
 
