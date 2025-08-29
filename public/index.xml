@@ -32,7 +32,7 @@
       <link>https://jiming-chen.github.io/posts/chickfila/</link>
       <pubDate>Thu, 28 Aug 2025 10:04:58 -0400</pubDate>
       <guid>https://jiming-chen.github.io/posts/chickfila/</guid>
-      <description>&lt;p&gt;In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.&lt;/p&gt;
+      <description>&lt;p&gt;In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and abusing it could result in legal action, I will simply make this blog post describing my methods.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;I recently went to a minor league baseball game, and when I was there, they handed out gift cards that you could redeem for one chicken sandwich or an 8-count nuggets. Each card had a QR code on it which you could scan into the Chick-fil-A app and a serial number. Since everyone in my family had received a card, we were able to observe that our serial numbers all shared the same first 11 digits and only differed in their last 3 digits. This made it highly likely that if we could generate the QR code corresponding to another serial number with a different 3 last digits, then it would be accepted by the app.&lt;/p&gt;</description>
     </item>

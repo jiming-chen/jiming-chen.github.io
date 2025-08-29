@@ -8,7 +8,7 @@ cover:
     relative: false # when usng page bundles set this to true
 ---
 
-In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.
+In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and abusing it could result in legal action, I will simply make this blog post describing my methods.
 
 ## Background
 
@@ -44,7 +44,7 @@ I had Claude Code generate a script, which allowed us to see that Chick-fil-A us
 - No ECI, no structured append
 - Segmentation is automatic; given the payload (digits, spaces, hyphen), it encodes as alphanumeric (with numeric subsegments where possible)
 
-It was at this point that we were able to reproduce known QR codes, so we tried QR generation on a "new" serial number (e.g. 81337015160*123*), and the resulting QR code was accepted by the app.
+It was at this point that we were able to reproduce known QR codes, so we tried QR generation on a "new" serial number (e.g. 81337015160*123*), and the resulting QR code was accepted by the app. Yay!!!
 
 ## Caveats
 
