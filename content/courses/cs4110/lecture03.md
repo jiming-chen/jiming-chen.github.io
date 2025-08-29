@@ -17,7 +17,7 @@ Suppose that $\sigma$ is some store that maps `foo` to `4`. Consider $\langle \s
 
 Note that we conventionally say that there is only one step from the original configuration to the evaluated configuration since the "substeps" only help us navigate to the final configuration. To do this, we define a multi-step relation, written $\rightarrow^\*$. With $\rightarrow^*$, we can step with reflexive and transitive closure:
 
-$$\frac{}{\langle, e\rangle \rightarrow^* \langle \sigma, e\rangle} \text{REFL}, \quad \frac{\langle \sigma, e\rangle \rightarrow \langle \sigma^\prime, e^\prime \rangle \quad \langle \sigma^\prime, e^\prime\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle}{\langle \sigma, e\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle} \text{TRANS}.$$
+$$\frac{}{\langle\sigma, e\rangle \rightarrow^* \langle \sigma, e\rangle} \text{REFL}, \quad \frac{\langle \sigma, e\rangle \rightarrow \langle \sigma^\prime, e^\prime \rangle \quad \langle \sigma^\prime, e^\prime\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle}{\langle \sigma, e\rangle \rightarrow^* \langle \sigma^{\prime\prime}, e^{\prime\prime}\rangle} \text{TRANS}.$$
 
 One can prove that something is in the reflexive relation if and only if it is in the transitive relation (not sure if he actually said this).
 
