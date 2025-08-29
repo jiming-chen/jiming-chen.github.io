@@ -8,7 +8,7 @@ cover:
     relative: false # when usng page bundles set this to true
 ---
 
-In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A with a few caveats, which I will list later. Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.
+In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.
 
 ## Background
 
@@ -34,10 +34,30 @@ Among the four cards we had, each had the 043 thankfully, so we just had to figu
 
 ### QR Code Generation
 
-Next, 
+At this point, our goal became to see if we could generate a QR code given a serial number from a known (serial number, QR code) pair to see if we could produce the "canon" QR code.
 
-Version 3 (29×29 modules)
-Error correction level M (Medium)
-Mask pattern 0
-No ECI, no structured append
-Segmentation is automatic; given the payload (digits, spaces, hyphen), it encodes as alphanumeric (with numeric subsegments where possible)
+I had Claude Code generate a script, which allowed us to see that Chick-fil-A uses
+
+- Version 3 (29×29 modules)
+- Error correction level M (Medium)
+- Mask pattern 0
+- No ECI, no structured append
+- Segmentation is automatic; given the payload (digits, spaces, hyphen), it encodes as alphanumeric (with numeric subsegments where possible)
+
+It was at this point that we were able to reproduce known QR codes, so we tried QR generation on a "new" serial number (e.g. 81337015160*123*), and the resulting QR code was accepted by the app.
+
+## Caveats
+
+There are a few caveats here, both practical and ethical.
+
+1. If you try to scan a QR code with an incorrect checksum, your account gets flagged, and you can no longer scan rewards/gift cards. This requires you to create a new account.
+
+2. The app only allows you to have three rewards in your account at once; this is not really a problem if you continually use them.
+
+3. There is a chance that the reward has already been redeemed since this exploit uses existing gift cards.
+
+4. Since we are only changing the last three digits, there are only 1,000 serial numbers. However, based on some research and looking at past codes, there is reason to believe that the first four digits correspond to the campaign (8133 seems to mean that it is redeemable at any location). The next two digits seem to be a "subcampaign", and the second of those two digits is always always 0. The last five digits seem to be the actual identifying code. This implies that there are at least 10,000 rewards for this campaign. On top of that, one can easily test other subcampaigns for at least 100,000.
+
+5. Actively taking advantage of this exploit is definitely against Chick-fil-A's terms.
+
+6. When you redeem a generated QR code, the person (who could be a little kid) who receives the gift card with that reward will not be able to redeem it. :cry:

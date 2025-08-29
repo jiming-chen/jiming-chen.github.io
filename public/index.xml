@@ -6,8 +6,16 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Aug 2025 13:31:36 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 15:09:04 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 2: The Evolution and Architecture of Modern Computers</title>
+      <link>https://jiming-chen.github.io/courses/cs4414/lecture02/</link>
+      <pubDate>Thu, 28 Aug 2025 15:09:04 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4414/lecture02/</guid>
+      <description>&lt;p&gt;Modern CPU architecture has many cores on one chip, each of which has their own cache. There is also off-chip memory. Nvidia GPUs have many cores, and we can think about them virtually in 3D shapes (?? idk, Birman yaps).&lt;/p&gt;
+&lt;p&gt;Moore&amp;rsquo;s Law says that because of transistor size decreases, we can get exponential speedups. But around 2006-2009, it seemed to be ending because faster chips require faster clock and can fry.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 2: Semantic Security</title>
       <link>https://jiming-chen.github.io/courses/cs4830/lecture02/</link>
@@ -24,7 +32,7 @@
       <link>https://jiming-chen.github.io/posts/chickfila/</link>
       <pubDate>Thu, 28 Aug 2025 10:04:58 -0400</pubDate>
       <guid>https://jiming-chen.github.io/posts/chickfila/</guid>
-      <description>&lt;p&gt;In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A with a few caveats, which I will list later. Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.&lt;/p&gt;
+      <description>&lt;p&gt;In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and if I actually exploited this information, they would take legal action, I will simply make this blog post describing my methods.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;I recently went to a minor league baseball game, and when I was there, they handed out gift cards that you could redeem for one chicken sandwich or an 8-count nuggets. Each card had a QR code on it which you could scan into the Chick-fil-A app and a serial number. Since everyone in my family had received a card, we were able to observe that our serial numbers all shared the same first 11 digits and only differed in their last 3 digits. This made it highly likely that if we could generate the QR code corresponding to another serial number with a different 3 last digits, then it would be accepted by the app.&lt;/p&gt;</description>
     </item>
