@@ -6,8 +6,22 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Aug 2025 10:09:31 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 13:28:31 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 3: One-way Functions</title>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture03/</link>
+      <pubDate>Tue, 02 Sep 2025 13:28:31 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture03/</guid>
+      <description>&lt;h2 id=&#34;some-definitions&#34;&gt;Some Definitions&lt;/h2&gt;
+&lt;p&gt;Our definition of many-message semantic security from last lecture was pretty complex, so we can study the definition within a more restricted context.&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;one-way function&lt;/em&gt; is a function $f : \{0, 1\}^* \to \{0, 1\}^*$ which has the following two properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is easy to compute: there exists PPT $\mathcal{B}$ such that for any $x \in \{0, 1\}^*$, $\mathcal{B}(x) = f(x)$.&lt;/li&gt;
+&lt;li&gt;It should be hard to invert: for any PPT $\mathcal{A}$, there exists negligible $\varepsilon$ such that&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$\text{Pr}_{x \sim \{0, 1\}^n} [x^\prime \leftarrow \mathcal{A}(1^n, f(x)), f(x^\prime) = f(x)] \leq \varepsilon(n)$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: Induction</title>
       <link>https://jiming-chen.github.io/courses/cs4110/lecture03/</link>
