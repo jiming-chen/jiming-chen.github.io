@@ -6,8 +6,20 @@
     <description>Recent content on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 13:28:31 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 10:22:44 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: Semantics</title>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture04/</link>
+      <pubDate>Wed, 03 Sep 2025 10:22:44 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture04/</guid>
+      <description>&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
+&lt;p&gt;Recall the progress property that we discussed last lecture that helps us prove that any well-formed configuration eventually steps to some integer.&lt;/p&gt;
+&lt;p&gt;We want to prove that for all$e \in \text{Exp}$, $P(e)$ holds, where&lt;/p&gt;
+&lt;p&gt;$$P(e):= \forall \sigma \in \text{Store} \ . \ \text{wf}(\sigma, e) \implies C(\sigma, e),$$&lt;/p&gt;
+&lt;p&gt;where&lt;/p&gt;
+&lt;p&gt;$$C(\sigma, e) := e \in \text{Int} \lor \exists \sigma^\prime \in \text{Store}, e^\prime \in \text{Exp} \ . \ \langle \sigma, e\rangle \to \langle \sigma^\prime, e^\prime\rangle.$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: One-way Functions</title>
       <link>https://jiming-chen.github.io/courses/cs4830/lecture03/</link>
