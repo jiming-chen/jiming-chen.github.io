@@ -6,8 +6,16 @@
     <description>Recent content in Projects on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jan 2025 01:59:49 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 13:04:58 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TinyOCaml to WebAssembly Compiler</title>
+      <link>https://jiming-chen.github.io/projects/compiler/</link>
+      <pubDate>Wed, 03 Sep 2025 13:04:58 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/projects/compiler/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve wanted to learn about compilers for a while, but it hasn&amp;rsquo;t been offered at Cornell since 2023, so I decided to learn on my own by making this small compiler. It was written in TypeScript and compiles a subset of OCaml (which I&amp;rsquo;ll call TinyOCaml) to WebAssembly (Wasm). Here is the &lt;a href=&#34;https://tinyocaml2wasm.vercel.app/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;link to the demo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more details like the exact BNF grammar of the language, check out the &lt;a href=&#34;https://github.com/jjc256/tinyocaml2wasm&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Optimal Theme Park Ride Order</title>
       <link>https://jiming-chen.github.io/projects/rides/</link>
