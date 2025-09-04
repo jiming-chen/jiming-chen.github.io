@@ -6,8 +6,20 @@
     <description>Recent content in CS 4830: Introduction to Cryptography on Jiming Chen</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 13:28:31 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 13:28:03 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4830/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: Levin&#39;s Universal One-Way Function</title>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture04/</link>
+      <pubDate>Thu, 04 Sep 2025 13:28:03 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture04/</guid>
+      <description>&lt;h2 id=&#34;one-way-function-examples&#34;&gt;One-Way Function Examples&lt;/h2&gt;
+&lt;h3 id=&#34;the-discrete-logarithm&#34;&gt;The Discrete Logarithm&lt;/h3&gt;
+&lt;p&gt;There is an algorithm that runs in $O(\log^2q \cdot \log x)$ and computes $h = g^x \mod q$ for $g \in \mathbb{Z}/q\mathbb{Z}$.&lt;/p&gt;
+&lt;p&gt;We can define $x$ to be the &lt;em&gt;base-$g$ discrete logarithm of $h$ modulo $q$&lt;/em&gt; if $g^x = h \mod q$.&lt;/p&gt;
+&lt;p&gt;We usually assume that DLOG is hard:&lt;/p&gt;
+&lt;p&gt;$$\Pr_{q \sim \mathbb{P}_n, g \sim \mathbb{Z}/q\mathbb{Z}, x \sim \mathbb{Z}/q\mathbb{Z}} [x^\prime \leftarrow \mathcal{A}(q, g, g^x \mod q) \ : \ g^{x^\prime} = g^x \mod q] \leq \varepsilon(n).$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 3: One-way Functions</title>
       <link>https://jiming-chen.github.io/courses/cs4830/lecture03/</link>
