@@ -4,10 +4,27 @@
     <title>CS 4110: Programming Languages and Logics on Jiming Chen</title>
     <link>https://jiming-chen.github.io/courses/cs4110/</link>
     <description>Recent content in CS 4110: Programming Languages and Logics on Jiming Chen</description>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Sep 2025 10:22:44 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 10:18:47 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4110/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 5: Big-Step Semantics</title>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture05/</link>
+      <pubDate>Fri, 05 Sep 2025 10:18:47 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture05/</guid>
+      <description>&lt;p&gt;We can write a grammar for OCaml-style lists:&lt;/p&gt;
+&lt;p&gt;$$\begin{aligned}
+e ::&amp;amp;= n \\
+|&amp;amp; \ [ \ ] \\
+|&amp;amp; \ e_1 :: e_2 \\
+|&amp;amp; \ e_1 @ e_2 \\
+|&amp;amp; \ \text{rev } e \\
+|&amp;amp; \ \text{len } e
+\end{aligned}$$&lt;/p&gt;
+&lt;p&gt;along with $\ell ::= [ \ ] \ | \  n :: \ell$ and $v ::= n \ | \ \ell$.&lt;/p&gt;
+&lt;p&gt;Now, we can define the big-step semantics using the notation $e \Downarrow v$. We need a reflexive rule and a nil rule, but the cons rule looks like this:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 4: Semantics</title>
       <link>https://jiming-chen.github.io/courses/cs4110/lecture04/</link>

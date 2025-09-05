@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jiming-chen.github.io/courses/</loc>
-    <lastmod>2025-09-04T13:28:03-04:00</lastmod>
+    <lastmod>2025-09-05T10:18:47-04:00</lastmod>
   </url><url>
-    <loc>https://jiming-chen.github.io/courses/cs4830/</loc>
-    <lastmod>2025-09-04T13:28:03-04:00</lastmod>
+    <loc>https://jiming-chen.github.io/courses/cs4110/</loc>
+    <lastmod>2025-09-05T10:18:47-04:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/</loc>
+    <lastmod>2025-09-05T10:18:47-04:00</lastmod>
+  </url><url>
+    <loc>https://jiming-chen.github.io/courses/cs4110/lecture05/</loc>
+    <lastmod>2025-09-05T10:18:47-04:00</lastmod>
+  </url><url>
+    <loc>https://jiming-chen.github.io/courses/cs4830/</loc>
     <lastmod>2025-09-04T13:28:03-04:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/courses/cs4830/lecture04/</loc>
@@ -19,9 +25,6 @@
   </url><url>
     <loc>https://jiming-chen.github.io/projects/compiler/</loc>
     <lastmod>2025-09-03T13:04:58-04:00</lastmod>
-  </url><url>
-    <loc>https://jiming-chen.github.io/courses/cs4110/</loc>
-    <lastmod>2025-09-03T10:22:44-04:00</lastmod>
   </url><url>
     <loc>https://jiming-chen.github.io/courses/cs4110/lecture04/</loc>
     <lastmod>2025-09-03T10:22:44-04:00</lastmod>
