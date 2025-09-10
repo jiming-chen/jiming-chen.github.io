@@ -4,7 +4,7 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Sep 2025 10:15:30 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -110,15 +110,6 @@ e ::&amp;amp;= n \\
 &lt;p&gt;To prove this, we can choose an $m \in M$ and $c \in C$ such that $c$ is valid, e.g.&lt;/p&gt;
 &lt;p&gt;$$\text{Pr}[\text{Enc}(k, m) = c] &amp;gt; 0.$$&lt;/p&gt;
 &lt;p&gt;We can define $M_c := \{ m^\prime \in M : \exists k^\prime \in K \text{ s.t. } \text{Dec}(k^\prime, c) = m^\prime \}$, which is the set of messages that can encrypt to $c$. Importantly, $|M_c| \leq |K|$ since each key for which there is a message $m^\prime \in M_c$ can correspond to at most one such message.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Free Chick-fil-A QR Code Exploit</title>
-      <link>https://jiming-chen.github.io/posts/chickfila/</link>
-      <pubDate>Thu, 28 Aug 2025 10:04:58 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/posts/chickfila/</guid>
-      <description>&lt;p&gt;In this blog post, I will describe the process I went through to obtain theoretically unlimited Chick-fil-A (with a few caveats which I will list later). Since Chick-fil-A does not have a bug bounty and abusing it could result in legal action, I will simply make this blog post describing my methods.&lt;/p&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;I recently went to a minor league baseball game, and when I was there, they handed out gift cards that you could redeem for one chicken sandwich or an 8-count nuggets. Each card had a QR code on it which you could scan into the Chick-fil-A app and a serial number. Since everyone in my family had received a card, we were able to observe that our serial numbers all shared the same first 11 digits and only differed in their last 3 digits. This made it highly likely that if we could generate the QR code corresponding to another serial number with a different 3 last digits, then it would be accepted by the app.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Introduction to Semantics</title>
