@@ -6,8 +6,19 @@
     <description>Recent content in CS 4110: Programming Languages and Logics on Jiming Chen</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 10:15:30 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 10:18:40 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/courses/cs4110/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 8: More IMP</title>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture08/</link>
+      <pubDate>Fri, 12 Sep 2025 10:18:40 -0400</pubDate>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture08/</guid>
+      <description>&lt;p&gt;How would we add concurrent composition to IMP? For example, if $\sigma(x) = \sigma(y) = 0$ and&lt;/p&gt;
+&lt;p&gt;$$x := y + 1 ; y := y + 1 \ || \ y := y + 1,$$&lt;/p&gt;
+&lt;p&gt;then what is $\sigma^\prime$?&lt;/p&gt;
+&lt;p&gt;If we use big-step semantics, it kind of defeats the point of concurrency, where we want multiple computations to be interleaved. For small-step rules, we might say&lt;/p&gt;
+&lt;p&gt;$$\frac{\langle \sigma, c_1 \rangle \to \langle \sigma^\prime, c_1^\prime\rangle}{\sigma, c_1 \ || c_2 \rangle \to \langle \sigma^\prime, c_1^\prime \ || \ c_2 \rangle}$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lecture 6: IMP</title>
       <link>https://jiming-chen.github.io/courses/cs4110/lecture06/</link>
