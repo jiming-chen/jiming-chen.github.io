@@ -76,8 +76,8 @@ Now, we can write
 
 $$f_L(x_1, x_2, \dots, x_n) := (T_1^\prime(x_1), T_2^\prime(x_2), \dots T_n^\prime(x_n)).$$
 
-Now, if there exists a OWF $f$ that can be computed (deterministically) in time $n^10$, then $f_L$ is a OWF.
+Now, if there exists a OWF $f$ that can be computed (deterministically) in time $n^{10}$, then $f_L$ is a OWF.
 
-To prove this, we can let $f$ be the OWF and notice that there is an $i^*$ such that $f = T_{i^*}^\prime$ since all programs are enumerable.
+To prove this, we can let $f$ be the OWF and notice that there is an $i^\*$ such that $f = T_{i^*}^\prime$ since all programs are enumerable.
 
 At this point, the professor's proof started becoming incomprehensible, but I guess there's a contradiction somewhere.
