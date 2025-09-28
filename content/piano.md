@@ -20,13 +20,11 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * VII. Gigue
 * Italian Concerto in F Major, BWV 971
     * I. Allegro
-    * II. Andante :star:
-    * III. Presto :star:
+    * II. Andante
 * The Well-Tempered Clavier, Book I, BWV 848
     * Prelude No. 3 in C-sharp Major
     * Fugue No. 3 in C-sharp Major
     * Prelude No. 10 in E Minor
-* Toccata in C Minor, BWV 911 :star:
 
 ## Béla Bartók
 * Romanian Folk Dances, BB 68
@@ -45,7 +43,6 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 
 ## Ludwig van Beethoven
 * Piano Concerto No. 4 in G Major, op. 58
-    * II. Andante con moto :star:
     * III. Rondo: Vivace :star:
 * Piano Sonata No. 1 in F Minor, op. 2, no. 1
     * I. Allegro
@@ -63,13 +60,10 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * IV. Rondo: Allegro ma non troppo
 * Piano Sonata No. 16 in G Major, op. 31, no. 1
     * I. Allegro vivace
-    * II. Adagio grazioso :star:
+    * II. Adagio grazioso
     * III. Rondo: Allegretto
 * Piano Sonata No. 23 in F Minor, op. 57, *"Appassionata"*
     * I. Allegro assai
-* Piano Sonata No. 27 in E Minor, op. 90
-    * I. *Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck* :star:
-    * II. *Nicht zu geschwind und sehr singbar vorgetragen* :star:
 * Piano Trio No. 1 in C Minor, op. 1, no. 3
     * I. Allegro con brio (with Helan Qian and Andrew Ahn as violin and viola, respectively)
 
@@ -145,8 +139,3 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * 24 Preludes and Fugues, op. 87
     * Prelude No. 5 in D Major :star:
     * Fugue No. 5 in D Major :star:
-
-## Jean Sibelius
-* 13 Pieces for Piano, op. 76
-    * I. Esquisse :star:
-    * II. Étude :star:
