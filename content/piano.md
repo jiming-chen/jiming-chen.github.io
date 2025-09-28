@@ -39,6 +39,10 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * V. Allegro
     * VI. Presto
 
+## Johannes Brahms
+* Horn Trio in E-flat Major, op. 40
+    * I. Andante (with Helan Qian and Andrew Ahn as violin and viola, respectively) :star:
+
 ## Ludwig van Beethoven
 * Piano Concerto No. 4 in G Major, op. 58
     * II. Andante con moto :star:
