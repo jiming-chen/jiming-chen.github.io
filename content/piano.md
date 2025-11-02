@@ -122,8 +122,6 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * Études-Tableaux, op. 33
     * II. Allegro in C Major
 * Prélude in G Minor, op. 23, no. 5
-* Symphony No. 2 in E Minor, op. 27
-    * III. Adagio (arr. for piano by Georg Kirkor) :star:
 
 ## Ottorino Respighi
 * Six Piano Pieces
