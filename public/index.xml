@@ -4,7 +4,7 @@
     <title>Jiming Chen</title>
     <link>https://jiming-chen.github.io/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Sep 2025 10:18:40 -0400</lastBuildDate>
     <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -506,7 +506,8 @@ $$&lt;/p&gt;</description>
 &lt;p&gt;where $e$ is the identity of $H$.&lt;/p&gt;
 &lt;p&gt;We often say $\text{Ker } \varphi \Delta G$, which means it is a normal subgroup of $G$.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: $\varphi$ is injective iff $\text{Ker } \varphi = {e^\prime}$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: $\varphi$ is injective iff $\text{Ker } \varphi = {e^\prime}$.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $\gcd(m,n) = 1$, then
 $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} / {n\mathbb{Z}},$$&lt;/p&gt;</description>
@@ -623,7 +624,8 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;p&gt;We also have binomials:&lt;/p&gt;
 &lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $p$ is prime, then $p$ divides $\binom{p}{i}$ unless $i=0$ or $i=p$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fact&lt;/strong&gt;: If $p$ is prime, then $p$ divides $\binom{p}{i}$ unless $i=0$ or $i=p$.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;We can also write out the binomial expansion:&lt;/p&gt;
 &lt;p&gt;$$(a+b)^n = \sum_{i=0}^n \binom{n}{i} a^ib^{n-i}$$&lt;/p&gt;
 &lt;p&gt;where $a,b$ are &amp;ldquo;numbers.&amp;rdquo; Importantly, the binomial coefficient is counting something, specifically the number of subsets of $1, \ldots, n$ with exactly $i$ elements.&lt;/p&gt;</description>
