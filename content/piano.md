@@ -81,8 +81,6 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * II. Andantino in F-sharp Minor
 * Piano Concerto No. 1 in E Minor, op. 11
     * I. Allegro Maestoso
-* Piano Sonata No. 3 in B Minor, op. 58
-    * IV. Finale: Presto non tanto :star:
 * Scherzo No. 2 in B-flat Minor, op. 31
 * Trois Nouvelles Études No. 2 in A-flat Major, B. 130
 * Waltz in B Minor, op. 69, no. 2
