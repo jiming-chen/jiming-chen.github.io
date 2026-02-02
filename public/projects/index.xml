@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Jiming Chen</title>
-    <link>https://jiming-chen.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Jiming Chen</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Sep 2025 13:04:58 -0400</lastBuildDate>
-    <atom:link href="https://jiming-chen.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyOCaml to WebAssembly Compiler</title>
-      <link>https://jiming-chen.github.io/projects/compiler/</link>
+      <link>http://localhost:1313/projects/compiler/</link>
       <pubDate>Wed, 03 Sep 2025 13:04:58 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/projects/compiler/</guid>
+      <guid>http://localhost:1313/projects/compiler/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve wanted to learn about compilers for a while, but it hasn&amp;rsquo;t been offered at Cornell since 2023, so I decided to learn on my own by making this small compiler. It was written in TypeScript and compiles a subset of OCaml (which I&amp;rsquo;ll call TinyOCaml) to WebAssembly (Wasm). Here is the &lt;a href=&#34;https://tinyocaml2wasm.vercel.app/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;link to the demo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more details like the exact BNF grammar of the language, check out the &lt;a href=&#34;https://github.com/jjc256/tinyocaml2wasm&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Optimal Theme Park Ride Order</title>
-      <link>https://jiming-chen.github.io/projects/rides/</link>
+      <link>http://localhost:1313/projects/rides/</link>
       <pubDate>Tue, 14 Jan 2025 01:59:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/rides/</guid>
+      <guid>http://localhost:1313/projects/rides/</guid>
       <description>&lt;p&gt;If we assign happiness to certain rides and have information about how much time it takes to ride a string of rides in a certain order, how can we maximize happiness in one day at a theme park? &lt;a href=&#34;https://jjc256.github.io/rides/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;This app&lt;/a&gt; (also embedded below) seeks to do exactly that.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jjc256/rides&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Here&lt;/a&gt; is the Github link.&lt;/p&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>OCaml Transformer</title>
-      <link>https://jiming-chen.github.io/projects/transformer/</link>
+      <link>http://localhost:1313/projects/transformer/</link>
       <pubDate>Thu, 02 Jan 2025 00:19:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/transformer/</guid>
+      <guid>http://localhost:1313/projects/transformer/</guid>
       <description>&lt;p&gt;This (&lt;a href=&#34;https://github.coecis.cornell.edu/hmk68/3110-final-project&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell GitHub&lt;/a&gt;) was our final project for CS 3110: Data Structures and Functional Programming. We implemented a simple transformer in OCaml and trained it on successful posts on SideChat, a social media app popular at Cornell and other schools. I worked with Haadi Khan, Domenic Fioravanti, and Will Bradley.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qpr12wxoHbg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>Sports Betting Devigger</title>
-      <link>https://jiming-chen.github.io/projects/devigger/</link>
+      <link>http://localhost:1313/projects/devigger/</link>
       <pubDate>Tue, 17 Dec 2024 22:59:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/devigger/</guid>
+      <guid>http://localhost:1313/projects/devigger/</guid>
       <description>&lt;p&gt;This tool (&lt;a href=&#34;https://github.com/jjc256/devigger&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for &lt;a href=&#34;https://oddsjam.com/subscribe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;high fees&lt;/a&gt;, so I decided to make a simple version myself.&lt;/p&gt;
 &lt;p&gt;Rather than search for arbitrage opportunities, it looks for statistical arbitrage-esque market inefficiencies since sports betting &amp;ldquo;markets&amp;rdquo; are somewhat inefficient.&lt;/p&gt;</description>
     </item>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Course Notes on Jiming Chen</title>
-    <link>https://jiming-chen.github.io/courses/</link>
+    <link>http://localhost:1313/courses/</link>
     <description>Recent content in Course Notes on Jiming Chen</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://jiming-chen.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

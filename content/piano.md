@@ -5,7 +5,7 @@ description: 'A list of piano pieces which I have played or am currently playing
 hideMeta: true
 ---
 
-Pieces followed by :star: are pieces which I am currently working on. Some of my old recordings are on {{< newtabref href="https://www.youtube.com/@jjchen256" title="my YouTube channel" >}}.
+Pieces followed by :star: are pieces which I am currently working on. Some of my recordings are on {{< newtabref href="https://www.youtube.com/@jjchen256" title="my YouTube channel" >}}.
 
 ## Johann Sebastian Bach
 * Two-Part Inventions, BWV 772-786
@@ -21,6 +21,7 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * Italian Concerto in F Major, BWV 971
     * I. Allegro
     * II. Andante
+    * III. Presto :star:
 * The Well-Tempered Clavier, Book I, BWV 848
     * Prelude No. 3 in C-sharp Major
     * Fugue No. 3 in C-sharp Major
@@ -38,8 +39,8 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * VI. Presto
 
 ## Johannes Brahms
-* Horn Trio in E-flat Major, op. 40
-    * I. Andante (with Helan Qian and Andrew Ahn as violin and viola, respectively) :star:
+* Horn Trio in E-flat Major, op. 40  (with Helen Qian and Andrew Ahn as violin and viola, respectively)
+    * I. Andante
 
 ## Ludwig van Beethoven
 * Piano Concerto No. 4 in G Major, op. 58
@@ -66,8 +67,8 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * III. Rondo: Allegretto
 * Piano Sonata No. 23 in F Minor, op. 57, *"Appassionata"*
     * I. Allegro assai
-* Piano Trio No. 1 in C Minor, op. 1, no. 3
-    * I. Allegro con brio (with Helan Qian and Andrew Ahn as violin and viola, respectively)
+* Piano Trio No. 3 in C Minor, op. 1, no. 3  (with Helen Qian and Andrew Ahn as violin and viola, respectively)
+    * I. Allegro con brio
 
 ## Frederic Chopin
 * Ballade No. 3 in A-flat Major, op. 47
@@ -90,7 +91,9 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * I. *Danseuses de Delphes*
     * II. *Voiles*
     * III. *Le vent dans la plaine*
+    * IV. *«Les sons et les parfums tournent dans l'air du soir»* :star:
     * V. *Les collines d'Anacapri* :star:
+    * VI. *Des pas sur la neige* :star:
     * VIII. *La fille aux cheveux de lin*
 
 ## Leopold Godowsky
@@ -112,13 +115,21 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * II. Un poco più mosso in E Major
     * III. Lento placido in D-flat Major
 * Transcendental Études, S. 139
-    * No. 8 in C Minor, *Wilde Jagd* :star:
+    * No. 8 in C Minor, *Wilde Jagd*
+    * No. 12 in B-flat Minor, *Chasse neige* :star:
 * Valses oubliées, S. 215
     * I. Allegro
 
 ## Felix Mendelssohn
 * Songs Without Words, op. 67
     * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major
+* Piano Trio No. 1 in D Minor, op. 49 (with Helen Qian and Andrew Ahn as violin and viola, respectively)
+    * I. Molto allegro agitato :star:
+    * II. Andante con moto tranquilo :star:
+
+## Olivier Messiaen
+* Préludes
+    * III. *Le nombre léger* :star:
 
 ## Sergei Rachmaninoff
 * Études-Tableaux, op. 33
@@ -134,7 +145,7 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 
 ## Franz Schubert
 * Drei Klavierstücke, D. 946
-    * No. 2 in E-flat Major :star:
+    * No. 2 in E-flat Major
 
 ## Dmitri Shostakovich
 * 24 Preludes and Fugues, op. 87

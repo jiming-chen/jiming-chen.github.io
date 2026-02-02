@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jiming Chen</title>
-    <link>https://jiming-chen.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Jiming Chen</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Sep 2025 10:18:40 -0400</lastBuildDate>
-    <atom:link href="https://jiming-chen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 8: More IMP</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture08/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture08/</link>
       <pubDate>Fri, 12 Sep 2025 10:18:40 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture08/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture08/</guid>
       <description>&lt;p&gt;How would we add concurrent composition to IMP? For example, if $\sigma(x) = \sigma(y) = 0$ and&lt;/p&gt;
 &lt;p&gt;$$x := y + 1 ; y := y + 1 \ || \ y := y + 1,$$&lt;/p&gt;
 &lt;p&gt;then what is $\sigma^\prime$?&lt;/p&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>Lecture 6: IMP</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture06/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture06/</link>
       <pubDate>Mon, 08 Sep 2025 10:15:30 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture06/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture06/</guid>
       <description>&lt;p&gt;This lecture is taught by Dexter Kozen and is about a simple imperative language called IMP. It has&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;arithmetic expressions: $a \in \text{Aexp} \quad a ::= x | n | a_1 + a_2 | a_1 \times a_2$.&lt;/li&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Lecture 5: Big-Step Semantics</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture05/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture05/</link>
       <pubDate>Fri, 05 Sep 2025 10:18:47 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture05/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture05/</guid>
       <description>&lt;p&gt;We can write a grammar for OCaml-style lists:&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
 e ::&amp;amp;= n \\
@@ -51,9 +51,9 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 4: Levin&#39;s Universal One-Way Function</title>
-      <link>https://jiming-chen.github.io/courses/cs4830/lecture04/</link>
+      <link>http://localhost:1313/courses/cs4830/lecture04/</link>
       <pubDate>Thu, 04 Sep 2025 13:28:03 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4830/lecture04/</guid>
+      <guid>http://localhost:1313/courses/cs4830/lecture04/</guid>
       <description>&lt;h2 id=&#34;one-way-function-examples&#34;&gt;One-Way Function Examples&lt;/h2&gt;
 &lt;h3 id=&#34;the-discrete-logarithm&#34;&gt;The Discrete Logarithm&lt;/h3&gt;
 &lt;p&gt;There is an algorithm that runs in $O(\log^2q \cdot \log x)$ and computes $h = g^x \mod q$ for $g \in \mathbb{Z}/q\mathbb{Z}$.&lt;/p&gt;
@@ -63,17 +63,17 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>TinyOCaml to WebAssembly Compiler</title>
-      <link>https://jiming-chen.github.io/projects/compiler/</link>
+      <link>http://localhost:1313/projects/compiler/</link>
       <pubDate>Wed, 03 Sep 2025 13:04:58 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/projects/compiler/</guid>
+      <guid>http://localhost:1313/projects/compiler/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve wanted to learn about compilers for a while, but it hasn&amp;rsquo;t been offered at Cornell since 2023, so I decided to learn on my own by making this small compiler. It was written in TypeScript and compiles a subset of OCaml (which I&amp;rsquo;ll call TinyOCaml) to WebAssembly (Wasm). Here is the &lt;a href=&#34;https://tinyocaml2wasm.vercel.app/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;link to the demo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more details like the exact BNF grammar of the language, check out the &lt;a href=&#34;https://github.com/jjc256/tinyocaml2wasm&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Semantics</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture04/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture04/</link>
       <pubDate>Wed, 03 Sep 2025 10:22:44 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture04/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture04/</guid>
       <description>&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
 &lt;p&gt;Recall the progress property that we discussed last lecture that helps us prove that any well-formed configuration eventually steps to some integer.&lt;/p&gt;
 &lt;p&gt;We want to prove that for all$e \in \text{Exp}$, $P(e)$ holds, where&lt;/p&gt;
@@ -83,9 +83,9 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 3: One-way Functions</title>
-      <link>https://jiming-chen.github.io/courses/cs4830/lecture03/</link>
+      <link>http://localhost:1313/courses/cs4830/lecture03/</link>
       <pubDate>Tue, 02 Sep 2025 13:28:31 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4830/lecture03/</guid>
+      <guid>http://localhost:1313/courses/cs4830/lecture03/</guid>
       <description>&lt;h2 id=&#34;some-definitions&#34;&gt;Some Definitions&lt;/h2&gt;
 &lt;p&gt;Our definition of many-message semantic security from last lecture was pretty complex, so we can study the definition within a more restricted context.&lt;/p&gt;
 &lt;p&gt;A &lt;em&gt;one-way function&lt;/em&gt; is a function $f : \{0, 1\}^* \to \{0, 1\}^*$ which has the following two properties:&lt;/p&gt;
@@ -97,25 +97,25 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 3: Induction</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture03/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture03/</link>
       <pubDate>Fri, 29 Aug 2025 10:09:31 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture03/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture03/</guid>
       <description>&lt;h2 id=&#34;inference-rules&#34;&gt;Inference Rules&lt;/h2&gt;
 &lt;p&gt;Suppose that $\sigma$ is some store that maps &lt;code&gt;foo&lt;/code&gt; to &lt;code&gt;4&lt;/code&gt;. Consider $\langle \sigma, (\texttt{foo} + 2) \times (\texttt{bar} + 1)\rangle$. In this case, the only inference rule that applies here is the one that allows the left side of the product to take a step. Doing this repeatedly results in a proof tree which shows how we can go from the original configuration to the &amp;ldquo;final&amp;rdquo; configuration:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: The Evolution and Architecture of Modern Computers</title>
-      <link>https://jiming-chen.github.io/courses/cs4414/lecture02/</link>
+      <link>http://localhost:1313/courses/cs4414/lecture02/</link>
       <pubDate>Thu, 28 Aug 2025 15:09:04 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4414/lecture02/</guid>
+      <guid>http://localhost:1313/courses/cs4414/lecture02/</guid>
       <description>&lt;p&gt;Modern CPU architecture has many cores on one chip, each of which has their own cache. There is also off-chip memory. Nvidia GPUs have many cores, and we can think about them virtually in 3D shapes (?? idk, Birman yaps).&lt;/p&gt;
 &lt;p&gt;Moore&amp;rsquo;s Law says that because of transistor size decreases, we can get exponential speedups. But around 2006-2009, it seemed to be ending because faster chips require faster clock and can fry.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Semantic Security</title>
-      <link>https://jiming-chen.github.io/courses/cs4830/lecture02/</link>
+      <link>http://localhost:1313/courses/cs4830/lecture02/</link>
       <pubDate>Thu, 28 Aug 2025 13:31:36 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4830/lecture02/</guid>
+      <guid>http://localhost:1313/courses/cs4830/lecture02/</guid>
       <description>&lt;h2 id=&#34;perfect-indistinguishability&#34;&gt;Perfect Indistinguishability&lt;/h2&gt;
 &lt;p&gt;It can be proven that if you have an encryption scheme that is perfectly indistinguishable, then $|K| \geq |M|$.&lt;/p&gt;
 &lt;p&gt;To prove this, we can choose an $m \in M$ and $c \in C$ such that $c$ is valid, e.g.&lt;/p&gt;
@@ -124,18 +124,18 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 2: Introduction to Semantics</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture02/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture02/</link>
       <pubDate>Wed, 27 Aug 2025 10:12:50 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture02/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture02/</guid>
       <description>&lt;p&gt;What is the meaning of a program? We could execute the program or consult a manual, but these are not satisfactory approaches because the program could execution could not work and manuals are not speciic.&lt;/p&gt;
 &lt;p&gt;A simple language we could look at is that of arithmetic expressions with assignment.&lt;/p&gt;
 &lt;p&gt;First we establish some metavariables. We can establish $x, y, z \in \text{Var}$ (variables), let $n, m \in \text{Int}$ (integers), and let $e \in \text{Exp}$ (expressions).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 1: Course Overview and Introduction</title>
-      <link>https://jiming-chen.github.io/courses/cs4830/lecture01/</link>
+      <link>http://localhost:1313/courses/cs4830/lecture01/</link>
       <pubDate>Tue, 26 Aug 2025 13:23:06 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4830/lecture01/</guid>
+      <guid>http://localhost:1313/courses/cs4830/lecture01/</guid>
       <description>&lt;h2 id=&#34;logistics&#34;&gt;Logistics&lt;/h2&gt;
 &lt;p&gt;This is a theoretical course. It is about math, definitions, and theorems, not real world practical security and programming.&lt;/p&gt;
 &lt;p&gt;There are 6 (plus one extra) problem sets, and the lowest score is dropped. They are due roughly every other Thursday.&lt;/p&gt;
@@ -144,9 +144,9 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 1: Course Overview</title>
-      <link>https://jiming-chen.github.io/courses/cs4110/lecture01/</link>
+      <link>http://localhost:1313/courses/cs4110/lecture01/</link>
       <pubDate>Mon, 25 Aug 2025 10:08:42 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4110/lecture01/</guid>
+      <guid>http://localhost:1313/courses/cs4110/lecture01/</guid>
       <description>&lt;p&gt;This lecture serves as theater, e.g. to show why studying programming languages might be cool.&lt;/p&gt;
 &lt;h2 id=&#34;programming-language-quirk-examples&#34;&gt;Programming Language Quirk Examples&lt;/h2&gt;
 &lt;p&gt;One cool example of programming languages being weird is how &lt;code&gt;[] + []&lt;/code&gt;, &lt;code&gt;[] + {}&lt;/code&gt;, &lt;code&gt;{} + []&lt;/code&gt;, and &lt;code&gt;{} + {}&lt;/code&gt; all evaluate to different things in JavaScript.&lt;/p&gt;
@@ -154,77 +154,77 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>JIYP: Lessons Learned, Part 2 &#43; Agent Architecture Report</title>
-      <link>https://jiming-chen.github.io/posts/jiyp2/</link>
+      <link>http://localhost:1313/posts/jiyp2/</link>
       <pubDate>Sun, 10 Aug 2025 23:08:31 -0700</pubDate>
-      <guid>https://jiming-chen.github.io/posts/jiyp2/</guid>
+      <guid>http://localhost:1313/posts/jiyp2/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;This page will consist of two sections: a brief section on some lessons learned from this internship and a longer report describing in detail the agent architecture we used. For a detailed report on how our Django backend works, please see &lt;a href=&#34;https://docs.google.com/document/d/1ECKAXXHJE0lT7bwFxqrRb52l-gm_8zaF/edit?tab=t.0&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Feel free to reach out on &lt;a href=&#34;https://www.linkedin.com/in/jiming-chen/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt; or email me at &lt;code&gt;jc3579@cornell.edu&lt;/code&gt; if you have questions.&lt;/p&gt;
 &lt;h1 id=&#34;lessons-learned-part-2&#34;&gt;Lessons Learned, Part 2&lt;/h1&gt;
-&lt;p&gt;In &lt;a href=&#34;https://jiming-chen.github.io/posts/jiyp1/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;my first lessons learned post&lt;/a&gt;, I discussed how we used RAG in a specific way to address a specific use case: customizing advice based on referring doctor. This allowed us to have a different corpus of experts on whom to RAG based on which doctor was referring. However, this led us to one big issue: some more prolific experts, with more content on the internet, were overpowering the retrieval, even in areas not under their expertise. For example, if I asked a question about sleep, due to the sheer amount of his content, Mark Hyman&amp;rsquo;s content would always come out on top over Matthew Walker, the actual sleep expert.&lt;/p&gt;</description>
+&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/posts/jiyp1/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;my first lessons learned post&lt;/a&gt;, I discussed how we used RAG in a specific way to address a specific use case: customizing advice based on referring doctor. This allowed us to have a different corpus of experts on whom to RAG based on which doctor was referring. However, this led us to one big issue: some more prolific experts, with more content on the internet, were overpowering the retrieval, even in areas not under their expertise. For example, if I asked a question about sleep, due to the sheer amount of his content, Mark Hyman&amp;rsquo;s content would always come out on top over Matthew Walker, the actual sleep expert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A PostgreSQL Bug I Had to Deal With</title>
-      <link>https://jiming-chen.github.io/posts/securitydefiner/</link>
+      <link>http://localhost:1313/posts/securitydefiner/</link>
       <pubDate>Tue, 22 Jul 2025 01:32:37 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/posts/securitydefiner/</guid>
+      <guid>http://localhost:1313/posts/securitydefiner/</guid>
       <description>&lt;p&gt;Back in May, when first started working on one of my projects which uses PostgreSQL, I implemented a TypeScript edge function called &lt;code&gt;delete-user&lt;/code&gt; that does exactly what you&amp;rsquo;d expect it to do (among other things), and it worked fine back then. But two days ago, to my dismay, I tried deleting an account, and I received a 500 error from the API call.&lt;/p&gt;
 &lt;p&gt;After adding some logs, I narrowed the error down to this line:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lazy Caching</title>
-      <link>https://jiming-chen.github.io/posts/lazycaching/</link>
+      <link>http://localhost:1313/posts/lazycaching/</link>
       <pubDate>Tue, 01 Jul 2025 01:28:34 -0700</pubDate>
-      <guid>https://jiming-chen.github.io/posts/lazycaching/</guid>
+      <guid>http://localhost:1313/posts/lazycaching/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s say you have an app where users can search up any book. From the user side, it might seem like we need a database row for every single edition, with title, publisher, description, cover image, and so on. Especially for descriptions and cover images, when considering up to 50 million editions, costs can accrue quickly, not to mention acquiring such a database would be difficult.&lt;/p&gt;
 &lt;p&gt;A solution which I am quite partial to is what is known in system design as lazy caching. What this means is that we only load something in the first time it is needed and we don&amp;rsquo;t have it, and for subsequent requests, since we already have it, we don&amp;rsquo;t need to load it again. What I find elegant about it is that for the cost of one user having slightly higher latency, database size is much smaller, it allows the database to be built over time rather than all at once, and most importantly, to the user it appears as if the whole database is present.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JIYP: Lessons Learned, Part 1</title>
-      <link>https://jiming-chen.github.io/posts/jiyp1/</link>
+      <link>http://localhost:1313/posts/jiyp1/</link>
       <pubDate>Mon, 30 Jun 2025 09:30:29 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/posts/jiyp1/</guid>
+      <guid>http://localhost:1313/posts/jiyp1/</guid>
       <description>&lt;p&gt;Two weeks ago, I started working at a startup called Jarvis In Your Pocket. Imagine if you could track your nutritional (and overall) health using just an LLM, an LLM that could learn about you, be proactive, and give solid advice based on trusted expert sources selected by your doctor.&lt;/p&gt;
 &lt;p&gt;Some things were easier than I expected. First, we envisioned a virtual retrieval-augmented generation (RAG) system whereby we could consult with multiple doctors who had their own trusted materials and RAG on a specific subset of all the sources based on which doctor had referred the user. While it may sound like we have to create virtual vector databases on top of the large corpus of content, it&amp;rsquo;s actually as simple filtering on chunk metadata like so:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 23: Recognition</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture23/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture23/</link>
       <pubDate>Mon, 07 Apr 2025 14:06:41 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture23/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture23/</guid>
       <description>&lt;p&gt;What if you want information about images? This can be done using machine learning. Specifically, classification of images is useful, and we need classification datasets to train models.&lt;/p&gt;
 &lt;p&gt;MNIST was the first major dataset and consisted of handwritten numbers. Caltech 101 consisted of objects, but there were spurious correlations. ImageNet contains lots of labeled images.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 21: Other Methods of Obtaining 3D Structure</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture21/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture21/</link>
       <pubDate>Wed, 26 Mar 2025 13:36:50 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture21/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture21/</guid>
       <description>&lt;p&gt;So far, when talking about 3D structure from images, we have been talking about the depth of each pixel $D[\mathbf{p}] \in \mathbb{R}^+$. However, we can also look at the &lt;em&gt;surface normal&lt;/em&gt; at any point because up close, any object approximates a plane. We can let this information be conveyed in another channel $N[\mathbf{p}] \in \mathbb{S}^2$.&lt;/p&gt;
 &lt;p&gt;Sometimes, when things in images are too far, the depth channel can have less information, but we can use surface normal to fill in missing information to complete the depth map.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 20: Scheduling</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture20/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture20/</link>
       <pubDate>Tue, 25 Mar 2025 13:31:35 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture20/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture20/</guid>
       <description>&lt;p&gt;A &lt;em&gt;scheduling algorithm&lt;/em&gt; is a strategy used to pick a ready task for execution. A round robin scheduler has the ability to stop a process in the middle of execution, so it is a &lt;em&gt;non-preemptive&lt;/em&gt; scheduler.&lt;/p&gt;
 &lt;p&gt;One way we can judge a scheduler is by its average response time, in which we want to minimize the average time that a job waits in the ready queue before it gets scheduled.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 16: Readers and Writers</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture16/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture16/</link>
       <pubDate>Tue, 18 Mar 2025 13:30:42 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture16/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture16/</guid>
       <description>&lt;h2 id=&#34;concurrency-recap&#34;&gt;Concurrency Recap&lt;/h2&gt;
 &lt;p&gt;In the past, we have been discussing concurrency, whether that be multiple programs on the same CPU or multiple processors accessing the same memory. We studied mutual exclusion, specifically using locks (which ensure that no two programs enter their critical sections at the same time).&lt;/p&gt;
 &lt;p&gt;We studied how atomicity ensures only one programming is running at once, but that is a very strong requirement. Concurrency means only one critical section is running at any given time though we can still have other interleaving.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 20 : Recovering Fundamental Matrix</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture20/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture20/</link>
       <pubDate>Mon, 17 Mar 2025 13:36:16 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture20/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture20/</guid>
       <description>&lt;h2 id=&#34;structure-from-motion&#34;&gt;Structure From Motion&lt;/h2&gt;
 &lt;p&gt;If we have two cameras whose parameters we don&amp;rsquo;t know, can we recover camera location and orientation without a calibration object in order to recover the 3D world?&lt;/p&gt;
 &lt;p&gt;Recall that $\mathbf{q}^TF\mathbf{p} = 0$. In order to find $F$, we can use an 8-point algorithm.&lt;/p&gt;
@@ -232,18 +232,18 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 18: Epipolar Geometry</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture18/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture18/</link>
       <pubDate>Wed, 12 Mar 2025 13:45:41 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture18/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture18/</guid>
       <description>&lt;p&gt;Given two camera centers and a point in 3D space, we can define the plane containing these points. We call this the &lt;em&gt;epipolar plane&lt;/em&gt;. The &lt;em&gt;epipolar line&lt;/em&gt; for a camera is the intersection of the epipolar plane and the camera plane.&lt;/p&gt;
 &lt;p&gt;We can also define the &lt;em&gt;epipolar pencil&lt;/em&gt;, which is the family of planes formed by changing the point in 3D space.&lt;/p&gt;
 &lt;p&gt;For the math, we assume the intrinsic parameters are the identity matrix, and we assume the world coordinate system is centered at the 1st camera pinhole with the $Z$ axis along the viewing direction. Then,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 14: Locks</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture14/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture14/</link>
       <pubDate>Tue, 11 Mar 2025 13:32:29 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture14/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture14/</guid>
       <description>&lt;p&gt;Dekker&amp;rsquo;s algorithm correctly implements mutual exclusion. However, this is a little bit convoluted. Additionally, each process must know about the other process, which violates modularity for programming. Therefore, we create a new abstraction: &lt;em&gt;locks&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Say we have a lock called &lt;code&gt;l&lt;/code&gt;. Then, we can acquire the lock (&lt;code&gt;lock(l)&lt;/code&gt;) or release the lock (&lt;code&gt;unlock(l)&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;Then, a program consists of the &lt;code&gt;NCS&lt;/code&gt; then a &lt;code&gt;lock&lt;/code&gt; then &lt;code&gt;CS&lt;/code&gt; then &lt;code&gt;unlock&lt;/code&gt;.&lt;/p&gt;
@@ -251,18 +251,18 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 17: Planar Homography</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture17/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture17/</link>
       <pubDate>Mon, 10 Mar 2025 13:30:23 -0400</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture17/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture17/</guid>
       <description>&lt;p&gt;Since we can set the world coordinates ourselves, we can let the world $Z$ coordinate be $0$, discarding the third column of the matrix $P$, resulting in a matrix we call $H$.&lt;/p&gt;
 &lt;p&gt;$H$ has $9$ entries, but accounting for $\lambda$, there are only $8$ parameters. Thus, we need four points to determine $H$.&lt;/p&gt;
 &lt;p&gt;Homography works for image stitching because it helps us map different camera angles onto the same coordinate plane.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 16: Binocular Stereo</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture16/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture16/</link>
       <pubDate>Fri, 07 Mar 2025 13:26:08 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture16/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture16/</guid>
       <description>&lt;p&gt;It is hard to do 3D reconstruction with a single image because obviously we have lost information about depth. However, if we have two cameras, we can use parallax to triangulate.&lt;/p&gt;
 &lt;p&gt;Assume we have two calibrated cameras and we have already run correspondence to find a pair of matching points:&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
@@ -281,26 +281,26 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 13: Mutual Exclusion (MUTEX)</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture13/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture13/</link>
       <pubDate>Thu, 06 Mar 2025 13:30:49 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture13/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture13/</guid>
       <description>&lt;p&gt;There are two ways of thinking about concurrency control: atomic actions vs. mutual exclusion. The latter is more fine-grained.&lt;/p&gt;
 &lt;p&gt;Atomicity means that nothing else can happen at the same time. Imagine we had a one-lane bridge. If you were trying to cross the bridge, being atomic would mean stopping all cars in Ithaca so that you can safely cross. This is a very strong statement about the system and is overkill.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 12: Concurrency</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture12/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture12/</link>
       <pubDate>Tue, 04 Mar 2025 13:50:07 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture12/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture12/</guid>
       <description>&lt;p&gt;Imagine a bitstream controlling some LEDs. If you have an interrupt in the middle of a bitstream (not aligned with the 24 bits that encode the color), then things will go wrong.&lt;/p&gt;
 &lt;p&gt;If we wanted blue light to travel down an LED strip faster than a red light, instead of using one loop, we should use two. But if we run two loops together, we can get weird bugs.&lt;/p&gt;
 &lt;p&gt;If we want two pieces of code to interact in the same memory space, we call them threads (as opposed to processes). This also means we have to be more careful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 15: Camera Calibration</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture15/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture15/</link>
       <pubDate>Mon, 03 Mar 2025 13:29:10 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture15/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture15/</guid>
       <description>&lt;h2 id=&#34;recap-of-aligning-coordinate-systems&#34;&gt;Recap of Aligning Coordinate Systems&lt;/h2&gt;
 &lt;p&gt;Recall that $\mathbf{x}_c = R\mathbf{x}_w + \mathbf{t}$. We first find $R$:&lt;/p&gt;
 &lt;p&gt;$$R = \begin{bmatrix}X_c &amp;amp; Y_c &amp;amp; Z_c\end{bmatrix}^T.$$&lt;/p&gt;
@@ -329,18 +329,18 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 14: More 3D Geometry</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture14/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture14/</link>
       <pubDate>Fri, 28 Feb 2025 13:32:01 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture14/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture14/</guid>
       <description>&lt;p&gt;How do we go from the film plane (projected image) to pixel array? Recall that for the latter, we place the origin in the top left. However, for the former, the origin is in the middle. Thus, to go from the former to the latter, we need to include an offset:&lt;/p&gt;
 &lt;p&gt;$$u = f\frac{X}{Z} + o_x, \quad v = f\frac{Y}{Z} +o_y.$$&lt;/p&gt;
 &lt;p&gt;This assumes that the focal length $f$ is the same in each direction. In practice, this may not be true, so we add scaling factors&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 11: Time Sharing</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture11/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture11/</link>
       <pubDate>Thu, 27 Feb 2025 13:30:20 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture11/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture11/</guid>
       <description>&lt;h2 id=&#34;context-switching&#34;&gt;Context Switching&lt;/h2&gt;
 &lt;p&gt;If you open task manager, you will see hundreds of processes running all running at the same time. There is the illusion that there is a CPU dedicated to each program, but in reality, all of them have to time share on a single CPU.&lt;/p&gt;
 &lt;p&gt;In order to do this, we need to stop programs and switch very quickly. We refer to running programs as &lt;em&gt;processes&lt;/em&gt;.&lt;/p&gt;
@@ -348,9 +348,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 13: Coordinate System Transformations</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture13/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture13/</link>
       <pubDate>Wed, 26 Feb 2025 13:39:12 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture13/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture13/</guid>
       <description>&lt;p&gt;Recall our projection equations&lt;/p&gt;
 &lt;p&gt;$$x = \frac{X}{Z}, \quad y = \frac{Y}{Z}.$$&lt;/p&gt;
 &lt;p&gt;However, because we have division, this is not linear. How can we represent it like&lt;/p&gt;
@@ -361,18 +361,18 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 10: More Communication Protocols</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture10/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture10/</link>
       <pubDate>Tue, 25 Feb 2025 13:29:47 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture10/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture10/</guid>
       <description>&lt;h2 id=&#34;i2c-bus&#34;&gt;I2C Bus&lt;/h2&gt;
 &lt;p&gt;In CAN, we worried about clock synchronization. This is not an issue with I2C because I2C has separate data (SDA) and clock (SCL) lines. The data set set when SCL is low. Conventionally, when SCL is high, the data should not change.&lt;/p&gt;
 &lt;p&gt;The master signals the start of a message by changing SDA from high to low while SCL is high. Conversely, a stop is indicated by changing SDA from low to high while SCL is high.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 12: 3D Coordinates</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture12/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture12/</link>
       <pubDate>Mon, 24 Feb 2025 13:29:07 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture12/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture12/</guid>
       <description>&lt;p&gt;Say we have a line passing through a point $A$ with direction $D$. Then, we can write&lt;/p&gt;
 &lt;p&gt;$$Q(\lambda) = A + \lambda D.$$&lt;/p&gt;
 &lt;p&gt;Then, we can have a parallel line&lt;/p&gt;
@@ -383,9 +383,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 12: Kirchoff&#39;s Rules</title>
-      <link>https://jiming-chen.github.io/courses/phys2217/lecture12/</link>
+      <link>http://localhost:1313/courses/phys2217/lecture12/</link>
       <pubDate>Mon, 24 Feb 2025 10:14:23 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/phys2217/lecture12/</guid>
+      <guid>http://localhost:1313/courses/phys2217/lecture12/</guid>
       <description>&lt;p&gt;If you had a charge $q$ and an infinite plane, finding the potential everywhere would be very hard. However, if you replace the plane with a $-q$ charge, then it becomes easier. These are &lt;em&gt;image charges&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;kirchoffs-rules&#34;&gt;Kirchoff&amp;rsquo;s Rules&lt;/h2&gt;
 &lt;p&gt;There is zero net current in and out of a node:&lt;/p&gt;
@@ -393,18 +393,18 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 11: Correspondences and Reconstruction</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture11/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture11/</link>
       <pubDate>Fri, 21 Feb 2025 13:27:21 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture11/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture11/</guid>
       <description>&lt;h2 id=&#34;correspondences-wrap-up&#34;&gt;Correspondences Wrap-Up&lt;/h2&gt;
 &lt;p&gt;If we have a bunch of corners in two images, how we do match them to each other? Since each corner is described by a vector, we can compute Euclidean distance and correspond to each corner in image 1 the closest corner in image 2.&lt;/p&gt;
 &lt;p&gt;However, not every corner in image 1 is guaranteed to have a matching corner in image 2. Therefore, we devise a method of scoring correspondences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 9: Communication Protocols</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture09/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture09/</link>
       <pubDate>Thu, 20 Feb 2025 13:37:25 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture09/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture09/</guid>
       <description>&lt;h2 id=&#34;isr-recap&#34;&gt;ISR Recap&lt;/h2&gt;
 &lt;p&gt;Recall that ISRs are like functions, and the processor is hardwired to execute ISR and return. This includes pushing the context onto the stack (everything needed to resume execution as if nothing happened).&lt;/p&gt;
 &lt;p&gt;There are two types of interrupts:&lt;/p&gt;
@@ -416,35 +416,35 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 10: Feature Descriptors</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture10/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture10/</link>
       <pubDate>Wed, 19 Feb 2025 13:27:22 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture10/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture10/</guid>
       <description>&lt;p&gt;A feature descriptor is a way to describe pixels using vectors in order to do correspondence.&lt;/p&gt;
 &lt;p&gt;One example is the &lt;em&gt;Multiscale Oriented Patches&lt;/em&gt; (MOPS) descriptor, which describes a corner by the patch around the pixel. The patch should have scale, rotation, and photometric invariance.&lt;/p&gt;
 &lt;p&gt;Automatic scale selection is done by taking the function at many scales and taking the scale which maximizes the function. This implemented using the Gaussian pre-filtering and blurring (Gaussian pyramid) that we used for zooming in on images and computing $f$ for a fixed window size.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 8: Interrupts and Exceptions</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture08/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture08/</link>
       <pubDate>Thu, 13 Feb 2025 13:33:09 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture08/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture08/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s say your embedded device has some buttons, which are ways the user can interract with the program. We want the user to be able to respond appropriately in all situations. For example, if a user presses two buttons at once, the program should not crash.&lt;/p&gt;
 &lt;p&gt;One way to know if a button pressed is &lt;em&gt;polling&lt;/em&gt;, where a loop continually reads the GPIO port.&lt;/p&gt;
 &lt;p&gt;Another option is to have an interrupt, in which the main code causes the program counter to move to another chunk of code called an &lt;em&gt;interrupt service routine&lt;/em&gt; (ISR) and go back to the main code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 7: Peripherals and GPIO</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture07/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture07/</link>
       <pubDate>Tue, 11 Feb 2025 13:29:15 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture07/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture07/</guid>
       <description>&lt;p&gt;So far, we have used the OpenSDA USB which connects to an ARM debugging chip which is serially connected to the KL46Z256. This can interface with the red LED. We can also interface with a segment LCD, magnetometer, and accelerometer.&lt;/p&gt;
 &lt;p&gt;The chip has a lot of pins surrounding it, and it is isometric, so we can match the dot on the diagram with a dimple on the chip. Note that some pins are labeled similarly, e.g. PT means port.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Function Calls and Program Memory Layout</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture06/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture06/</link>
       <pubDate>Thu, 06 Feb 2025 13:27:42 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture06/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture06/</guid>
       <description>&lt;h2 id=&#34;function-calls&#34;&gt;Function Calls&lt;/h2&gt;
 &lt;p&gt;If we want to implement &lt;code&gt;POP {R4}&lt;/code&gt;, we first store the value in the stack pointer to &lt;code&gt;R4&lt;/code&gt; then increment the stack pointer by 4 because the stack grows down.&lt;/p&gt;
 &lt;p&gt;We can also do &lt;code&gt;POP {PC}&lt;/code&gt;, which is equivalent to &lt;code&gt;POP {Rx}&lt;/code&gt; followed by &lt;code&gt;BX Rx&lt;/code&gt;. We can&amp;rsquo;t do &lt;code&gt;POP LR&lt;/code&gt; because &lt;code&gt;LR&lt;/code&gt; is not a lower register.&lt;/p&gt;
@@ -453,9 +453,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Edge Detection and Clustering</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture06/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture06/</link>
       <pubDate>Wed, 05 Feb 2025 13:31:49 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture06/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture06/</guid>
       <description>&lt;h2 id=&#34;edge-detection&#34;&gt;Edge Detection&lt;/h2&gt;
 &lt;p&gt;Recall that we can use anisotropic filtering because Gaussian filtering should not be the same in every direction. One variant of the anisotropic Gaussian is the Sobel filter:&lt;/p&gt;
 &lt;p&gt;$$\begin{bmatrix} 1 \\ 2 \\ 1\end{bmatrix} * \begin{bmatrix} 1 &amp;amp; 0 &amp;amp; -1 \end{bmatrix} = \begin{bmatrix}
@@ -467,9 +467,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 7: Rings</title>
-      <link>https://jiming-chen.github.io/courses/math4340/lecture07/</link>
+      <link>http://localhost:1313/courses/math4340/lecture07/</link>
       <pubDate>Wed, 05 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/math4340/lecture07/</guid>
+      <guid>http://localhost:1313/courses/math4340/lecture07/</guid>
       <description>&lt;h2 id=&#34;rings&#34;&gt;Rings&lt;/h2&gt;
 &lt;p&gt;Recall that rings are sets along with two operations, $+$ and $*$.&lt;/p&gt;
 &lt;ul&gt;
@@ -482,9 +482,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 5: C</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture05/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture05/</link>
       <pubDate>Tue, 04 Feb 2025 13:29:39 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture05/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture05/</guid>
       <description>&lt;p&gt;The C program build tool flow includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;source files (.c, .h) which are compiled into object files (.o)&lt;/li&gt;
@@ -497,9 +497,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Groups Wrap-Up and Rings</title>
-      <link>https://jiming-chen.github.io/courses/math4340/lecture06/</link>
+      <link>http://localhost:1313/courses/math4340/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 12:23:25 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/math4340/lecture06/</guid>
+      <guid>http://localhost:1313/courses/math4340/lecture06/</guid>
       <description>&lt;h2 id=&#34;groups-wrap-up&#34;&gt;Groups Wrap-Up&lt;/h2&gt;
 &lt;p&gt;Given a homomorphism $\varphi : G \to H$, we can define the kernel of $\phi$ as&lt;/p&gt;
 &lt;p&gt;$$\text{Ker } \varphi = {g \in G \mid \varphi(g) = e},$$&lt;/p&gt;
@@ -514,9 +514,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
-      <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
+      <link>http://localhost:1313/courses/phys2217/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 10:24:52 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/phys2217/lecture06/</guid>
+      <guid>http://localhost:1313/courses/phys2217/lecture06/</guid>
       <description>&lt;h2 id=&#34;electric-potential&#34;&gt;Electric Potential&lt;/h2&gt;
 &lt;p&gt;If a sphere has an evenly distributed charge density $\rho$, then we know the sphere is not a conductor because in a conductor, the charge will evenly distribute on the surface because that is the minimum energy configuration.&lt;/p&gt;
 &lt;p&gt;Recall that electric potential over a path from $p_1$ to $p_2$ is&lt;/p&gt;
@@ -525,9 +525,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 5: Grouping and Edges</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture05/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 13:28:07 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture05/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture05/</guid>
       <description>&lt;h2 id=&#34;bilinear-interpolation-review&#34;&gt;Bilinear Interpolation Review&lt;/h2&gt;
 &lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;
 &lt;h2 id=&#34;grouping-and-edges&#34;&gt;Grouping and Edges&lt;/h2&gt;
@@ -535,9 +535,9 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 5: More Groups and Subgroups</title>
-      <link>https://jiming-chen.github.io/courses/math4340/lecture05/</link>
+      <link>http://localhost:1313/courses/math4340/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 12:21:09 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/math4340/lecture05/</guid>
+      <guid>http://localhost:1313/courses/math4340/lecture05/</guid>
       <description>&lt;p&gt;An &lt;em&gt;action of $G$ on $X$&lt;/em&gt; is a rule that assigns to each element $g \in G$ and each element $x \in X$ another element $g \cdot x \in X$ so that&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$e \cdot x = x$,&lt;/li&gt;
@@ -549,38 +549,38 @@ $$\mathbb{Z}/{mn\mathbb{Z}} \cong \mathbb{Z} / {m\mathbb{Z}} \times \mathbb{Z} /
     </item>
     <item>
       <title>Lecture 4: ARM Memory Organization</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture04/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture04/</link>
       <pubDate>Thu, 30 Jan 2025 13:31:55 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture04/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture04/</guid>
       <description>&lt;h2 id=&#34;arm-memory-map&#34;&gt;ARM Memory Map&lt;/h2&gt;
 &lt;p&gt;All versions of ARM have the same memory encoding which makes compatibility easy. Each memory address is 32 bits, which means we can have 4 gigabytes of data (because each memory block holds 1 byte).&lt;/p&gt;
-&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture04/map.png&#34; alt=&#34;Cortex M0&amp;#43; Memory Map&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. Memory map for Cortex M0+.&lt;/figcaption&gt;
 &lt;p&gt;The bottom 500 megabytes of memory holds the code, some of which non-volatile (256 kB), meaning if the system reboots, the memory remains.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Convolution and Geometric Transformations</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 13:28:09 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture04/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture04/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;Last class, we mentioned that we can use convolution to turn color images gray. To do this, we can treat a color image as three layers of grayscale images and use a three-layer kernel.&lt;/p&gt;
 &lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Groups and Homomorphisms</title>
-      <link>https://jiming-chen.github.io/courses/math4340/lecture04/</link>
+      <link>http://localhost:1313/courses/math4340/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 12:23:31 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/math4340/lecture04/</guid>
+      <guid>http://localhost:1313/courses/math4340/lecture04/</guid>
       <description>&lt;p&gt;One example of a group is $(\mathbb{Z}, +)$. It has identity $e = 0$ and inverse $-a$ for $a$. Another example of a group is $(\mathbb{R} \setminus \{0\}, *)$ which has $0$ excluded because $0$ does not have a multiplicative inverse.&lt;/p&gt;
 &lt;p&gt;Both of these are examples of Abelian groups because the order of the operands does not matter.&lt;/p&gt;
 &lt;p&gt;One example of a finite group is the symmetric group on (finite) $X$, which is the set of all permutations on $X$. This is usually non-Abelian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Flux and Gauss&#39; Law</title>
-      <link>https://jiming-chen.github.io/courses/phys2217/lecture04/</link>
+      <link>http://localhost:1313/courses/phys2217/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 10:32:35 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/phys2217/lecture04/</guid>
+      <guid>http://localhost:1313/courses/phys2217/lecture04/</guid>
       <description>&lt;p&gt;Flux can be imagined as the amount of flow going perpendicular to a surface. We can write
 $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;p&gt;Gauss&amp;rsquo; Law states that&lt;/p&gt;
@@ -590,9 +590,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: Some ARM Instructions</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture03/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture03/</link>
       <pubDate>Tue, 28 Jan 2025 13:27:56 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture03/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture03/</guid>
       <description>&lt;h2 id=&#34;arm-isa-recap&#34;&gt;ARM ISA Recap&lt;/h2&gt;
 &lt;p&gt;Recall that the ARM ISA has most instructions as 16 bits; since we have resource constraints and everything costs money, we want to fit as many instructions on the chip as possible.&lt;/p&gt;
 &lt;p&gt;Some examples of instructions are&lt;/p&gt;
@@ -606,20 +606,20 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: More Convolution</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture03/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.&lt;/p&gt;
-&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
 &lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: Permutation Groups and Abstract Groups</title>
-      <link>https://jiming-chen.github.io/courses/math4340/lecture03/</link>
+      <link>http://localhost:1313/courses/math4340/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 12:21:34 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/math4340/lecture03/</guid>
+      <guid>http://localhost:1313/courses/math4340/lecture03/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;factorial&lt;/strong&gt; is defined as $n! = 1 \cdot 2 \cdot 3 \cdots n$ for $n \geq 1$ though we may define $0!=1$.&lt;/p&gt;
 &lt;p&gt;We also have binomials:&lt;/p&gt;
 &lt;p&gt;$$\binom{n}{i} = \frac{n!}{i!(n-i)!}.$$&lt;/p&gt;
@@ -632,9 +632,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
-      <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
+      <link>http://localhost:1313/courses/phys2217/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 10:11:49 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/phys2217/lecture03/</guid>
+      <guid>http://localhost:1313/courses/phys2217/lecture03/</guid>
       <description>&lt;h2 id=&#34;electric-potential-energy&#34;&gt;Electric Potential Energy&lt;/h2&gt;
 &lt;p&gt;If you have a charges $q_1$ and $q_2$ infinitely far away, and you want to bring them together so that they are $r_{12}$ apart, work has to be done. Work is&lt;/p&gt;
 &lt;p&gt;$$\int \mathbf{F} \cdot d\mathbf{s} = \int_{\infty}^{r_{12}} -\frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}^2}dr = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}}.$$&lt;/p&gt;
@@ -644,21 +644,21 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
-      <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
+      <link>http://localhost:1313/courses/cs4670/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 13:26:11 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs4670/lecture02/</guid>
+      <guid>http://localhost:1313/courses/cs4670/lecture02/</guid>
       <description>&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;How do you represent a photograph? You could say pixels, but originally, there were no pixels in photographs. Therefore, we could say an image is a function that maps spatial location to intensity, where intensity is a number between 0 and 1, inclusive:&lt;/p&gt;
 &lt;p&gt;$$f : \mathbb{R}^2 \to [0, 1].$$&lt;/p&gt;
-&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An example of an image.&lt;/figcaption&gt;
 &lt;p&gt;What about color images? We could extend the function definition to one using RGB:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Charge and Coulomb&#39;s Law</title>
-      <link>https://jiming-chen.github.io/courses/phys2217/lecture02/</link>
+      <link>http://localhost:1313/courses/phys2217/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 10:12:56 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/phys2217/lecture02/</guid>
+      <guid>http://localhost:1313/courses/phys2217/lecture02/</guid>
       <description>&lt;h2 id=&#34;vector-calculus-recap&#34;&gt;Vector Calculus Recap&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;field&lt;/strong&gt; is a physical quantity that is defined at each point in time and space. It could be a scalar, vector, or tensor. Temperatures are an example of a scalar field and wind an example of vector fields.&lt;/p&gt;
 &lt;p&gt;Gradient (vector showing direction of steepest ascent), divergence (scalar), and curl (vector showing how much rotation) are vector field operations.&lt;/p&gt;
@@ -674,20 +674,20 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 2: Assembly Language Overview and Intro to ARM ISA</title>
-      <link>https://jiming-chen.github.io/courses/cs3420/lecture02/</link>
+      <link>http://localhost:1313/courses/cs3420/lecture02/</link>
       <pubDate>Thu, 23 Jan 2025 13:23:22 -0500</pubDate>
-      <guid>https://jiming-chen.github.io/courses/cs3420/lecture02/</guid>
+      <guid>http://localhost:1313/courses/cs3420/lecture02/</guid>
       <description>&lt;h2 id=&#34;assembly-intro&#34;&gt;Assembly Intro&lt;/h2&gt;
 &lt;p&gt;Assembly code is a slightly more readable version of machine code. Machine code is a list of binary instructions that are executed by the processor. In programming languages, keywords, braces, etc. make programs understandable by humans and easy to use. Compilers take that code and convert it into assembly code. Then, each line of assembly is converted in machine code.&lt;/p&gt;
-&lt;img src=&#34;https://jiming-chen.github.io/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/courses/cs3420/lecture02/layers.png&#34; alt=&#34;Code translation&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. One line of C code often corresponds to three or four lines of assembly code. Assembly to machine is just decoding, which is a very thin layer of abstraction.&lt;/figcaption&gt;
 &lt;p&gt;Why are keywords in assembly very short (two or three letters)? Back when programs were written on punched cards, there was a margin on the cards, and people wrote short descriptions for what the holes (binary representation) meant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Optimal Theme Park Ride Order</title>
-      <link>https://jiming-chen.github.io/projects/rides/</link>
+      <link>http://localhost:1313/projects/rides/</link>
       <pubDate>Tue, 14 Jan 2025 01:59:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/rides/</guid>
+      <guid>http://localhost:1313/projects/rides/</guid>
       <description>&lt;p&gt;If we assign happiness to certain rides and have information about how much time it takes to ride a string of rides in a certain order, how can we maximize happiness in one day at a theme park? &lt;a href=&#34;https://jjc256.github.io/rides/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;This app&lt;/a&gt; (also embedded below) seeks to do exactly that.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jjc256/rides&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Here&lt;/a&gt; is the Github link.&lt;/p&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
@@ -705,9 +705,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>OCaml Transformer</title>
-      <link>https://jiming-chen.github.io/projects/transformer/</link>
+      <link>http://localhost:1313/projects/transformer/</link>
       <pubDate>Thu, 02 Jan 2025 00:19:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/transformer/</guid>
+      <guid>http://localhost:1313/projects/transformer/</guid>
       <description>&lt;p&gt;This (&lt;a href=&#34;https://github.coecis.cornell.edu/hmk68/3110-final-project&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Cornell GitHub&lt;/a&gt;) was our final project for CS 3110: Data Structures and Functional Programming. We implemented a simple transformer in OCaml and trained it on successful posts on SideChat, a social media app popular at Cornell and other schools. I worked with Haadi Khan, Domenic Fioravanti, and Will Bradley.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qpr12wxoHbg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
@@ -719,33 +719,33 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Sports Betting Devigger</title>
-      <link>https://jiming-chen.github.io/projects/devigger/</link>
+      <link>http://localhost:1313/projects/devigger/</link>
       <pubDate>Tue, 17 Dec 2024 22:59:49 -0800</pubDate>
-      <guid>https://jiming-chen.github.io/projects/devigger/</guid>
+      <guid>http://localhost:1313/projects/devigger/</guid>
       <description>&lt;p&gt;This tool (&lt;a href=&#34;https://github.com/jjc256/devigger&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;) looks at de-vigorished sports betting odds for bets offered by Pinnacle, a sharp bookmaker, and uses those to find positive EV betting opportunities on FanDuel, a soft bookmaker. Tools like this are not unique, but they are offered as a service for &lt;a href=&#34;https://oddsjam.com/subscribe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;high fees&lt;/a&gt;, so I decided to make a simple version myself.&lt;/p&gt;
 &lt;p&gt;Rather than search for arbitrage opportunities, it looks for statistical arbitrage-esque market inefficiencies since sports betting &amp;ldquo;markets&amp;rdquo; are somewhat inefficient.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://jiming-chen.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jiming-chen.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;I study Computer Science at Cornell University.&lt;/p&gt;
 &lt;p&gt;I am an incoming software engineer intern at &lt;a href=&#34;https://www.mlp.com/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Millennium Management&lt;/a&gt; in New York City for the summer of 2026.&lt;/p&gt;
 &lt;p&gt;During the summer of 2025, I was involved with various startups across AI and healthcare, B2B and B2C. I have gained experience with full stack development, deploying RAG and agents, as well as meeting people in industry to identify pain points and target product market fit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Piano Pieces</title>
-      <link>https://jiming-chen.github.io/piano/</link>
+      <link>http://localhost:1313/piano/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jiming-chen.github.io/piano/</guid>
+      <guid>http://localhost:1313/piano/</guid>
       <description>A list of piano pieces which I have played or am currently playing.</description>
     </item>
     <item>
       <title>Summer Break Countdown</title>
-      <link>https://jiming-chen.github.io/countdown/</link>
+      <link>http://localhost:1313/countdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jiming-chen.github.io/countdown/</guid>
+      <guid>http://localhost:1313/countdown/</guid>
       <description>&lt;style&gt;
 .strawberry-container {
   display: grid;
@@ -812,9 +812,9 @@ function updateStrawberryGrid() {
   
   for (let i = 0; i &lt; totalHours; i++) {
     if (i &lt; hoursPassed) {
-      html += `&lt;img src=&#34;https://jiming-chen.github.io/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:1;&#34; /&gt;`;
+      html += `&lt;img src=&#34;http://localhost:1313/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:1;&#34; /&gt;`;
     } else {
-      html += `&lt;img src=&#34;https://jiming-chen.github.io/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:0.3;&#34; /&gt;`;
+      html += `&lt;img src=&#34;http://localhost:1313/countdown/strawberry.svg&#34; width=&#34;10&#34; style=&#34;opacity:0.3;&#34; /&gt;`;
     }
   }
   document.getElementById(&#34;strawberry-grid&#34;).innerHTML = html;
