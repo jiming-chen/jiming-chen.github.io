@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CS 4830: Introduction to Cryptography on Jiming Chen</title>
-    <link>http://localhost:1313/courses/cs4830/</link>
+    <link>https://jiming-chen.github.io/courses/cs4830/</link>
     <description>Recent content in CS 4830: Introduction to Cryptography on Jiming Chen</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Sep 2025 13:28:03 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/cs4830/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/cs4830/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 4: Levin&#39;s Universal One-Way Function</title>
-      <link>http://localhost:1313/courses/cs4830/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture04/</link>
       <pubDate>Thu, 04 Sep 2025 13:28:03 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4830/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture04/</guid>
       <description>&lt;h2 id=&#34;one-way-function-examples&#34;&gt;One-Way Function Examples&lt;/h2&gt;
 &lt;h3 id=&#34;the-discrete-logarithm&#34;&gt;The Discrete Logarithm&lt;/h3&gt;
 &lt;p&gt;There is an algorithm that runs in $O(\log^2q \cdot \log x)$ and computes $h = g^x \mod q$ for $g \in \mathbb{Z}/q\mathbb{Z}$.&lt;/p&gt;
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>Lecture 3: One-way Functions</title>
-      <link>http://localhost:1313/courses/cs4830/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture03/</link>
       <pubDate>Tue, 02 Sep 2025 13:28:31 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4830/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture03/</guid>
       <description>&lt;h2 id=&#34;some-definitions&#34;&gt;Some Definitions&lt;/h2&gt;
 &lt;p&gt;Our definition of many-message semantic security from last lecture was pretty complex, so we can study the definition within a more restricted context.&lt;/p&gt;
 &lt;p&gt;A &lt;em&gt;one-way function&lt;/em&gt; is a function $f : \{0, 1\}^* \to \{0, 1\}^*$ which has the following two properties:&lt;/p&gt;
@@ -36,9 +36,9 @@
     </item>
     <item>
       <title>Lecture 2: Semantic Security</title>
-      <link>http://localhost:1313/courses/cs4830/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture02/</link>
       <pubDate>Thu, 28 Aug 2025 13:31:36 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4830/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture02/</guid>
       <description>&lt;h2 id=&#34;perfect-indistinguishability&#34;&gt;Perfect Indistinguishability&lt;/h2&gt;
 &lt;p&gt;It can be proven that if you have an encryption scheme that is perfectly indistinguishable, then $|K| \geq |M|$.&lt;/p&gt;
 &lt;p&gt;To prove this, we can choose an $m \in M$ and $c \in C$ such that $c$ is valid, e.g.&lt;/p&gt;
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>Lecture 1: Course Overview and Introduction</title>
-      <link>http://localhost:1313/courses/cs4830/lecture01/</link>
+      <link>https://jiming-chen.github.io/courses/cs4830/lecture01/</link>
       <pubDate>Tue, 26 Aug 2025 13:23:06 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4830/lecture01/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4830/lecture01/</guid>
       <description>&lt;h2 id=&#34;logistics&#34;&gt;Logistics&lt;/h2&gt;
 &lt;p&gt;This is a theoretical course. It is about math, definitions, and theorems, not real world practical security and programming.&lt;/p&gt;
 &lt;p&gt;There are 6 (plus one extra) problem sets, and the lowest score is dropped. They are due roughly every other Thursday.&lt;/p&gt;

@@ -33,7 +33,6 @@ At Cornell, I work on verification of RTL designs for a custom chip as part of {
 
 ## Miscellanous
 * I enjoy playing the piano, which I currently study under {{< newtabref href="https://music.cornell.edu/andrew-zhou" title="Andrew Zhou" >}}. I am also involved in chamber music. Here is {{< newtabref href="/piano" title="a list of pieces I have played or am playing" >}}.
-* I am currently reading Homer's *Iliad*. See my Goodreads {{< newtabref href="https://www.goodreads.com/user/show/186102361-jiming-chen" title="here" >}}.
 * I am interested in philosophy and was previously an editor for *Logos: The Cornell Undergraduate Philosophy Journal*. See the 2024 edition {{< newtabref href="/about/Logos-Journal-Volume-XX-Spring-2024.pdf" title="here" >}}. Or see whether I think numbers are real {{< newtabref href="/about/PHIL3780.pdf" title="here" >}}.
 * I have written problems for the {{< newtabref href="https://bigredmathcomp.org/" title="Cornell University Big Red Math Competition" >}}.
 

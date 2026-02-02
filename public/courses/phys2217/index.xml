@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PHYS 2217: Honors Electricity and Magnetism on Jiming Chen</title>
-    <link>http://localhost:1313/courses/phys2217/</link>
+    <link>https://jiming-chen.github.io/courses/phys2217/</link>
     <description>Recent content in PHYS 2217: Honors Electricity and Magnetism on Jiming Chen</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Feb 2025 10:14:23 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/phys2217/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/phys2217/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 12: Kirchoff&#39;s Rules</title>
-      <link>http://localhost:1313/courses/phys2217/lecture12/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture12/</link>
       <pubDate>Mon, 24 Feb 2025 10:14:23 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture12/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture12/</guid>
       <description>&lt;p&gt;If you had a charge $q$ and an infinite plane, finding the potential everywhere would be very hard. However, if you replace the plane with a $-q$ charge, then it becomes easier. These are &lt;em&gt;image charges&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;kirchoffs-rules&#34;&gt;Kirchoff&amp;rsquo;s Rules&lt;/h2&gt;
 &lt;p&gt;There is zero net current in and out of a node:&lt;/p&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Lecture 6: Electric Potential, Conductors, and Electric Dipoles</title>
-      <link>http://localhost:1313/courses/phys2217/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture06/</link>
       <pubDate>Mon, 03 Feb 2025 10:24:52 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture06/</guid>
       <description>&lt;h2 id=&#34;electric-potential&#34;&gt;Electric Potential&lt;/h2&gt;
 &lt;p&gt;If a sphere has an evenly distributed charge density $\rho$, then we know the sphere is not a conductor because in a conductor, the charge will evenly distribute on the surface because that is the minimum energy configuration.&lt;/p&gt;
 &lt;p&gt;Recall that electric potential over a path from $p_1$ to $p_2$ is&lt;/p&gt;
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>Lecture 4: Flux and Gauss&#39; Law</title>
-      <link>http://localhost:1313/courses/phys2217/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 10:32:35 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture04/</guid>
       <description>&lt;p&gt;Flux can be imagined as the amount of flow going perpendicular to a surface. We can write
 $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
 &lt;p&gt;Gauss&amp;rsquo; Law states that&lt;/p&gt;
@@ -43,9 +43,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 3: Electric Potential Energy and Electric Fields</title>
-      <link>http://localhost:1313/courses/phys2217/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 10:11:49 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture03/</guid>
       <description>&lt;h2 id=&#34;electric-potential-energy&#34;&gt;Electric Potential Energy&lt;/h2&gt;
 &lt;p&gt;If you have a charges $q_1$ and $q_2$ infinitely far away, and you want to bring them together so that they are $r_{12}$ apart, work has to be done. Work is&lt;/p&gt;
 &lt;p&gt;$$\int \mathbf{F} \cdot d\mathbf{s} = \int_{\infty}^{r_{12}} -\frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}^2}dr = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r_{12}}.$$&lt;/p&gt;
@@ -55,9 +55,9 @@ $$\Phi = \int \mathbf{E} \cdot d\mathbf{a}.$$&lt;/p&gt;
     </item>
     <item>
       <title>Lecture 2: Charge and Coulomb&#39;s Law</title>
-      <link>http://localhost:1313/courses/phys2217/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/phys2217/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 10:12:56 -0500</pubDate>
-      <guid>http://localhost:1313/courses/phys2217/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/phys2217/lecture02/</guid>
       <description>&lt;h2 id=&#34;vector-calculus-recap&#34;&gt;Vector Calculus Recap&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;field&lt;/strong&gt; is a physical quantity that is defined at each point in time and space. It could be a scalar, vector, or tensor. Temperatures are an example of a scalar field and wind an example of vector fields.&lt;/p&gt;
 &lt;p&gt;Gradient (vector showing direction of steepest ascent), divergence (scalar), and curl (vector showing how much rotation) are vector field operations.&lt;/p&gt;

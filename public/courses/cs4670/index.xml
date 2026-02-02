@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CS 4670: Intro to Computer Vision on Jiming Chen</title>
-    <link>http://localhost:1313/courses/cs4670/</link>
+    <link>https://jiming-chen.github.io/courses/cs4670/</link>
     <description>Recent content in CS 4670: Intro to Computer Vision on Jiming Chen</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Apr 2025 14:06:41 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/cs4670/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 23: Recognition</title>
-      <link>http://localhost:1313/courses/cs4670/lecture23/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture23/</link>
       <pubDate>Mon, 07 Apr 2025 14:06:41 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture23/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture23/</guid>
       <description>&lt;p&gt;What if you want information about images? This can be done using machine learning. Specifically, classification of images is useful, and we need classification datasets to train models.&lt;/p&gt;
 &lt;p&gt;MNIST was the first major dataset and consisted of handwritten numbers. Caltech 101 consisted of objects, but there were spurious correlations. ImageNet contains lots of labeled images.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 21: Other Methods of Obtaining 3D Structure</title>
-      <link>http://localhost:1313/courses/cs4670/lecture21/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture21/</link>
       <pubDate>Wed, 26 Mar 2025 13:36:50 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture21/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture21/</guid>
       <description>&lt;p&gt;So far, when talking about 3D structure from images, we have been talking about the depth of each pixel $D[\mathbf{p}] \in \mathbb{R}^+$. However, we can also look at the &lt;em&gt;surface normal&lt;/em&gt; at any point because up close, any object approximates a plane. We can let this information be conveyed in another channel $N[\mathbf{p}] \in \mathbb{S}^2$.&lt;/p&gt;
 &lt;p&gt;Sometimes, when things in images are too far, the depth channel can have less information, but we can use surface normal to fill in missing information to complete the depth map.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 20 : Recovering Fundamental Matrix</title>
-      <link>http://localhost:1313/courses/cs4670/lecture20/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture20/</link>
       <pubDate>Mon, 17 Mar 2025 13:36:16 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture20/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture20/</guid>
       <description>&lt;h2 id=&#34;structure-from-motion&#34;&gt;Structure From Motion&lt;/h2&gt;
 &lt;p&gt;If we have two cameras whose parameters we don&amp;rsquo;t know, can we recover camera location and orientation without a calibration object in order to recover the 3D world?&lt;/p&gt;
 &lt;p&gt;Recall that $\mathbf{q}^TF\mathbf{p} = 0$. In order to find $F$, we can use an 8-point algorithm.&lt;/p&gt;
@@ -36,27 +36,27 @@
     </item>
     <item>
       <title>Lecture 18: Epipolar Geometry</title>
-      <link>http://localhost:1313/courses/cs4670/lecture18/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture18/</link>
       <pubDate>Wed, 12 Mar 2025 13:45:41 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture18/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture18/</guid>
       <description>&lt;p&gt;Given two camera centers and a point in 3D space, we can define the plane containing these points. We call this the &lt;em&gt;epipolar plane&lt;/em&gt;. The &lt;em&gt;epipolar line&lt;/em&gt; for a camera is the intersection of the epipolar plane and the camera plane.&lt;/p&gt;
 &lt;p&gt;We can also define the &lt;em&gt;epipolar pencil&lt;/em&gt;, which is the family of planes formed by changing the point in 3D space.&lt;/p&gt;
 &lt;p&gt;For the math, we assume the intrinsic parameters are the identity matrix, and we assume the world coordinate system is centered at the 1st camera pinhole with the $Z$ axis along the viewing direction. Then,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 17: Planar Homography</title>
-      <link>http://localhost:1313/courses/cs4670/lecture17/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture17/</link>
       <pubDate>Mon, 10 Mar 2025 13:30:23 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture17/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture17/</guid>
       <description>&lt;p&gt;Since we can set the world coordinates ourselves, we can let the world $Z$ coordinate be $0$, discarding the third column of the matrix $P$, resulting in a matrix we call $H$.&lt;/p&gt;
 &lt;p&gt;$H$ has $9$ entries, but accounting for $\lambda$, there are only $8$ parameters. Thus, we need four points to determine $H$.&lt;/p&gt;
 &lt;p&gt;Homography works for image stitching because it helps us map different camera angles onto the same coordinate plane.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 16: Binocular Stereo</title>
-      <link>http://localhost:1313/courses/cs4670/lecture16/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture16/</link>
       <pubDate>Fri, 07 Mar 2025 13:26:08 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture16/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture16/</guid>
       <description>&lt;p&gt;It is hard to do 3D reconstruction with a single image because obviously we have lost information about depth. However, if we have two cameras, we can use parallax to triangulate.&lt;/p&gt;
 &lt;p&gt;Assume we have two calibrated cameras and we have already run correspondence to find a pair of matching points:&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
@@ -75,9 +75,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 15: Camera Calibration</title>
-      <link>http://localhost:1313/courses/cs4670/lecture15/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture15/</link>
       <pubDate>Mon, 03 Mar 2025 13:29:10 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture15/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture15/</guid>
       <description>&lt;h2 id=&#34;recap-of-aligning-coordinate-systems&#34;&gt;Recap of Aligning Coordinate Systems&lt;/h2&gt;
 &lt;p&gt;Recall that $\mathbf{x}_c = R\mathbf{x}_w + \mathbf{t}$. We first find $R$:&lt;/p&gt;
 &lt;p&gt;$$R = \begin{bmatrix}X_c &amp;amp; Y_c &amp;amp; Z_c\end{bmatrix}^T.$$&lt;/p&gt;
@@ -106,18 +106,18 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 14: More 3D Geometry</title>
-      <link>http://localhost:1313/courses/cs4670/lecture14/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture14/</link>
       <pubDate>Fri, 28 Feb 2025 13:32:01 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture14/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture14/</guid>
       <description>&lt;p&gt;How do we go from the film plane (projected image) to pixel array? Recall that for the latter, we place the origin in the top left. However, for the former, the origin is in the middle. Thus, to go from the former to the latter, we need to include an offset:&lt;/p&gt;
 &lt;p&gt;$$u = f\frac{X}{Z} + o_x, \quad v = f\frac{Y}{Z} +o_y.$$&lt;/p&gt;
 &lt;p&gt;This assumes that the focal length $f$ is the same in each direction. In practice, this may not be true, so we add scaling factors&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 13: Coordinate System Transformations</title>
-      <link>http://localhost:1313/courses/cs4670/lecture13/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture13/</link>
       <pubDate>Wed, 26 Feb 2025 13:39:12 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture13/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture13/</guid>
       <description>&lt;p&gt;Recall our projection equations&lt;/p&gt;
 &lt;p&gt;$$x = \frac{X}{Z}, \quad y = \frac{Y}{Z}.$$&lt;/p&gt;
 &lt;p&gt;However, because we have division, this is not linear. How can we represent it like&lt;/p&gt;
@@ -128,9 +128,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 12: 3D Coordinates</title>
-      <link>http://localhost:1313/courses/cs4670/lecture12/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture12/</link>
       <pubDate>Mon, 24 Feb 2025 13:29:07 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture12/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture12/</guid>
       <description>&lt;p&gt;Say we have a line passing through a point $A$ with direction $D$. Then, we can write&lt;/p&gt;
 &lt;p&gt;$$Q(\lambda) = A + \lambda D.$$&lt;/p&gt;
 &lt;p&gt;Then, we can have a parallel line&lt;/p&gt;
@@ -141,27 +141,27 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 11: Correspondences and Reconstruction</title>
-      <link>http://localhost:1313/courses/cs4670/lecture11/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture11/</link>
       <pubDate>Fri, 21 Feb 2025 13:27:21 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture11/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture11/</guid>
       <description>&lt;h2 id=&#34;correspondences-wrap-up&#34;&gt;Correspondences Wrap-Up&lt;/h2&gt;
 &lt;p&gt;If we have a bunch of corners in two images, how we do match them to each other? Since each corner is described by a vector, we can compute Euclidean distance and correspond to each corner in image 1 the closest corner in image 2.&lt;/p&gt;
 &lt;p&gt;However, not every corner in image 1 is guaranteed to have a matching corner in image 2. Therefore, we devise a method of scoring correspondences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 10: Feature Descriptors</title>
-      <link>http://localhost:1313/courses/cs4670/lecture10/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture10/</link>
       <pubDate>Wed, 19 Feb 2025 13:27:22 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture10/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture10/</guid>
       <description>&lt;p&gt;A feature descriptor is a way to describe pixels using vectors in order to do correspondence.&lt;/p&gt;
 &lt;p&gt;One example is the &lt;em&gt;Multiscale Oriented Patches&lt;/em&gt; (MOPS) descriptor, which describes a corner by the patch around the pixel. The patch should have scale, rotation, and photometric invariance.&lt;/p&gt;
 &lt;p&gt;Automatic scale selection is done by taking the function at many scales and taking the scale which maximizes the function. This implemented using the Gaussian pre-filtering and blurring (Gaussian pyramid) that we used for zooming in on images and computing $f$ for a fixed window size.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 6: Edge Detection and Clustering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture06/</link>
       <pubDate>Wed, 05 Feb 2025 13:31:49 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture06/</guid>
       <description>&lt;h2 id=&#34;edge-detection&#34;&gt;Edge Detection&lt;/h2&gt;
 &lt;p&gt;Recall that we can use anisotropic filtering because Gaussian filtering should not be the same in every direction. One variant of the anisotropic Gaussian is the Sobel filter:&lt;/p&gt;
 &lt;p&gt;$$\begin{bmatrix} 1 \\ 2 \\ 1\end{bmatrix} * \begin{bmatrix} 1 &amp;amp; 0 &amp;amp; -1 \end{bmatrix} = \begin{bmatrix}
@@ -173,9 +173,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 5: Grouping and Edges</title>
-      <link>http://localhost:1313/courses/cs4670/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture05/</link>
       <pubDate>Fri, 31 Jan 2025 13:28:07 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture05/</guid>
       <description>&lt;h2 id=&#34;bilinear-interpolation-review&#34;&gt;Bilinear Interpolation Review&lt;/h2&gt;
 &lt;p&gt;To perform bilinear interpolation, we could use the traditional area formula, or we could use one linear interpolation to find points on the edge that lie across from each other through the point of interest and perform another interpolation to get the value of the point we want.&lt;/p&gt;
 &lt;h2 id=&#34;grouping-and-edges&#34;&gt;Grouping and Edges&lt;/h2&gt;
@@ -183,33 +183,33 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 4: Convolution and Geometric Transformations</title>
-      <link>http://localhost:1313/courses/cs4670/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture04/</link>
       <pubDate>Wed, 29 Jan 2025 13:28:09 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture04/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;Last class, we mentioned that we can use convolution to turn color images gray. To do this, we can treat a color image as three layers of grayscale images and use a three-layer kernel.&lt;/p&gt;
 &lt;p&gt;We also mentioned looking at 1D convolution as matrix multiplication. To extend this to 2 dimensions, we can simply put all the rows/columns of the image in one long column vector, doing the matrix multiplication, and unwrapping the long column vector back into an image. Although it requires thinking to squish the kernel and place it into the square matrix, it works out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 3: More Convolution</title>
-      <link>http://localhost:1313/courses/cs4670/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture03/</link>
       <pubDate>Mon, 27 Jan 2025 13:29:37 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture03/</guid>
       <description>&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
 &lt;p&gt;The below filter for a pixel if the pixels to the bottom left are light and the pixels to the top right are dark, so it detects edges.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture03/edge.png&#34; alt=&#34;Edge filter&#34; width=&#34;80%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An edge-detecting filter.&lt;/figcaption&gt;
 &lt;p&gt;Shift equivariance is an important property, and it is why convolution is so used in the real world (including in machine learning). If we have a filter that detects cats, it should not break if the cat moves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Image Filtering</title>
-      <link>http://localhost:1313/courses/cs4670/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs4670/lecture02/</link>
       <pubDate>Fri, 24 Jan 2025 13:26:11 -0500</pubDate>
-      <guid>http://localhost:1313/courses/cs4670/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4670/lecture02/</guid>
       <description>&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;How do you represent a photograph? You could say pixels, but originally, there were no pixels in photographs. Therefore, we could say an image is a function that maps spatial location to intensity, where intensity is a number between 0 and 1, inclusive:&lt;/p&gt;
 &lt;p&gt;$$f : \mathbb{R}^2 \to [0, 1].$$&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
+&lt;img src=&#34;https://jiming-chen.github.io/courses/cs4670/lecture02/train.jpg&#34; alt=&#34;Derailed train&#34; width=&#34;50%&#34; class=&#34;center&#34;&gt;
 &lt;figcaption&gt;Fig. 1. An example of an image.&lt;/figcaption&gt;
 &lt;p&gt;What about color images? We could extend the function definition to one using RGB:&lt;/p&gt;</description>
     </item>

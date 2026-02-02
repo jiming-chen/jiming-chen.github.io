@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CS 4110: Programming Languages and Logics on Jiming Chen</title>
-    <link>http://localhost:1313/courses/cs4110/</link>
+    <link>https://jiming-chen.github.io/courses/cs4110/</link>
     <description>Recent content in CS 4110: Programming Languages and Logics on Jiming Chen</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Sep 2025 10:18:40 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/cs4110/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/courses/cs4110/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 8: More IMP</title>
-      <link>http://localhost:1313/courses/cs4110/lecture08/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture08/</link>
       <pubDate>Fri, 12 Sep 2025 10:18:40 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture08/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture08/</guid>
       <description>&lt;p&gt;How would we add concurrent composition to IMP? For example, if $\sigma(x) = \sigma(y) = 0$ and&lt;/p&gt;
 &lt;p&gt;$$x := y + 1 ; y := y + 1 \ || \ y := y + 1,$$&lt;/p&gt;
 &lt;p&gt;then what is $\sigma^\prime$?&lt;/p&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>Lecture 6: IMP</title>
-      <link>http://localhost:1313/courses/cs4110/lecture06/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture06/</link>
       <pubDate>Mon, 08 Sep 2025 10:15:30 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture06/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture06/</guid>
       <description>&lt;p&gt;This lecture is taught by Dexter Kozen and is about a simple imperative language called IMP. It has&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;arithmetic expressions: $a \in \text{Aexp} \quad a ::= x | n | a_1 + a_2 | a_1 \times a_2$.&lt;/li&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Lecture 5: Big-Step Semantics</title>
-      <link>http://localhost:1313/courses/cs4110/lecture05/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture05/</link>
       <pubDate>Fri, 05 Sep 2025 10:18:47 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture05/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture05/</guid>
       <description>&lt;p&gt;We can write a grammar for OCaml-style lists:&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
 e ::&amp;amp;= n \\
@@ -51,9 +51,9 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 4: Semantics</title>
-      <link>http://localhost:1313/courses/cs4110/lecture04/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture04/</link>
       <pubDate>Wed, 03 Sep 2025 10:22:44 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture04/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture04/</guid>
       <description>&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
 &lt;p&gt;Recall the progress property that we discussed last lecture that helps us prove that any well-formed configuration eventually steps to some integer.&lt;/p&gt;
 &lt;p&gt;We want to prove that for all$e \in \text{Exp}$, $P(e)$ holds, where&lt;/p&gt;
@@ -63,26 +63,26 @@ e ::&amp;amp;= n \\
     </item>
     <item>
       <title>Lecture 3: Induction</title>
-      <link>http://localhost:1313/courses/cs4110/lecture03/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture03/</link>
       <pubDate>Fri, 29 Aug 2025 10:09:31 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture03/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture03/</guid>
       <description>&lt;h2 id=&#34;inference-rules&#34;&gt;Inference Rules&lt;/h2&gt;
 &lt;p&gt;Suppose that $\sigma$ is some store that maps &lt;code&gt;foo&lt;/code&gt; to &lt;code&gt;4&lt;/code&gt;. Consider $\langle \sigma, (\texttt{foo} + 2) \times (\texttt{bar} + 1)\rangle$. In this case, the only inference rule that applies here is the one that allows the left side of the product to take a step. Doing this repeatedly results in a proof tree which shows how we can go from the original configuration to the &amp;ldquo;final&amp;rdquo; configuration:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 2: Introduction to Semantics</title>
-      <link>http://localhost:1313/courses/cs4110/lecture02/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture02/</link>
       <pubDate>Wed, 27 Aug 2025 10:12:50 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture02/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture02/</guid>
       <description>&lt;p&gt;What is the meaning of a program? We could execute the program or consult a manual, but these are not satisfactory approaches because the program could execution could not work and manuals are not speciic.&lt;/p&gt;
 &lt;p&gt;A simple language we could look at is that of arithmetic expressions with assignment.&lt;/p&gt;
 &lt;p&gt;First we establish some metavariables. We can establish $x, y, z \in \text{Var}$ (variables), let $n, m \in \text{Int}$ (integers), and let $e \in \text{Exp}$ (expressions).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 1: Course Overview</title>
-      <link>http://localhost:1313/courses/cs4110/lecture01/</link>
+      <link>https://jiming-chen.github.io/courses/cs4110/lecture01/</link>
       <pubDate>Mon, 25 Aug 2025 10:08:42 -0400</pubDate>
-      <guid>http://localhost:1313/courses/cs4110/lecture01/</guid>
+      <guid>https://jiming-chen.github.io/courses/cs4110/lecture01/</guid>
       <description>&lt;p&gt;This lecture serves as theater, e.g. to show why studying programming languages might be cool.&lt;/p&gt;
 &lt;h2 id=&#34;programming-language-quirk-examples&#34;&gt;Programming Language Quirk Examples&lt;/h2&gt;
 &lt;p&gt;One cool example of programming languages being weird is how &lt;code&gt;[] + []&lt;/code&gt;, &lt;code&gt;[] + {}&lt;/code&gt;, &lt;code&gt;{} + []&lt;/code&gt;, and &lt;code&gt;{} + {}&lt;/code&gt; all evaluate to different things in JavaScript.&lt;/p&gt;

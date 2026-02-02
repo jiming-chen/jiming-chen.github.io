@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Jiming Chen</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://jiming-chen.github.io/posts/</link>
     <description>Recent content in Posts on Jiming Chen</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
     <lastBuildDate>Sun, 10 Aug 2025 23:08:31 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiming-chen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JIYP: Lessons Learned, Part 2 &#43; Agent Architecture Report</title>
-      <link>http://localhost:1313/posts/jiyp2/</link>
+      <link>https://jiming-chen.github.io/posts/jiyp2/</link>
       <pubDate>Sun, 10 Aug 2025 23:08:31 -0700</pubDate>
-      <guid>http://localhost:1313/posts/jiyp2/</guid>
+      <guid>https://jiming-chen.github.io/posts/jiyp2/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;This page will consist of two sections: a brief section on some lessons learned from this internship and a longer report describing in detail the agent architecture we used. For a detailed report on how our Django backend works, please see &lt;a href=&#34;https://docs.google.com/document/d/1ECKAXXHJE0lT7bwFxqrRb52l-gm_8zaF/edit?tab=t.0&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Feel free to reach out on &lt;a href=&#34;https://www.linkedin.com/in/jiming-chen/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt; or email me at &lt;code&gt;jc3579@cornell.edu&lt;/code&gt; if you have questions.&lt;/p&gt;
 &lt;h1 id=&#34;lessons-learned-part-2&#34;&gt;Lessons Learned, Part 2&lt;/h1&gt;
-&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/posts/jiyp1/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;my first lessons learned post&lt;/a&gt;, I discussed how we used RAG in a specific way to address a specific use case: customizing advice based on referring doctor. This allowed us to have a different corpus of experts on whom to RAG based on which doctor was referring. However, this led us to one big issue: some more prolific experts, with more content on the internet, were overpowering the retrieval, even in areas not under their expertise. For example, if I asked a question about sleep, due to the sheer amount of his content, Mark Hyman&amp;rsquo;s content would always come out on top over Matthew Walker, the actual sleep expert.&lt;/p&gt;</description>
+&lt;p&gt;In &lt;a href=&#34;https://jiming-chen.github.io/posts/jiyp1/&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;my first lessons learned post&lt;/a&gt;, I discussed how we used RAG in a specific way to address a specific use case: customizing advice based on referring doctor. This allowed us to have a different corpus of experts on whom to RAG based on which doctor was referring. However, this led us to one big issue: some more prolific experts, with more content on the internet, were overpowering the retrieval, even in areas not under their expertise. For example, if I asked a question about sleep, due to the sheer amount of his content, Mark Hyman&amp;rsquo;s content would always come out on top over Matthew Walker, the actual sleep expert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A PostgreSQL Bug I Had to Deal With</title>
-      <link>http://localhost:1313/posts/securitydefiner/</link>
+      <link>https://jiming-chen.github.io/posts/securitydefiner/</link>
       <pubDate>Tue, 22 Jul 2025 01:32:37 -0500</pubDate>
-      <guid>http://localhost:1313/posts/securitydefiner/</guid>
+      <guid>https://jiming-chen.github.io/posts/securitydefiner/</guid>
       <description>&lt;p&gt;Back in May, when first started working on one of my projects which uses PostgreSQL, I implemented a TypeScript edge function called &lt;code&gt;delete-user&lt;/code&gt; that does exactly what you&amp;rsquo;d expect it to do (among other things), and it worked fine back then. But two days ago, to my dismay, I tried deleting an account, and I received a 500 error from the API call.&lt;/p&gt;
 &lt;p&gt;After adding some logs, I narrowed the error down to this line:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lazy Caching</title>
-      <link>http://localhost:1313/posts/lazycaching/</link>
+      <link>https://jiming-chen.github.io/posts/lazycaching/</link>
       <pubDate>Tue, 01 Jul 2025 01:28:34 -0700</pubDate>
-      <guid>http://localhost:1313/posts/lazycaching/</guid>
+      <guid>https://jiming-chen.github.io/posts/lazycaching/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s say you have an app where users can search up any book. From the user side, it might seem like we need a database row for every single edition, with title, publisher, description, cover image, and so on. Especially for descriptions and cover images, when considering up to 50 million editions, costs can accrue quickly, not to mention acquiring such a database would be difficult.&lt;/p&gt;
 &lt;p&gt;A solution which I am quite partial to is what is known in system design as lazy caching. What this means is that we only load something in the first time it is needed and we don&amp;rsquo;t have it, and for subsequent requests, since we already have it, we don&amp;rsquo;t need to load it again. What I find elegant about it is that for the cost of one user having slightly higher latency, database size is much smaller, it allows the database to be built over time rather than all at once, and most importantly, to the user it appears as if the whole database is present.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JIYP: Lessons Learned, Part 1</title>
-      <link>http://localhost:1313/posts/jiyp1/</link>
+      <link>https://jiming-chen.github.io/posts/jiyp1/</link>
       <pubDate>Mon, 30 Jun 2025 09:30:29 -0500</pubDate>
-      <guid>http://localhost:1313/posts/jiyp1/</guid>
+      <guid>https://jiming-chen.github.io/posts/jiyp1/</guid>
       <description>&lt;p&gt;Two weeks ago, I started working at a startup called Jarvis In Your Pocket. Imagine if you could track your nutritional (and overall) health using just an LLM, an LLM that could learn about you, be proactive, and give solid advice based on trusted expert sources selected by your doctor.&lt;/p&gt;
 &lt;p&gt;Some things were easier than I expected. First, we envisioned a virtual retrieval-augmented generation (RAG) system whereby we could consult with multiple doctors who had their own trusted materials and RAG on a specific subset of all the sources based on which doctor had referred the user. While it may sound like we have to create virtual vector databases on top of the large corpus of content, it&amp;rsquo;s actually as simple filtering on chunk metadata like so:&lt;/p&gt;</description>
     </item>
