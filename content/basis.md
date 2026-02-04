@@ -1,6 +1,6 @@
 ---
 date: '2026-02-03T21:20:05-05:00'
-title: 'Breaking News: BASIS Independent Silicon Valley Declares the Banana Its Official School Fruit'
+title: 'Breaking News: BASIS Independent Silicon Valley Declares ASL Its Official School Language'
 draft: false
 cover:
     image: ""
@@ -8,22 +8,24 @@ cover:
     relative: false # when usng page bundles set this to true
 ---
 
-**Silicon Valley, CA** — In a move that has delighted students, puzzled rivals, and sparked spirited lunchtime debate, **BASIS Independent Silicon Valley** has officially named **the banana** as its school fruit.
+*Silicon Valley, CA** — In a landmark announcement emphasizing inclusion, communication, and community, has officially declared **American Sign Language (ASL)** as its school’s official language.
 
-The announcement was shared this week through campus channels, quickly rippling through classrooms and group chats alike. While some expected a flashier choice, the banana’s quiet confidence won the day—proving that greatness doesn’t always need seeds on the outside.
+The decision, shared this week across campus announcements and advisory meetings, was met with excitement, curiosity, and a wave of students immediately attempting to fingerspell their friends’ names.
 
-## Why the Banana?
-According to school representatives, the decision celebrates qualities the community values:
-- **Reliability:** Always there when you need it.
-- **Efficiency:** Nature’s own grab-and-go snack.
-- **Balance:** A classic curve that somehow just works.
+## Why ASL?
+School leaders explained that ASL represents values deeply aligned with the BASIS mission:
+- **Accessibility:** Communication that centers inclusivity and equity  
+- **Clarity:** Expression that values intention as much as precision  
+- **Community:** A shared language that brings people together—literally face to face  
 
-Students were quick to add their own interpretations. “It’s iconic,” said one junior between bites. “You peel it, you eat it, you move on. Very BASIS.”
+“ASL reminds us that communication is more than words,” said one faculty member. “It’s about attention, respect, and understanding.”
 
-## Nutritionally Sound, Spiritually Grounded
-Beyond symbolism, the banana brings real benefits—potassium for focus, natural sugars for energy, and a reputation for keeping things simple during packed academic days. Faculty noted that the choice aligns with the school’s emphasis on practical excellence and everyday wins.
+## A Language You Can See
+Students noted that ASL feels especially fitting in a high-energy academic environment. “It’s expressive, it’s visual, and it forces you to actually look at the person you’re talking to,” said a sophomore. “Also, it makes silent collaboration way cooler.”
 
-## A Peel of Approval
-Whether spotted in backpacks, lunch trays, or post-practice snacks, the banana now carries a little extra pride on campus. It’s not flashy. It doesn’t crunch. But it shows up.
+Clubs and classes are already exploring ways to incorporate ASL more formally, from morning announcements to performances and assemblies.
 
-And sometimes, that’s exactly the point.
+## Setting a New Standard
+By recognizing ASL as its official language, BASIS Independent Silicon Valley joins a growing movement of schools highlighting accessibility and Deaf culture as central—not auxiliary—to education.
+
+Hands may be moving a little more these days on campus, but the message is clear.
