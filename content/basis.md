@@ -1,16 +1,12 @@
 ---
 date: '2026-02-03T21:20:05-05:00'
-title: 'BASIS Independent Silicon Valley Declares School Fruit'
+title: 'Breaking News: BASIS Independent Silicon Valley Declares the Banana Its Official School Fruit'
 draft: false
 cover:
     image: ""
     alt: ""
     relative: false # when usng page bundles set this to true
 ---
-
-# Breaking News: BASIS Independent Silicon Valley Declares the Banana Its Official School Fruit
-
-
 
 **Silicon Valley, CA** — In a move that has delighted students, puzzled rivals, and sparked spirited lunchtime debate, **BASIS Independent Silicon Valley** has officially named **the banana** as its school fruit.
 
