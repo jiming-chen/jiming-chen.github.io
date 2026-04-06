@@ -94,7 +94,9 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * IV. *«Les sons et les parfums tournent dans l'air du soir»* :star:
     * V. *Les collines d'Anacapri* :star:
     * VI. *Des pas sur la neige* :star:
+    * VII. *Ce qu'a vu le vent d'ouest* :star:
     * VIII. *La fille aux cheveux de lin*
+    * XII. *Minstrels* :star:
 
 ## Leopold Godowsky
 * Studies on Chopin's Études
