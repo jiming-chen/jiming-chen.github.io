@@ -133,6 +133,10 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * Préludes
     * III. *Le nombre léger* :star:
 
+## Moritz Moszkowski
+* 20 Petite Études, Op. 91
+    * VII. Allegro brillante in G Major
+
 ## Sergei Rachmaninoff
 * Études-Tableaux, op. 33
     * II. Allegro in C Major
