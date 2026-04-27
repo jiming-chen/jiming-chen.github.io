@@ -5,7 +5,7 @@ title: 'About Me'
 
 I study Computer Science at Cornell University.
 
-I am an incoming software engineer intern at {{< newtabref href="https://www.mlp.com/" title="Millennium Management" >}} in New York City for the summer of 2026.
+I am an incoming software engineer intern at {{< newtabref href="https://www.mlp.com/" title="Millennium Management" >}} in New York City for the summer of 2026. I will be building a digital AI employee to help people across the hedge fund work more efficiently.
 
 During the summer of 2025, I was involved with startups across AI and healthcare, B2B and B2C. I have gained experience with full stack development, deploying RAG and agents, as well as meeting people in industry to identify pain points and target product market fit.
 
