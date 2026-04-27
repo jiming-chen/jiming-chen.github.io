@@ -29,7 +29,7 @@ At Cornell, I work on verification of RTL designs for a custom chip as part of {
 * Honors Algebra
 
 ## Honors
-* William Lowell Putnam Mathematical Competition (Top 800)
+* William Lowell Putnam Mathematical Competition (Top 500)
 * ICCAD Contest on LLM-Assisted Hardware Design (9th Place)
 * Cornell Integration Bee (3rd Place)
 
