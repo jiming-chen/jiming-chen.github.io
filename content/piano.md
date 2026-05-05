@@ -129,8 +129,8 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
 * Songs Without Words, op. 67
     * IV. Presto: *Spinnerlied* ("Spinning Song") in C Major
 * Piano Trio No. 1 in D Minor, op. 49 (with Helen Qian and Andrew Ahn as violin and viola, respectively)
-    * I. Molto allegro agitato :star:
-    * II. Andante con moto tranquilo :star:
+    * I. Molto allegro agitato
+    * II. Andante con moto tranquilo
 
 ## Olivier Messiaen
 * Préludes
