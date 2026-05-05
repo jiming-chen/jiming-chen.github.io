@@ -91,12 +91,15 @@ Pieces followed by :star: are pieces which I am currently working on. Some of my
     * I. *Danseuses de Delphes*
     * II. *Voiles*
     * III. *Le vent dans la plaine*
-    * IV. *«Les sons et les parfums tournent dans l'air du soir»* :star:
-    * V. *Les collines d'Anacapri* :star:
-    * VI. *Des pas sur la neige* :star:
-    * VII. *Ce qu'a vu le vent d'ouest* :star:
+    * IV. *«Les sons et les parfums tournent dans l'air du soir»*
+    * V. *Les collines d'Anacapri*
+    * VI. *Des pas sur la neige*
+    * VII. *Ce qu'a vu le vent d'ouest*
     * VIII. *La fille aux cheveux de lin*
-    * XII. *Minstrels* :star:
+    * IX. *La sérénade interrompue* :star:
+    * X. *La cathédrale engloutie* :star:
+    * XI. *La danse de Puck* :star:
+    * XII. *Minstrels*
 
 ## Leopold Godowsky
 * Studies on Chopin's Études
