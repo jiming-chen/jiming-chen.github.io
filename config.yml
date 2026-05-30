@@ -76,6 +76,8 @@ params:
       url: "https://github.com/jjc256"
     - name: linkedin
       url: "https://www.linkedin.com/in/jiming-chen/"
+    - name: youtube
+      url: "https://www.youtube.com/@jjchen256"
 
   cover:
     hidden: true # hide everywhere but not in structured data
