@@ -5,7 +5,7 @@ title: 'About Me'
 
 I study Computer Science at Cornell University.
 
-I am an incoming software engineer intern at {{< newtabref href="https://www.mlp.com/" title="Millennium Management" >}} in New York City for the summer of 2026. I will be building a digital AI employee to help people across the hedge fund work more efficiently.
+I am a software engineer intern at {{< newtabref href="https://www.mlp.com/" title="Millennium Management" >}} in New York City for the summer of 2026. I am building an AI digital employee to help people across the hedge fund work more efficiently.
 
 During the summer of 2025, I was involved with startups across AI and healthcare, B2B and B2C. I have gained experience with full stack development, deploying RAG and agents, as well as meeting people in industry to identify pain points and target product market fit.
 
@@ -14,12 +14,14 @@ During the summer of 2024, I researched using LLMs for hardware design under {{<
 At Cornell, I work on verification of RTL designs for a custom chip as part of {{< newtabref href="https://c2s2.engineering.cornell.edu/" title="Cornell Custom Silicon Systems" >}}. My work consists of formal verification as well as simulation testing, and I have helped verify blocks including an SPI minion, LBIST, and FFT.
 
 ## Some relevant coursework
+* Reinforcement Learning
 * Compilers
 * Analysis of Algorithms
 * Systems Programming
 * Functional Programming in OCaml
 * Programming Languages and Logics
 * Formal Verification
+* Robotics
 * Embedded Systems
 * Cryptography
 * Computer Vision
