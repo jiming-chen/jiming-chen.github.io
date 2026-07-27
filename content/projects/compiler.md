@@ -1,7 +1,7 @@
 ---
 date: '2025-09-03T13:04:58-04:00'
 title: 'TinyOCaml to WebAssembly Compiler'
-draft: false
+draft: true
 cover:
     image: "/projects/compiler/compiler.png"
     alt: ""
